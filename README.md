@@ -64,7 +64,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 
 ### Assignments
 Four assignments will be assigned during the semester; the first one will be done individually and the rest will be in groups.
-Visit [this page](Assignments/README.md) for detailed policies on assignments (including late submission policies) as well as the assignments themselves. 
+Visit [this page](Assignments) for detailed policies on assignments (including late submission policies) as well as the assignments themselves. 
 
 ### Exams
 There will be two exams during the semester: a midterm exam and the final exam. 
