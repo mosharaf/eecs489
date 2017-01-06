@@ -11,7 +11,7 @@
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W 2:00 PM - 4:00 PM and by appt.
-| Nitish Paradkar (nitishp) | GSI | TBA |
+| Nitish Paradkar (nitishp) | GSI | BBB Learning Center, T 2:00 PM - 4:00 PM |
 | TBA () | IA | |
 
 ### Piazza
