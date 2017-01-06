@@ -50,7 +50,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 01/30/17 | Transport 1 | Transport 2 | | A2 Out
 | 02/06/17 | Congestion Control 1 | Congestion Control 2 |
 | 02/13/17 | Routing 1 | Routing 2 | 
-| 02/20/17 | Midterm Review | **MIDTERM (TBA)** | | A2 Due<br>A3 Out
+| 02/20/17 | Midterm Review | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
 | 02/27/17 | **No Class** | **No Class** |
 | 03/06/17 | IP Addressing | BGP | 
 | 03/13/17 | IP Routers | Link Layer 1 | 
