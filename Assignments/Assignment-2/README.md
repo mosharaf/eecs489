@@ -11,13 +11,24 @@ Video traffic dominates the Internet. In this project, you will explore how vide
 ### Video CDNs in the Real World
 The figure above depicts a high level view of what this system looks like in the real world. Clients trying to stream a video first issue a DNS query to resolve the service's domain name to an IP address for one of the CDN's content servers. The CDN's authoritative DNS server selects the “best” content server for each particular client based on
 (1) the client's IP address (from which it learns the client's geographic location) and
-(2) current load on the content servers (which the servers periodically report to the DNS server).Once the client has the IP address for one of the content servers, it begins requesting chunks of the video the user requested. The video is encoded at multiple bitrates; as the client player receives video data, it calculates the throughput of the transfer and requests the highest bitrate the connection can support.
+(2) current load on the content servers (which the servers periodically report to the DNS server).
+
+Once the client has the IP address for one of the content servers, it begins requesting chunks of the video the user requested. The video is encoded at multiple bitrates; as the client player receives video data, it calculates the throughput of the transfer and requests the highest bitrate the connection can support.
 
 ### Video CDN in this Assignment
-Implementing an entire CDN is difficult; instead, you'll focus on a simplified version. First, your entire system will run on one host and rely on mininet to run several processes with arbitrary IP addresses on one machine. Mininet will also allow you to assign arbitrary link characteristics (bandwidth and latency) to each pair of “end hosts” (processes).<img src="our-CDN.png" title="Video CDN in assignment 2" alt="" width="330" height="111"/>
-You'll write the gray-shaded components in the figure above.
+Implementing an entire CDN is difficult; instead, you'll focus on a simplified version. First, your entire system will run on one host and rely on mininet to run several processes with arbitrary IP addresses on one machine. Mininet will also allow you to assign arbitrary link characteristics (bandwidth and latency) to each pair of “end hosts” (processes).
 
-**Browser.** You'll use an off-the-shelf web browser (Firefox) to play videos served by your CDN (via your proxy).**Proxy.** Rather than modify the video player itself, you will implement adaptive bitrate selection in an HTTP proxy. The player requests chunks with standard HTTP GET requests; your proxy will intercept these and modify them to retrieve whichever bitrate your algorithm deems appropriate. To simulate multiple clients, you will launch multiple instances of your proxy.**Web Server.** Video content will be served from an off-the-shelf web server (Apache). As with the proxy, you will run multiple instances of Apache on different IP addresses to simulate a CDN with several content servers.**DNS Server.** You will implement a simple DNS that supports only a small portion of actual DNS's functionality. Your server will respond to each request with the “best” server for that particular client.
+<img src="our-CDN.png" title="Video CDN in assignment 2" alt="" width="330" height="111"/>
+
+You'll write the gray-shaded components in the figure above.
+
+**Browser.** You'll use an off-the-shelf web browser (Firefox) to play videos served by your CDN (via your proxy).
+
+**Proxy.** Rather than modify the video player itself, you will implement adaptive bitrate selection in an HTTP proxy. The player requests chunks with standard HTTP GET requests; your proxy will intercept these and modify them to retrieve whichever bitrate your algorithm deems appropriate. To simulate multiple clients, you will launch multiple instances of your proxy.
+
+**Web Server.** Video content will be served from an off-the-shelf web server (Apache). As with the proxy, you will run multiple instances of Apache on different IP addresses to simulate a CDN with several content servers.
+
+**DNS Server.** You will implement a simple DNS that supports only a small portion of actual DNS's functionality. Your server will respond to each request with the “best” server for that particular client.
 
 To summarize, this assignment has the following components:
 
@@ -65,6 +76,7 @@ Many video players monitor how quickly they receive data from the server and use
 You are to implement a simple HTTP proxy, `miProxy`. It accepts connections from web browsers, modifies video chunk requests as described below, resolves the web server's DNS name, opens a connection with the resulting IP address, and forwards the modified request to the server. Any data (the video chunks) returned by the server should be forwarded, *unmodified*, to the browser.
 
 `miProxy` should listen for browser connections on `INADDR_ANY` on the port specified on the command line. It should then connect to web servers either specified on the command line (see below) or issue a DNS query to find out the IP address of the server to contact (this is covered in part 2).
+
 <img src="proxy-overview.png" title="Video CDN in the wild" alt="" width="534" height="171"/>
 
 It should accept multiple concurrent connections using `select()` and be able to handle the required HTTP 1.1 requests for this assignment (e.g., HTTP `GET`). You might find the `select()` [demo covered in discussion](https://github.com/mosharaf/eecs489/tree/master/Discussion/discussion3) helpful.
@@ -96,7 +108,8 @@ For example, suppose the player requests fragment 3 of chunk 2 of the video `big
 `/path/to/video/500Seg2-Frag3`
 
 To switch to a higher bitrate, e.g., 1000 Kbps, the proxy should modify the URI like this:
-`/path/to/video/1000Seg2-Frag3`
+
+`/path/to/video/1000Seg2-Frag3`
 
 **IMPORTANT:** When the video player requests `big_buck_bunny.f4m`, you should instead return `big_buck_bunny_nolist.f4m`. This file does not list the available bitrates, preventing the video player from attempting its own bitrate adaptation. You proxy should, however, fetch `big_buck_bunny.f4m` for itself (i.e., don’t return it to the client) so you can parse the list of available encodings as described above. Your proxy should keep this list of available bitrates in a global container (not on a connection by connection basis).
 
@@ -110,7 +123,8 @@ To operate `miProxy`, it should be invoked as follows:
 * `listen-port` The TCP port your proxy should listen on for accepting connections from your browser.
 * `dns-ip` IP address of the DNS server.
 * `dns-port` Port number DNS server listens on.
-* `www-ip` Your proxy should accept an optional argument specifying the IP address of the web server from which it should request video chunks. If this argument is not present, your proxy should obtain the web server's IP address by querying your DNS server for the name `video.cse.umich.edu`.
+* `www-ip` Your proxy should accept an optional argument specifying the IP address of the web server from which it should request video chunks. If this argument is not present, your proxy should obtain the web server's IP address by querying your DNS server for the name `video.cse.umich.edu`.
+
 ###Logging
 `miProxy` must create a log of its activity in a very particular format. After each request, it should append the following line to the log:
 
@@ -136,7 +150,17 @@ You will write a simple DNS server that implements load balancing in two differe
 
 * `AA` Set this to 0 in requests, 1 in responses.
 
-* `RD` Set this to 0 in all messages.* `RA` Set this to 0 in all messages.* `Z` Set this to 0 in all messages.* `NSCOUNT` Set this to 0 in all messages.* `ARCOUNT` Set this to 0 in all messages.* `QTYPE` Set this to 1 in all requests (asking for an A record).
+* `RD` Set this to 0 in all messages.
+
+* `RA` Set this to 0 in all messages.
+
+* `Z` Set this to 0 in all messages.
+
+* `NSCOUNT` Set this to 0 in all messages.
+
+* `ARCOUNT` Set this to 0 in all messages.
+
+* `QTYPE` Set this to 1 in all requests (asking for an A record).
 
 * `QCLASS` Set this to 1 in all requests (asking for an IP address).
 
@@ -164,7 +188,7 @@ NUM_LINKS: <number of links in the network>
 (repeats NUM_LINKS - 1 times)
 ```
 
-<img src="link-cost.png" title="Video CDN in the wild" alt="" width="400" height="155"/>
+<img src="link-cost.PNG" title="Video CDN in the wild" alt="" width="400" height="155"/>
 
 As an example, the network shown above will have the following text file:
 ```
@@ -185,15 +209,23 @@ NUM_LINKS: 5
 
 To operate `nameserver`, it should be invoked as follows:
 
-`./nameserver <log> <ip> <port> <geography_based> <servers>`* `log` The file path to which you should log the messages as described below.
-* `ip` The IP address on which your server should listen.* `port` The UDP port on which your server should listen.* `geography_based` An integer that will either be 0 or 1. If it is 0, use the round-robin load balancing scheme, otherwise implement the distance based scheme.* `servers` A text file containing a list of IP addresses, one per line, belonging to content servers.####Logging
+`./nameserver <log> <ip> <port> <geography_based> <servers>`
+
+* `log` The file path to which you should log the messages as described below.
+* `ip` The IP address on which your server should listen.
+* `port` The UDP port on which your server should listen.
+* `geography_based` An integer that will either be 0 or 1. If it is 0, use the round-robin load balancing scheme, otherwise implement the distance based scheme.
+* `servers` A text file containing a list of IP addresses, one per line, belonging to content servers.
+
+####Logging
 Your DNS server must log its activity in a specific format. For each valid DNS query it services, it should append the following line to the log:
 
 `<client-ip> <query-name> <response-ip>`
 
 * `client-ip` The IP address of the client who sent the query.
 * `query-name` The hostname the client is trying to resolve.
-* `response-ip` The IP address you return in response.
+* `response-ip` The IP address you return in response.
+
 <a name="submission-instr"></a>
 ## Submission Instructions
 
