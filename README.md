@@ -47,7 +47,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 01/09/17 | [Overview](Slides/010917.pptx) | [Protocol Layering](Slides/011117.pptx) | 1.1, 1.3, 1.4, 1.5 | A1 Out
 | 01/16/17 | **No Class** | [HTTP and the Web](Slides/011817.pptx) | 2.2
 | 01/23/17 | [DNS and CDN](Slides/012317.pptx) | [Video Streaming and Cloud Systems](Slides/012517.pptx) | 2.4, 2.6 | A1 Due
-| 01/30/17 | Transport 1 | Transport 2 | 3.1, 3.2, 3.3, 3.4, 3.5 | A2 Out
+| 01/30/17 | [Transport 1](Slides/013017.pptx) | Transport 2 | 3.1, 3.2, 3.3, 3.4, 3.5 | A2 Out
 | 02/06/17 | Congestion Control 1 | Congestion Control 2 |
 | 02/13/17 | Routing 1 | Routing 2 | 
 | 02/20/17 | Midterm Review | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
