@@ -176,7 +176,7 @@ One of the ways you will implement `nameserver` is as a simple round-robin based
 `nameserver` will bind to an IP address and port specified as command line arguments. It responds *only* to requests for `video.cse.umich.edu`; any other requests should generate a response with `RCODE` 3.
 
 ### Geographic Distance Load Balancer
-Next you’ll make your DNS server somewhat more sophisticated. Your load balancer must return the closest video server to the client based on the client’s IP address. In the real world, this would be done by querying a database mapping IP prefixes to geographic locations. For your implementation, however, you will be given information in a text file about the entire state of the network, and your server will have to return to a given client its closest geographic server.
+Next you’ll make your DNS server somewhat more sophisticated. Your load balancer must return the closest video server to the client based on the proxy’s IP address. In the real world, this would be done by querying a database mapping IP prefixes to geographic locations. For your implementation, however, you will be given information in a text file about the entire state of the network, and your server will have to return to a given client its closest geographic server.
 
 The text file will be represented in the following way:
 ```
@@ -213,9 +213,9 @@ To operate `nameserver`, it should be invoked as follows:
 
 * `log` The file path to which you should log the messages as described below.
 * `ip` The IP address on which your server should listen.
-* `port` The UDP port on which your server should listen.
+* `port` The port on which your server should listen.
 * `geography_based` An integer that will either be 0 or 1. If it is 0, use the round-robin load balancing scheme, otherwise implement the distance based scheme.
-* `servers` A text file containing a list of IP addresses, one per line, belonging to content servers.
+* `servers` A text file containing a list of IP addresses, one per line, belonging to content servers if geography_based is 0. Otherwise it will be a text file describing the network topology as explained above.
 
 ####Logging
 Your DNS server must log its activity in a specific format. For each valid DNS query it services, it should append the following line to the log:
