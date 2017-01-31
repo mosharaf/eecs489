@@ -116,7 +116,7 @@ To switch to a higher bitrate, e.g., 1000 Kbps, the proxy should modify the URI 
 ### Running `miProxy`
 To operate `miProxy`, it should be invoked as follows:
 
-`./miProxy <log> <alpha> <listen-port> <ip> <dns-ip> <dns-port> [<www-ip>]`
+`./miProxy <log> <alpha> <listen-port> <dns-ip> <dns-port> [<www-ip>]`
 
 * `log` The file path to which you should log the messages as described below.
 * `alpha` A float in the range [0, 1]. Uses this as the coefficient in your EWMA throughput estimate.
