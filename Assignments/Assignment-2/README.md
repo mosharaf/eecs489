@@ -45,7 +45,7 @@ After completing this programming assignment, students should be able to:
 
 ## Clarifications
 
-* TBA
+* For the proxy you implement in part 1, you will need to parse some HTTP traffic. To make your life easier for this project, you don't need to be concerned about parsing all the information in these HTTP messages. There are only two things that you need to care about searching for: "\r\n\r\n" and "Content-Length:". The former is used to denote the end of an HTTP header, and the latter is used to signify the size of the HTTP body in bytes.
 
 <a name="part1"></a>
 
