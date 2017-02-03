@@ -101,7 +101,7 @@ Your proxy should learn which bitrates are available for a given video by parsin
 
 Your proxy replaces each chunk request with a request for the same chunk at the selected bitrate (in Kbps) by modifying the HTTP request’s `Request-URI`. Video chunk URIs are structured as follows:
 
-`/path/to/video/<bitrate>Seq<num>-Frag<num>`
+`/path/to/video/<bitrate>Seg<num>-Frag<num>`
 
 For example, suppose the player requests fragment 3 of chunk 2 of the video `big_buck_bunny.f4m` at 500 Kbps:
 
