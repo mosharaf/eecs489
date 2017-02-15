@@ -47,6 +47,8 @@ After completing this programming assignment, students should be able to:
 
 * For the proxy you implement in part 1, you will need to parse some HTTP traffic. To make your life easier for this project, you don't need to be concerned about parsing all the information in these HTTP messages. There are only two things that you need to care about searching for: "\r\n\r\n" and "Content-Length:". The former is used to denote the end of an HTTP header, and the latter is used to signify the size of the HTTP body in bytes.
 
+* While testing the proxy you implement in part 1, you may notice that one browser may sometimes open multiple connections to your proxy server. Your proxy should still continue to function as expected in this case. In order to account for these multiple connections, you may use the browser IP address to uniquely identify each connection (this implies that while testing your proxy server, each browser will have a unique IP address. For example, only one browser will have an IP address of 10.0.0.2).
+
 <a name="part1"></a>
 
 ## Environment setup
