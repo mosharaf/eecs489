@@ -54,7 +54,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 03/06/17 | Routing Algorithms | IP Addressing and Inter-AS Routing | 5.1, 5.2, 5.3
 | 03/13/17 | BGP | Link Layer 1 | 
 | 03/20/17 | Link Layer 2 | Wireless / Mobile | | A3 Due<br>A4 Out
-| 03/27/17 | Datacenters 1 | Datacenters 2 |
+| 03/27/17 | Datacenters | **No Class** |
 | 04/03/17 | Security 1 | Security 2 | 
 | 04/10/17 | SDN 1 |  SDN 2 | 
 | 04/17/17 | Final Review | **FINAL** <br> Thursday 04/20/17 <br> 1:30 PM - 3:30 PM | | A4 Due
