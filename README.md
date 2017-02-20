@@ -49,7 +49,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 01/30/17 | [Transport Layer](Slides/013017.pptx) | [TCP Basics](Slides/020117.pptx) | 3.1, 3.2, 3.3, 3.4, 3.5 | A2 Out
 | 02/06/17 | [Flow and Congestion Control](Slides/020617.pptx) | [More Congestion Control](Slides/020817.pptx) | 3.6, 3.7
 | 02/13/17 | [Network Layer and IP](Slides/021317.pptx) | [IP Routers](Slides/021517.pptx) | 4.1, 4.2, 4.3
-| 02/20/17 | Midterm Review | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
+| 02/20/17 | [Midterm Review](Slides/022017.pptx) | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
 | 02/27/17 | **No Class** | **No Class** |
 | 03/06/17 | Routing Algorithms | IP Addressing and Inter-AS Routing | 5.1, 5.2, 5.3
 | 03/13/17 | BGP | Link Layer 1 | 
