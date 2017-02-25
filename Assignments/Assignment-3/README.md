@@ -49,7 +49,7 @@ After completing this programming assignment, students should be able to:
 <a name="part1"></a>
 ## Part 1: Implement `wSender`
 
-`wSender` should read an input file and transmit it to a specified receiver using UDP sockets following the WTP protocol. It should split the input file into appropriately sized chunks of data, and append a `checksum` to each packet. `seqNum` should increment by one for each additional packet in a connection. Please use the 32-bit CRC header we provide [here](https://TBA), in order to add a checksum to your packet.
+`wSender` should read an input file and transmit it to a specified receiver using UDP sockets following the WTP protocol. It should split the input file into appropriately sized chunks of data, and append a `checksum` to each packet. `seqNum` should increment by one for each additional packet in a connection. Please use the 32-bit CRC header we provide [here](https://raw.githubusercontent.com/mosharaf/eecs489/master/Assignments/Assignment-3/starter_code/crc32.h), in order to add a checksum to your packet.
 
 You will implement reliable transport using a sliding window mechanism. The size of the window (`window-size`) will be specified in the command line. `wSender` must accept cumulative `ACK` packets from `wReceiver`.
 
