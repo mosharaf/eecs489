@@ -48,15 +48,15 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 01/23/17 | [DNS and CDN](Slides/012317.pptx) | [Video Streaming and Cloud Systems](Slides/012517.pptx) | 2.4, 2.6 | A1 Due
 | 01/30/17 | [Transport Layer](Slides/013017.pptx) | [TCP Basics](Slides/020117.pptx) | 3.1, 3.2, 3.3, 3.4, 3.5 | A2 Out
 | 02/06/17 | [Flow and Congestion Control](Slides/020617.pptx) | [More Congestion Control](Slides/020817.pptx) | 3.6, 3.7
-| 02/13/17 | [Network Layer and IP](Slides/021317.pptx) | [IP Routers](Slides/021517.pptx) | 4.1, 4.2, 4.3
+| 02/13/17 | [Network Layer and IP](Slides/021317.pptx) | [IP Routers](Slides/021517.pptx) | 4.1, 4.2, 4.3.1, 4.3.2, 4.3.5
 | 02/20/17 | [Midterm Review](Slides/022017.pptx) | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
 | 02/27/17 | **No Class** | **No Class** |
-| 03/06/17 | Routing Algorithms | IP Addressing and Inter-AS Routing | 5.1, 5.2, 5.3
-| 03/13/17 | BGP | Link Layer 1 | 
-| 03/20/17 | Link Layer 2 | Wireless / Mobile | | A3 Due<br>A4 Out
-| 03/27/17 | Datacenters | **No Class** |
-| 04/03/17 | Security 1 | Security 2 | 
-| 04/10/17 | SDN 1 |  SDN 2 | 
+| 03/06/17 | Routing Fundamentals | Routing Algorithms | 5.1, 5.2
+| 03/13/17 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.3, 5.4
+| 03/20/17 | Link Layer 1 | Link Layer 2 | | A3 Due<br>A4 Out
+| 03/27/17 | Wireless / Mobile | **No Class** |
+| 04/03/17 | Datacenters | Security 1 | 
+| 04/10/17 | Security 2 |  SDN | 
 | 04/17/17 | Final Review | **FINAL** <br> Thursday 04/20/17 <br> 1:30 PM - 3:30 PM | | A4 Due
 
 ## Policies
