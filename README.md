@@ -51,7 +51,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 02/13/17 | [Network Layer and IP](Slides/021317.pptx) | [IP Routers](Slides/021517.pptx) | 4.1, 4.2, 4.3.1, 4.3.2, 4.3.5
 | 02/20/17 | [Midterm Review](Slides/022017.pptx) | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
 | 02/27/17 | **No Class** | **No Class** |
-| 03/06/17 | [Routing Fundamentals](Slides/030617.pptx) | Routing Algorithms | 5.1, 5.2
+| 03/06/17 | [Routing Fundamentals](Slides/030617.pptx) | [Routing Algorithms](Slides/030817.pptx) | 5.1, 5.2
 | 03/13/17 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.3, 5.4
 | 03/20/17 | Link Layer 1 | Link Layer 2 | | A3 Due<br>A4 Out
 | 03/27/17 | Wireless / Mobile | **No Class** |
