@@ -107,7 +107,7 @@ Put the programs written in parts 1 and 2 of this assignment into a folder calle
 `./wReceiver <port-num> <log> <window-size>`
 
 * `port-num` The port number on which `wReceiver` is listening for data.
-* `log` The file path to which you should log the messages as described below.
+* `log` The file path to which you should log the messages as described above.
 * `window-size` Maximum number of outstanding packets.
 
 <a name="part3"></a>
