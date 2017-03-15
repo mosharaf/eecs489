@@ -96,7 +96,7 @@ For each packet received, it sends a cumulative `ACK` with the `seqNum` it expec
 1. If it receives a packet with `seqNum` not equal to `N`, it will send back an `ACK` with `seqNum=N`.
 2. If it receives a packet with `seqNum=N`, it will check for the highest sequence number (say `M`) of the in­order packets it has already received and send `ACK` with `seqNum=M+1`.
 
-If the next expected `seqNum` is `N`, `wReceiver` will drop all packets with `seqNum` greater than `N + window-size` to maintain a `window-size` window. The same `window-size` will be provided for both sender and receiver.
+If the next expected `seqNum` is `N`, `wReceiver` will drop all packets with `seqNum` greater than or equal to `N + window-size` to maintain a `window-size` window. The same `window-size` will be provided for both sender and receiver.
 
 `wReceiver` should also log every single packet it sends and receives using the same format as the `wSender` log.
 
@@ -121,7 +121,7 @@ In this case `wReceiver` would send back two ACKs both with the sequence number 
 
 In order to account for situations like this, you will be modifying your `wReceiver` and `wSender` accordingly (save these different versions of the program in a folder called `WTP-opt`):
 
-* `wReceiver` will not send cumulative ACKs anymore; instead, it will send back an ACK with `seqNum` set to whatever it was in the data packet (i.e., if a sender sends a data packet with `seqNum` set to 2, `wReceiver` will also send back an ACK with `seqNum` set to 2). It should still drop all packets with `seqNum` greater than `N + window-size`, where `N` is the next expected `seqNum`.
+* `wReceiver` will not send cumulative ACKs anymore; instead, it will send back an ACK with `seqNum` set to whatever it was in the data packet (i.e., if a sender sends a data packet with `seqNum` set to 2, `wReceiver` will also send back an ACK with `seqNum` set to 2). It should still drop all packets with `seqNum` greater than or equal to `N + window-size`, where `N` is the next expected `seqNum`.
 * `wSender` must maintain information about all the ACKs it has received in its current window and maintain an individual timer for each packet. So, for example, packet 0 having a timeout would not necessarily result in a retransmission of packets 1 and 2.
 
 For a more concrete example, here is how your improved `wSender` and `wReceiver` should behave for the case described at the beginning of this section:
