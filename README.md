@@ -53,7 +53,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 02/27/17 | **No Class** | **No Class** |
 | 03/06/17 | [Routing Fundamentals](Slides/030617.pptx) | [Routing Algorithms](Slides/030817.pptx) | 5.1, 5.2, 5.3
 | 03/13/17 | [IP Addressing and Inter-AS Routing](Slides/031317.pptx) | [BGP](Slides/031517.pptx) | 4.3.3, 5.4
-| 03/20/17 | [SDN](Slides/032017.pptx) | Link Layer  | 4.4, 5.5, 6.1, 6.3 | A3 Due<br>A4 Out
+| 03/20/17 | [SDN](Slides/032017.pptx) | [Link Layer](Slides/032217.pptx)  | 4.4, 5.5, 6.1, 6.3, 6.4.2 | A3 Due<br>A4 Out
 | 03/27/17 | Switched LAN and E2E | **No Class** | 6.4, 6.7
 | 04/03/17 | Datacenter Networking | Wireless / Mobile | 6.6
 | 04/10/17 | Security 1 | Security 2 | 
