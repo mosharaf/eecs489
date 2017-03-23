@@ -14,7 +14,11 @@ WTP sends data in the format of a header, followed by a chunk of data.
 WTP has four header types: `START`, `END`, `DATA`, and `ACK`, all following the same format:
 
 ```
-struct PacketHeader {	unsigned int type;     // 0: START; 1: END; 2: DATA; 3: ACK	unsigned int seqNum;   // Described below	unsigned int length;   // Length of data; 0 for ACK, START and END packets	unsigned int checksum; // 32-bit CRC
+struct PacketHeader {
+	unsigned int type;     // 0: START; 1: END; 2: DATA; 3: ACK
+	unsigned int seqNum;   // Described below
+	unsigned int length;   // Length of data; 0 for ACK, START and END packets
+	unsigned int checksum; // 32-bit CRC
 }
 ```
 
@@ -92,7 +96,9 @@ For each packet received, it sends a cumulative `ACK` with the `seqNum` it expec
 1. If it receives a packet with `seqNum` not equal to `N`, it will send back an `ACK` with `seqNum=N`.
 2. If it receives a packet with `seqNum=N`, it will check for the highest sequence number (say `M`) of the in­order packets it has already received and send `ACK` with `seqNum=M+1`.
 
-If the next expected `seqNum` is `N`, `wReceiver` will drop all packets with `seqNum` greater than `N + window-size` to maintain a `window-size` window. The same `window-size` will be provided for both sender and receiver.
+If the next expected `seqNum` is `N`, `wReceiver` will drop all packets with `seqNum` greater than or equal to `N + window-size` to maintain a `window-size` window. The same `window-size` will be provided for both sender and receiver.
+
+`wReceiver` should also log every single packet it sends and receives using the same format as the `wSender` log.
 
 Put the programs written in parts 1 and 2 of this assignment into a folder called `WTP-base`.
 
@@ -101,7 +107,7 @@ Put the programs written in parts 1 and 2 of this assignment into a folder calle
 `./wReceiver <port-num> <log> <window-size>`
 
 * `port-num` The port number on which `wReceiver` is listening for data.
-* `log` The file path to which you should log the messages as described below.
+* `log` The file path to which you should log the messages as described above.
 * `window-size` Maximum number of outstanding packets.
 
 <a name="part3"></a>
@@ -115,7 +121,7 @@ In this case `wReceiver` would send back two ACKs both with the sequence number 
 
 In order to account for situations like this, you will be modifying your `wReceiver` and `wSender` accordingly (save these different versions of the program in a folder called `WTP-opt`):
 
-* `wReceiver` will not send cumulative ACKs anymore; instead, it will send back an ACK with `seqNum` set to whatever it was in the data packet (i.e., if a sender sends a data packet with `seqNum` set to 2, `wReceiver` will also send back an ACK with `seqNum` set to 2). It should still drop all packets with `seqNum` greater than `N + window-size`, where `N` is the next expected `seqNum`.
+* `wReceiver` will not send cumulative ACKs anymore; instead, it will send back an ACK with `seqNum` set to whatever it was in the data packet (i.e., if a sender sends a data packet with `seqNum` set to 2, `wReceiver` will also send back an ACK with `seqNum` set to 2). It should still drop all packets with `seqNum` greater than or equal to `N + window-size`, where `N` is the next expected `seqNum`.
 * `wSender` must maintain information about all the ACKs it has received in its current window and maintain an individual timer for each packet. So, for example, packet 0 having a timeout would not necessarily result in a retransmission of packets 1 and 2.
 
 For a more concrete example, here is how your improved `wSender` and `wReceiver` should behave for the case described at the beginning of this section:
