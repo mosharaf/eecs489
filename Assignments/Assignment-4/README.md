@@ -175,7 +175,7 @@ Within the router framework you will be dealing directly with raw Ethernet packe
 
 * [Ethernet](http://www.networksorcery.com/enp/protocol/ethernet.htm)
 * [IP](http://www.networksorcery.com/enp/protocol/ip.htm)
-* [ICMP](http://www.networksorcery.com/enp/protocol/ip.htm)
+* [ICMP](http://www.networksorcery.com/enp/protocol/icmp.htm)
 * [ARP](http://www.networksorcery.com/enp/protocol/arp.htm)
 
 <a name="requirements"></a>
