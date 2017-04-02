@@ -1,4 +1,4 @@
-# Assignment 4:
+# Assignment 4: Designing a Static Router
 
 ### Due: Friday April 14th at 11:59 PM
 
