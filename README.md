@@ -57,7 +57,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 03/27/17 | [Switched LAN](Slides/032717.pptx) | **No Class** | 6.4
 | 04/03/17 | [Datacenter Networks](Slides/040317.pptx) | [Networking in Datacenters](Slides/040517.pptx) | 6.6
 | 04/10/17 | [Wireless](Slides/041017.pptx) | [Security](Slides/041217.pptx) | 7.1, 7.2, 7.3, 8.1, 8.6, 8.7
-| 04/17/17 | Final Review | **FINAL <br> THURSDAY 04/20/17 <br> 1:30 PM - 3:30 PM <br> 220 CHRYS** | | A4 Due
+| 04/17/17 | [Final Review](Slides/041717.pptx) | **FINAL <br> THURSDAY 04/20/17 <br> 1:30 PM - 3:30 PM <br> 220 CHRYS** | | A4 Due
 
 ## Policies
 
