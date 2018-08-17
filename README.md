@@ -1,20 +1,21 @@
-# EECS 489: Computer Networks (W’17)
+# EECS 489: Computer Networks (F’18)
 
 ## Administrivia
- - Catalog Number: 10671
- - Lectures: 133 CHRYS, MW: 12:00 PM – 1:30 PM
- - Discussion 1: 1014 DOW, W 4:30 PM – 5:30 PM
- - Discussion 2: 1018 DOW, F 9:30 AM – 10:30 AM
+ - Catalog Number: 31839
+ - Lectures: 1109 FXB, MW: 4:30 PM – 6:00 PM
+ - Discussion 1: 2150 DOW, F 9:30 AM – 10:30 AM
+ - Discussion 2: 1014 DOW, Th 5:00 PM – 6:00 PM
 
 ### Team
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W 2:00 PM - 4:00 PM and by appt.
-| Nitish Paradkar (nitishp) | GSI | BBB Learning Center, T 2:00 PM - 4:00 PM |
+| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | TBA
+| Jie You (jieyou) | GSI | TBA |
+| Yiwen Zhang (yiwenzhg) | GSI | TBA |
 
 ### Piazza
-All communication regarding this course must be via [Piazza](https://piazza.com/umich/winter2017/eecs489/). 
+All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2018/eecs489/). 
 This includes questions, discussions, announcements, as well as private messages.
 
 ## Course Description
@@ -22,8 +23,8 @@ EECS 489 takes a top-down approach to explore how networks operate and how netwo
 We study how popular distributed systems such as video streaming, content distribution networks (CDNs), and cloud computing systems work in the *application layer*.
 We explore how these applications transfer data between their components and end users over the Internet using *transport layer* protocols such as TCP and UDP.
 We go deeper to understand what keeps the transport layer running (hint: the *network layer* routes packets for them); specifically, we look at how packets are routed and how routers work.
-We dive one more layer down to understand how the *link layer* transfer packets using Ethernet.
-In addition to cutting through the layers and covering the basics, we learn about the state-of-the-art in datacenter networks, software-defined networking (SDNs), wireless and mobile networks, and network security. 
+Finally, we dive one more layer down to understand how the *link layer* transfer packets using Ethernet.
+In addition to cutting through the layers and covering the basics, we learn about the state-of-the-art topics in networking such as datacenter networks and software-defined networking (SDN). 
 
 From a practical point of view, we learn what sockets are and how to use them. 
 And we write code. 
@@ -31,33 +32,33 @@ We write code to implement various protocols, to build client-server application
 
 ### Prerequisite
 
-The **mandatory** prerequisite for this course is EECS 482 (Introduction to Operating Systems). 
+The prerequisite for this course is EECS 281 (Data Structures and Algorithms). 
 You must also have a good working knowledge of C/C++ and Unix family of operating systems.
 
-### Textbook
+### Optional Textbook
 
 - Kurose and Ross, Computer Networking: A Top-Down Approach, 7th. or Earlier Editions, Pearson, 2016. ISBN 978-0133594140.
 
 ## Tentative Schedule
 
-| Week of  | Monday | Wednesday | Readings | Assignments
-|:---------|:------:|:---------:|:---------|:----------:
-| 01/02/17 | **No Class** | [Introduction](Slides/010417.pptx) | 
-| 01/09/17 | [Overview](Slides/010917.pptx) | [Protocol Layering](Slides/011117.pptx) | 1.1, 1.3, 1.4, 1.5 | A1 Out
-| 01/16/17 | **No Class** | [HTTP and the Web](Slides/011817.pptx) | 2.2
-| 01/23/17 | [DNS and CDN](Slides/012317.pptx) | [Video Streaming and Cloud Systems](Slides/012517.pptx) | 2.4, 2.6 | A1 Due
-| 01/30/17 | [Transport Layer](Slides/013017.pptx) | [TCP Basics](Slides/020117.pptx) | 3.1, 3.2, 3.3, 3.4, 3.5 | A2 Out
-| 02/06/17 | [Flow and Congestion Control](Slides/020617.pptx) | [More Congestion Control](Slides/020817.pptx) | 3.6, 3.7
-| 02/13/17 | [Network Layer and IP](Slides/021317.pptx) | [IP Routers](Slides/021517.pptx) | 4.1, 4.2, 4.3.1, 4.3.2, 4.3.5
-| 02/20/17 | [Midterm Review](Slides/022017.pptx) | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
-| 02/27/17 | **No Class** | **No Class** |
-| 03/06/17 | [Routing Fundamentals](Slides/030617.pptx) | [Routing Algorithms](Slides/030817.pptx) | 5.1, 5.2, 5.3
-| 03/13/17 | [IP Addressing and Inter-AS Routing](Slides/031317.pptx) | [BGP](Slides/031517.pptx) | 4.3.3, 5.4
-| 03/20/17 | [SDN](Slides/032017.pptx) | [Link Layer](Slides/032217.pptx)  | 4.4, 5.5, 6.1, 6.3, 6.4.2 | A3 Due<br>A4 Out
-| 03/27/17 | [Switched LAN](Slides/032717.pptx) | **No Class** | 6.4
-| 04/03/17 | [Datacenter Networks](Slides/040317.pptx) | [Networking in Datacenters](Slides/040517.pptx) | 6.6
-| 04/10/17 | [Wireless](Slides/041017.pptx) | [Security](Slides/041217.pptx) | 7.1, 7.2, 7.3, 8.1, 8.6, 8.7
-| 04/17/17 | [Final Review](Slides/041717.pptx) | **FINAL <br> THURSDAY 04/20/17 <br> 1:30 PM - 3:30 PM <br> 220 CHRYS** | | A4 Due
+| Week of  | Monday | Wednesday | Optional Readings | Assignments
+|:---------|:------:|:---------:|:------------------|:----------:
+| 09/03/18 | **No Class** | Introduction | 
+| 09/10/18 | Overview | Protocol Layering | 1.1, 1.3, 1.4, 1.5 | A1 Out
+| 09/17/18 | HTTP and the Web | DNS and CDN | 2.2, 2.4
+| 09/24/18 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
+| 10/01/18 | TCP Basics | Flow and Congestion Control <br> (**LOCATION: Stamps**) | 3.5, 3.6 | A2 Out
+| 10/08/18 | **No Class** | More Congestion Control | 3.7
+| 10/15/18 | **No Class** | Network Layer and IP | 4.1, 4.3.1, 4.3.2, 4.3.5
+| 10/22/18 | Midterm Review | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
+| 10/29/18 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 
+| 11/05/18 | Routing Algorithms | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3
+| 11/12/18 | BGP | SDN | 4.4, 5.4, 5.5
+| 11/19/18 | Link Layer | **No Class** | 6.1, 6.3, 6.4.2 | A3 Due<br>A4 Out
+| 11/26/18 | Switched LAN | Datacenter Networks | 6.4, 6.6
+| 12/03/18 | Networking in Datacenters | Wireless | 6.6, 7.1, 7.2, 7.3
+| 12/10/18 | Final Review | **No Class** | 
+| 12/17/18 | **FINAL <br> MONDAY 12/17/18 <br> 10:30 AM - 12:30 PM <br> TBA** | | | A4 Due
 
 ## Policies
 
