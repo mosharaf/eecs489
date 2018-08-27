@@ -10,7 +10,7 @@
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | TBA
+| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 4:00 PM and by appt.
 | Jie You (jieyou) | GSI | TBA |
 | Yiwen Zhang (yiwenzhg) | GSI | TBA |
 
