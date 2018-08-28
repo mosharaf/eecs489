@@ -43,7 +43,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
-| 09/03/18 | **No Class** | Introduction | 
+| 09/03/18 | **No Class** | [Introduction](Slides/090518.pptx) | 
 | 09/10/18 | Overview | Protocol Layering | 1.1, 1.3, 1.4, 1.5 | A1 Out
 | 09/17/18 | HTTP and the Web | DNS and CDN | 2.2, 2.4
 | 09/24/18 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
