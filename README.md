@@ -11,8 +11,8 @@
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 4:00 PM and by appt.
-| Jie You (jieyou) | GSI | TBA |
-| Yiwen Zhang (yiwenzhg) | GSI | TBA |
+| Jie You (jieyou) | GSI | 1637 BBB, F: 10:30 AM - 12:30 PM |
+| Yiwen Zhang (yiwenzhg) | GSI | 1637 BBB, Tu: 3:00 PM - 5:00 PM |
 
 ### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2018/eecs489/). 
