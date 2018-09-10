@@ -89,7 +89,7 @@ If any arguments are missing or additional arguments are provided, you should pr
 
 If the server port argument is less than 1024 or greater than 65535, you should print the following and exit:
 
-`Error: port number must be in the range 1024 to 65535`
+`Error: port number must be in the range [1024, 65535]`
 
 When running as a client, `iPerfer` must establish a TCP connection with the server and send data as quickly as possible for `time` seconds. Data should be sent in chunks of 1000 bytes and the data should be all zeros. Keep a running total of the number of bytes sent. After the client finishes sending its data, it should send a FIN message and wait for an acknowledgement before exiting the program.
 
