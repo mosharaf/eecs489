@@ -58,7 +58,7 @@ When running as a server, `iPerfer` must listen for TCP connections from a clien
 
 Data should be read in chunks of 1000 bytes. Keep a running total of the number of bytes received.
 
-After the client has closed the connection, `iPerfer` client must print a one-line summary in the following format:
+After the client has closed the connection, `iPerfer` server must print a one-line summary in the following format:
 
 `Received=X KB rate=Y Mbps`
 
@@ -93,7 +93,7 @@ If the server port argument is less than 1024 or greater than 65535, you should 
 
 When running as a client, `iPerfer` must establish a TCP connection with the server and send data as quickly as possible for `time` seconds. Data should be sent in chunks of 1000 bytes and the data should be all zeros. Keep a running total of the number of bytes sent. After the client finishes sending its data, it should send a FIN message and wait for an acknowledgement before exiting the program.
 
-`iPerfer` server must print a one-line summary in the following format:
+`iPerfer` client must print a one-line summary in the following format:
 
 `Sent=X KB rate=Y Mbps`
 
