@@ -45,7 +45,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 |:---------|:------:|:---------:|:------------------|:----------:
 | 09/03/18 | **No Class** | [Introduction](Slides/090518.pptx) | 
 | 09/10/18 | [Overview](Slides/091018.pptx) | [Protocol Layering](Slides/091218.pptx) | 1.1, 1.3, 1.4, 1.5 | A1 Out
-| 09/17/18 | HTTP and the Web | DNS and CDN | 2.2, 2.4
+| 09/17/18 | [HTTP and the Web](Slides/091718.pptx) | [DNS and CDN](Slides/091918.pptx) | 2.2, 2.4
 | 09/24/18 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
 | 10/01/18 | TCP Basics | Flow and Congestion Control <br> (**LOCATION: Stamps**) | 3.5, 3.6 | A2 Out
 | 10/08/18 | **No Class** | More Congestion Control | 3.7
