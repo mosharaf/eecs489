@@ -24,7 +24,7 @@ After completing this programming assignment, students should be able to:
 
 ## Clarifications
 
-* For all latency measurements, use the one-way delay (NOT the RTT).
+* <del>For all latency measurements, use the one-way delay (NOT the RTT).</del>
 
 <a name="part1"></a>
 ## Part 1: Write `iPerfer`
