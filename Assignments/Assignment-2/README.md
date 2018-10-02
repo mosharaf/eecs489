@@ -84,9 +84,8 @@ You are to implement a simple HTTP proxy, `miProxy`. It accepts connections from
 
 <img src="proxy-overview.png" title="Video CDN in the wild" alt="" width="534" height="171"/>
 
-It should accept multiple concurrent connections using `select()` and be able to handle the required HTTP 1.1 requests for this assignment (e.g., HTTP `GET`). You might find the `select()` [demo covered in discussion](https://github.com/mosharaf/eecs489/tree/master/Discussion/discussion3) helpful.
+It should accept multiple concurrent connections using `select()` and be able to handle the required HTTP 1.1 requests for this assignment (e.g., HTTP `GET`). You might find the `select()` [demo covered in discussion](https://github.com/mosharaf/eecs489/tree/master/Discussion/Discussion3) helpful.
 
-*Note: A good resource to remind you of socket programming is [Beej's Guide to Network Programming Using Internet Sockets](http://beej.us/guide/bgnet/output/html/multipage/index.html).*
 
 ### Throughput Calculation
 
