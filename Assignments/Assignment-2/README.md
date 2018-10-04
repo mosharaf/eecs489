@@ -84,9 +84,8 @@ You are to implement a simple HTTP proxy, `miProxy`. It accepts connections from
 
 <img src="proxy-overview.png" title="Video CDN in the wild" alt="" width="534" height="171"/>
 
-It should accept multiple concurrent connections using `select()` and be able to handle the required HTTP 1.1 requests for this assignment (e.g., HTTP `GET`). You might find the `select()` [demo covered in discussion](https://github.com/mosharaf/eecs489/tree/master/Discussion/discussion3) helpful.
+It should accept multiple concurrent connections using `select()` and be able to handle the required HTTP 1.1 requests for this assignment (e.g., HTTP `GET`). You might find the `select()` [demo covered in discussion](https://github.com/mosharaf/eecs489/tree/master/Discussion/Discussion3) helpful.
 
-*Note: A good resource to remind you of socket programming is [Beej's Guide to Network Programming Using Internet Sockets](http://beej.us/guide/bgnet/output/html/multipage/index.html).*
 
 ### Throughput Calculation
 
@@ -130,7 +129,7 @@ To operate `miProxy`, it should be invoked as follows:
 * `dns-port` Port number DNS server listens on.
 * `www-ip` Your proxy should accept an optional argument specifying the IP address of the web server from which it should request video chunks. If this argument is not present, your proxy should obtain the web server's IP address by querying your DNS server for the name `video.cse.umich.edu`.
 
-###Logging
+### Logging
 `miProxy` must create a log of its activity in a very particular format. If the log specified by the user shares the same name and path, `miProxy` overwrites the log. *After each request*, it should append the following line to the log:
 
 `<browser-ip> <duration> <tput> <avg-tput> <bitrate> <server-ip> <chunkname>`
@@ -176,7 +175,7 @@ You will write a simple DNS server that implements load balancing in two differe
 
 * `TTL` Set this to 0 in all responses (no caching).
 
-We are also providing encoding and decoding functions to serialize and deserialize your DNS query and records. Be sure to use the functions we provide so that your DNS server can be properly tested by autograder.
+We are also providing encoding and decoding functions to serialize and deserialize your DNS query and records. You *MUST* use the functions we provide so that your DNS server can be properly tested by autograder.
 
 ### Round-Robin Load Balancer
 One of the ways you will implement `nameserver` is as a simple round-robin based DNS load balancer. It should take as input a list of video server IP addresses on the command line; it responds to each request to resolve the name `video.cse.umich.edu` by returning the next IP address in the list, cycling back to the beginning when the list is exhausted.
@@ -224,7 +223,7 @@ To operate `nameserver`, it should be invoked as follows:
 * `geography_based` An integer that will either be 0 or 1. If it is 0, use the round-robin load balancing scheme, otherwise implement the distance based scheme.
 * `servers` A text file containing a list of IP addresses, one per line, belonging to content servers if geography_based is 0. Otherwise it will be a text file describing the network topology as explained above.
 
-####Logging
+### Logging
 Your DNS server must log its activity in a specific format. If the log specified by the user shares the same name and path, your DNS server overwrites the log. *After each* valid DNS query it services, it should append the following line to the log:
 
 `<client-ip> <query-name> <response-ip>`
