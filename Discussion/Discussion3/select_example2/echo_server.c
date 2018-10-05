@@ -1,6 +1,9 @@
 //Source: https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/
 //Example code: A simple server side code, which echos back the received message. 
 //Handle multiple socket connections with select and fd_set on Linux 
+
+//Try run this server and run multiple instance of "nc localhost 8888" to communicate with it!
+
 #include <stdio.h> 
 #include <string.h> //strlen 
 #include <stdlib.h> 
