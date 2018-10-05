@@ -48,7 +48,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 09/17/18 | [HTTP and the Web](Slides/091718.pptx) | [DNS and CDN](Slides/091918.pptx) | 2.2, 2.4
 | 09/24/18 | [Video Streaming and Cloud Systems](Slides/092418.pptx) | [Transport Layer](Slides/092618.pptx) | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
 | 10/01/18 | [TCP Basics](Slides/100118.pptx) | [Flow and Congestion Control](Slides/100318.pptx) <br> (**LOCATION: Stamps**) | 3.5, 3.6 | A2 Out
-| 10/08/18 | **No Class** | More Congestion Control | 3.7
+| 10/08/18 | **No Class** | [More Congestion Control](Slides/101018.pptx) | 3.7
 | 10/15/18 | **No Class** | Network Layer and IP | 4.1, 4.3.1, 4.3.2, 4.3.5
 | 10/22/18 | Midterm Review | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
 | 10/29/18 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 
