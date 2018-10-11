@@ -180,7 +180,7 @@ We are also providing encoding and decoding functions to serialize and deseriali
 ### Round-Robin Load Balancer
 One of the ways you will implement `nameserver` is as a simple round-robin based DNS load balancer. It should take as input a list of video server IP addresses on the command line; it responds to each request to resolve the name `video.cse.umich.edu` by returning the next IP address in the list, cycling back to the beginning when the list is exhausted.
 
-`nameserver` will bind to an IP address and port specified as command line arguments. It responds *only* to requests for `video.cse.umich.edu`; any other requests should generate a response with `RCODE` 3.
+`nameserver` will bind to a port specified as command line arguments. It responds *only* to requests for `video.cse.umich.edu`; any other requests should generate a response with `RCODE` 3.
 
 ### Geographic Distance Load Balancer
 Next you’ll make your DNS server somewhat more sophisticated. Your load balancer must return the closest video server to the client based on the proxy’s IP address. In the real world, this would be done by querying a database mapping IP prefixes to geographic locations. For your implementation, however, you will be given information in a text file about the entire state of the network, and your server will have to return to a given client its closest geographic server.
