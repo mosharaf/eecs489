@@ -96,6 +96,8 @@ int main(int argc, char* argv[])
 				else if(bytesRecvd == 0)
 				{
 					std::cout << "Connection closed" << std::endl;
+					
+					// WARNING: THIS IS A BUG. You should be careful about removing while iterating.
 					fds.erase(fds.begin() + i);
 				}
 
