@@ -50,7 +50,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 10/01/18 | [TCP Basics](Slides/100118.pptx) | [Flow and Congestion Control](Slides/100318.pptx) <br> (**LOCATION: Stamps**) | 3.5, 3.6 | A2 Out
 | 10/08/18 | **No Class** | [More Congestion Control](Slides/101018.pptx) | 3.7
 | 10/15/18 | **No Class** | [Network Layer and IP](Slides/101718.pptx) | 4.1, 4.3.1, 4.3.2, 4.3.5
-| 10/22/18 | Midterm Review | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
+| 10/22/18 | [Midterm Review](Slides/102218.pptx) | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
 | 10/29/18 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 
 | 11/05/18 | Routing Algorithms | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3
 | 11/12/18 | BGP | SDN | 4.4, 5.4, 5.5
