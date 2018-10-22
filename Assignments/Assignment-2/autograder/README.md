@@ -15,7 +15,7 @@ As usual, your Makefile need to do `make` and `make clean` correctly.
 Say you have everything ready in your repo, and you have changed directory to where the autograder is at. You can now run:
 
 ```bash
-sudo ./a1_auto -d </path/to/your/repo>
+sudo ./a2_auto -d </path/to/your/repo>
 ```
 
 When running the autograder, firefox and apache server as well as your proxy and DNS server will be launched. **You should not interfere with any of the processes.** For example, do not touch the browser (pause the video, refresh the video, close the browser, drag the video progress bar, etc) when the autograder is running.
