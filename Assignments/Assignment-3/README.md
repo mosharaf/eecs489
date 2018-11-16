@@ -97,7 +97,7 @@ For each packet received, it sends a cumulative `ACK` with the `seqNum` it expec
 1. If it receives a packet with `seqNum` not equal to `N`, it will send back an `ACK` with `seqNum=N`.
 2. If it receives a packet with `seqNum=N`, it will check for the highest sequence number (say `M`) of the in­order packets it has already received and send `ACK` with `seqNum=M+1`.
 
-If the next expected `seqNum` is `N`, `wReceiver` will drop all packets with `seqNum` greater than or equal to `N + window_size` to maintain a `window_size` window. The same `window_size` will be provided for both sender and receiver.
+If the next expected `seqNum` is `N`, `wReceiver` will drop all packets with `seqNum` greater than or equal to `N + window_size` to maintain a `window_size` window.
 
 `wReceiver` should also log every single packet it sends and receives using the same format as the `wSender` log.
 
