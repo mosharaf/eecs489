@@ -58,7 +58,7 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 11/26/18 | Switched LAN | Datacenter Networks | 6.4, 6.6
 | 12/03/18 | Networking in Datacenters | Wireless | 6.6, 7.1, 7.2, 7.3
 | 12/10/18 | Final Review | **No Class** | | A4 Due
-| 12/17/18 | **FINAL <br> MONDAY 12/17/18 <br> 10:30 AM - 12:30 PM <br> TBA** | | | 
+| 12/17/18 | **FINAL <br> MONDAY 12/17/18 <br> 10:30 AM - 12:30 PM <br> FXB 1012 (Lastname starting with A to G) <br> FXB 1109 (The rest)** | | | 
 
 ## Policies
 
