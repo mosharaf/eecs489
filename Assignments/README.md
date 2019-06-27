@@ -1,4 +1,4 @@
-# EECS 489: Computer Networks (F’18)
+# EECS 489: Computer Networks (F’19)
 
 ## Assignments and Policies
 
@@ -6,9 +6,9 @@ Four assignments will be assigned during the semester.
 Each assignment will require a substantial time commitment on your part.
 
 ### Group Work
-Three of the four assignments in this course will be done in groups of 2 students (Assignment 1 is done individually). 
+Three of the four assignments in this course will be done in groups of 2/3 students (Assignment 1 is done individually). 
 Groups may be drawn from the entire EECS 489 population; members of a group need not all be in the same lecture or discussion section. 
-[Declare your group's membership](https://goo.gl/forms/VCwrYyEaEcMZC1ZA2) by September 23, 2018. 
+[Declare your group's membership](TBA) by September 22, 2019. 
 After this date, we will form groups from the remaining students. 
 Choose your group members carefully. 
 You should discuss topics such as prior experience, course background, goals for this course, workload and schedule for this semester, and preferred assignment management and work style. 
