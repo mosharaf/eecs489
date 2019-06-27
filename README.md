@@ -1,18 +1,19 @@
-# EECS 489: Computer Networks (F’18)
+# EECS 489: Computer Networks (F’19)
 
 ## Administrivia
- - Catalog Number: 31839
- - Lectures: 1109 FXB, MW: 4:30 PM – 6:00 PM
+ - Catalog Number: 29083
+ - Lectures: 1109 FXB, MW: 4:00 PM – 5:30 PM
  - Discussion 1: 2150 DOW, F 9:30 AM – 10:30 AM
  - Discussion 2: 1014 DOW, Th 5:00 PM – 6:00 PM
+ - Discussion 3: 1014 DOW, F 12:30 PM – 1:30 PM
 
 ### Team
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 4:00 PM and by appt.
-| Jie You (jieyou) | GSI | 1637 BBB, F: 10:30 AM - 12:30 PM |
-| Yiwen Zhang (yiwenzhg) | GSI | 1637 BBB, Tu: 4:00 PM - 6:00 PM |
+| TBA | GSI |  |
+| TBA | GSI |  |
 
 ### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2018/eecs489/). 
@@ -43,22 +44,22 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
-| 09/03/18 | **No Class** | [Introduction](Slides/090518.pptx) | 
-| 09/10/18 | [Overview](Slides/091018.pptx) | [Protocol Layering](Slides/091218.pptx) | 1.1, 1.3, 1.4, 1.5 | A1 Out
-| 09/17/18 | [HTTP and the Web](Slides/091718.pptx) | [DNS and CDN](Slides/091918.pptx) | 2.2, 2.4
-| 09/24/18 | [Video Streaming and Cloud Systems](Slides/092418.pptx) | [Transport Layer](Slides/092618.pptx) | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
-| 10/01/18 | [TCP Basics](Slides/100118.pptx) | [Flow and Congestion Control](Slides/100318.pptx) <br> (**LOCATION: Stamps**) | 3.5, 3.6 | A2 Out
-| 10/08/18 | **No Class** | [More Congestion Control](Slides/101018.pptx) | 3.7
-| 10/15/18 | **No Class** | [Network Layer and IP](Slides/101718.pptx) | 4.1, 4.3.1, 4.3.2, 4.3.5
-| 10/22/18 | [Midterm Review](Slides/102218.pptx) | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
-| 10/29/18 | [IP Routers](Slides/102918.pptx) | [Routing Fundamentals](Slides/103118.pptx) | 4.2, 5.1 | 
-| 11/05/18 | [Routing Algorithms](Slides/110518.pptx) | [IP Addressing and Inter-AS Routing](Slides/110718.pptx) | 4.3.3, 5.2, 5.3
-| 11/12/18 | [BGP](Slides/111218.pptx) | [SDN](Slides/111418.pptx) | 4.4, 5.4, 5.5 | A3 Due
-| 11/19/18 | [Link Layer](Slides/111918.pptx) | **No Class** | 6.1, 6.3, 6.4.2 | A4 Out
-| 11/26/18 | [Switched LAN](Slides/112618.pptx) | [Datacenter Networks](Slides/112818.pptx) | 6.4, 6.6
-| 12/03/18 | [Networking in Datacenters](Slides/120318.pptx) | [Wireless](Slides/120518.pptx) | 6.6, 7.1, 7.2, 7.3
-| 12/10/18 | [Final Review](Slides/121018.pptx) | **No Class** | | A4 Due
-| 12/17/18 | **FINAL <br> MONDAY 12/17/18 <br> 10:30 AM - 12:30 PM <br> FXB 1012 (Lastname starting with A to G) <br> FXB 1109 (The rest)** | | | 
+| 09/02/19 | **No Class** | Introduction | 
+| 09/09/19 | Overview | Protocol Layering | 1.1, 1.3, 1.4, 1.5 | A1 Out
+| 09/16/19 | HTTP and the Web | DNS and CDN | 2.2, 2.4
+| 09/23/19 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
+| 09/30/19 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | A2 Out
+| 10/07/19 | **No Class** | More Congestion Control | 3.7
+| 10/14/19 | **No Class** | Network Layer and IP | 4.1, 4.3.1, 4.3.2, 4.3.5
+| 10/21/19 | Midterm Review | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
+| 10/28/19 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 
+| 11/04/19 | Routing Algorithms | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3
+| 11/11/19 | BGP | SDN | 4.4, 5.4, 5.5 | A3 Due
+| 11/18/19 | Link Layer | Switched LAN | 6.1, 6.3, 6.4 | A4 Out
+| 11/25/19 | Datacenter Networks | **No Class** | 6.6
+| 12/02/19 | Networking in Datacenters | Wireless | 6.6, 7.1, 7.2, 7.3
+| 12/09/19 | Final Review | **No Class** | | A4 Due
+| 12/16/19 | **FINAL <br> THURSDAY 12/19/19 <br> 1:30 PM - 3:30 PM <br> TBA** | | | 
 
 ## Policies
 
@@ -91,5 +92,5 @@ The tentative point breakdown is:
 | Assignment 2 | 15%        
 | Assignment 3 | 15%        
 | Assignment 4 | 15%        
-| Midterm Exam | 24%        
-| Final Exam   | 26%        
+| Midterm Exam | 25%        
+| Final Exam   | 25%        
