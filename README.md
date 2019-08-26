@@ -12,11 +12,11 @@
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 4:00 PM and by appt.
-| TBA | GSI |  |
-| TBA | GSI |  |
+| Leonard Lin     | GSI | TBA |
+| Joseph Buiteweg  | GSI | TBA |
 
 ### Piazza
-All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2018/eecs489/). 
+All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2019/eecs489/). 
 This includes questions, discussions, announcements, as well as private messages.
 
 ## Course Description
@@ -33,8 +33,9 @@ We write code to implement various protocols, to build client-server application
 
 ### Prerequisite
 
-The prerequisite for this course is EECS 281 (Data Structures and Algorithms). 
-You must also have a good working knowledge of C/C++ and Unix family of operating systems.
+The working prerequisite for this course is EECS 281 (Data Structures and Algorithms) even though officially it is EECS 482 (Operating Systems). 
+The current curriculum of this course does not assume or require any prior knowledge of EECS 482.
+Nonetheless, you must have a good working knowledge of C/C++ and Unix family of operating systems.
 
 ### Optional Textbook
 
@@ -48,10 +49,10 @@ You must also have a good working knowledge of C/C++ and Unix family of operatin
 | 09/09/19 | Overview | Protocol Layering | 1.1, 1.3, 1.4, 1.5 | A1 Out
 | 09/16/19 | HTTP and the Web | DNS and CDN | 2.2, 2.4
 | 09/23/19 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
-| 09/30/19 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | A2 Out
-| 10/07/19 | **No Class** | More Congestion Control | 3.7
+| 09/30/19 | TCP Basics | **No Class** | 3.5 | A2 Out
+| 10/07/19 | Flow and Congestion Control | More Congestion Control | 3.6, 3.7
 | 10/14/19 | **No Class** | Network Layer and IP | 4.1, 4.3.1, 4.3.2, 4.3.5
-| 10/21/19 | Midterm Review | **MIDTERM** <br> Regular time/location | | A2 Due<br>A3 Out
+| 10/21/19 | Midterm Review | **MIDTERM** <br> **TBA** | | A2 Due<br>A3 Out
 | 10/28/19 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 
 | 11/04/19 | Routing Algorithms | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3
 | 11/11/19 | BGP | SDN | 4.4, 5.4, 5.5 | A3 Due
