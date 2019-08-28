@@ -45,7 +45,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
-| 09/02/19 | **No Class** | Introduction | 
+| 09/02/19 | **No Class** | [Introduction](Slides/090419.pptx) | 
 | 09/09/19 | Overview | Protocol Layering | 1.1, 1.3, 1.4, 1.5 | A1 Out
 | 09/16/19 | HTTP and the Web | DNS and CDN | 2.2, 2.4
 | 09/23/19 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
