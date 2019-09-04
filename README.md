@@ -13,7 +13,7 @@
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 4:00 PM and by appt.
 | Leonard Lin (yklin) | GSI | 4917 BBB, F: 10:00 AM - 12:00 PM |
-| Joseph Buiteweg  | GSI | 1637 BBB, Tu: 11:00 AM - 1:00 PM |
+| Joseph Buiteweg (joebb) | GSI | 1637 BBB, Tu: 11:00 AM - 1:00 PM |
 
 ### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2019/eecs489/). 
