@@ -19,6 +19,9 @@
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2019/eecs489/). 
 This includes questions, discussions, announcements, as well as private messages.
 
+## Lecture Recordings
+Available at [https://caen.engin.umich.edu/lecrecording/students/](https://caen.engin.umich.edu/lecrecording/students/).
+
 ## Course Description
 EECS 489 takes a top-down approach to explore how networks operate and how network applications are written. 
 We study how popular distributed systems such as video streaming, content distribution networks (CDNs), and cloud computing systems work in the *application layer*.
