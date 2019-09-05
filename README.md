@@ -12,7 +12,7 @@
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 4:00 PM and by appt.
-| Leonard Lin (yklin) | GSI | 4917 BBB, F: 10:00 AM - 12:00 PM |
+| Leonard Lin (yklin) | GSI | 4917 BBB, F: 10:30 AM - 12:30 PM |
 | Joseph Buiteweg (joebb) | GSI | 1637 BBB, Tu: 11:00 AM - 1:00 PM |
 
 ### Piazza
