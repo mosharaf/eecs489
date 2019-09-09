@@ -43,10 +43,12 @@ If you use pair programming, take turns at the keyboard so that the commit log r
 
 ### Turning in Assignments
 Sometimes unexpected events make it difficult to submit a assignment on time. 
-For this reason, each group will have *a total of 3 late days throughout the semester across all assignments*. 
+For this reason, each individiual will have **1 late day for Assignment 1 that will expire if not used**; each group will have **a total of 3 late days throughout the semester across assignments 2 to 4**. 
+*You must send an email to eecs489-staff@umich.edu if you plan on using a late day before using it.*
+
 These late days should only be used to deal with unexpected problems such as illness. 
 They should not be used simply to start later on a assignment or because you are having difficulty completing the assignment. 
-Once late days are used up, submissions received after the due date will not count (even if they are just one second late). 
+*Once late days are used up, submissions received after the due date will not count (even if they are just one second late).* 
 Use late days judiciously. 
 Weekend days are counted in the same way as weekdays (e.g., if the assignment deadline is Friday and you turn it in Sunday, that's two days late).
 
