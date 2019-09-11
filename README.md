@@ -52,13 +52,13 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 09/09/19 | [Overview](Slides/090919.pptx) | [Protocol Layering](Slides/091119.pptx) | 1.1, 1.3, 1.4, 1.5 | A1 Out
 | 09/16/19 | HTTP and the Web | DNS and CDN | 2.2, 2.4
 | 09/23/19 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
-| 09/30/19 | TCP Basics | **No Class** | 3.5 | A2 Out
-| 10/07/19 | Flow and Congestion Control | More Congestion Control | 3.6, 3.7
-| 10/14/19 | **No Class** | Network Layer and IP | 4.1, 4.3.1, 4.3.2, 4.3.5
-| 10/21/19 | Midterm Review | **MIDTERM** <br> **TBA** | | A2 Due<br>A3 Out
-| 10/28/19 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 
-| 11/04/19 | Routing Algorithms | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3
-| 11/11/19 | BGP | SDN | 4.4, 5.4, 5.5 | A3 Due
+| 09/30/19 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | A2 Out
+| 10/07/19 | More Congestion Control | Network Layer and IP | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
+| 10/14/19 | **No Class** | Midterm Review | 
+| 10/21/19 | **MIDTERM <br> MONDAY 10/21/19 <br> 6 PM - 8 PM** | IP Routers | 4.2 | A2 Due<br>A3 Out
+| 10/28/19 | Routing Fundamentals | Routing Algorithms | 5.1, 5.2, 5.3 | 
+| 11/04/19 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4
+| 11/11/19 | **No Class** | SDN | 4.4, 5.5 | A3 Due
 | 11/18/19 | Link Layer | Switched LAN | 6.1, 6.3, 6.4 | A4 Out
 | 11/25/19 | Datacenter Networks | **No Class** | 6.6
 | 12/02/19 | Networking in Datacenters | Wireless | 6.6, 7.1, 7.2, 7.3
