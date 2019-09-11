@@ -10,7 +10,6 @@
 * [Part 2](#part2): Mininet Tutorial
 * [Part 3](#part3): Measurements in Mininet
 * [Part 4](#part4): Create a Custom Topology
-* [The Autograder](#autograder): Use the autograder to evaluate `iPerfer`
 * [Submission Instructions](#submission-instr)
 
 Before you start doing anything with this project, however, please [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLScOrkw2v-N6AazL8CYUFGzz1o1iSJ6YfFnAO1fVEtxSMYCPqw/viewform?usp=sf_link) if you have not done so already. This is so that we can create a private repository for you to store your code and answers for this project.
