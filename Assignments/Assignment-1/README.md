@@ -1,6 +1,6 @@
 # Assignment 1: Sockets, Mininet, & Performance
 
-### Due: Sep 28, 2018, 11:59 PM
+### Due: Sep 26, 2018, 11:59 PM
 
 ## Overview
 
