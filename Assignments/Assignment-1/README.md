@@ -11,6 +11,7 @@
 * [Part 3](#part3): Measurements in Mininet
 * [Part 4](#part4): Create a Custom Topology
 * [Submission Instructions](#submission-instr)
+* [Autograder](#autograder)
 
 Before you start doing anything with this project, however, please [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLScOrkw2v-N6AazL8CYUFGzz1o1iSJ6YfFnAO1fVEtxSMYCPqw/viewform?usp=sf_link) if you have not done so already. This is so that we can create a private repository for you to store your code and answers for this project.
 
@@ -251,6 +252,16 @@ $ tree ./repo-checkout/
 
 
 When grading your assignment, we will **ONLY** pull from your assigned repository, and only look at commits before the deadline.
+
+<a name="autograder"></a>
+## Autograder
+
+The autograder tests the following aspects of `iPerfer`
+1. Incorrect argument handling
+2. Format of your iPerfer output
+3. Correctness of iPerfer output (both the `Sent` and `Received` values as well as `Rate`).
+
+Because of the guarantees of TCP, both Sent and Received should be the same. The `Rate` is tested by first running `iperf` over a link, then comparing your `iPerfer` output to the result given a reasonable margin of error.
 
 ## Acknowledgements
 This programming assignment is based on Aditya Akella's Assignment 1 from Wisconsin CS 640: Computer Networks.
