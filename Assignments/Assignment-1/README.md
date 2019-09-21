@@ -72,6 +72,8 @@ For example:
 
 The `iPerfer` server should shut down gracefully after it handles one connection from a client.
 
+**Note**: Please use setsockopt to allow reuse of the port number, this will make your life easier for testing and will allow you to pass the autograder, which runs the `iPerfer` server with the same port number each time. <- We recognize this isn't ideal, and will be fixed in the future.
+
 ### Client Mode
 
 To operate `iPerfer` in client mode, it should be invoked as follows:
