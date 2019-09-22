@@ -1,6 +1,6 @@
 # Assignment 1: Sockets, Mininet, & Performance
 
-### Due: Sep 26, 2018, 11:59 PM
+### Due: Sep 28, 2018, 11:59 PM
 
 ## Overview
 
@@ -11,6 +11,7 @@
 * [Part 3](#part3): Measurements in Mininet
 * [Part 4](#part4): Create a Custom Topology
 * [Submission Instructions](#submission-instr)
+* [Autograder](#autograder)
 
 Before you start doing anything with this project, however, please [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLScOrkw2v-N6AazL8CYUFGzz1o1iSJ6YfFnAO1fVEtxSMYCPqw/viewform?usp=sf_link) if you have not done so already. This is so that we can create a private repository for you to store your code and answers for this project.
 
@@ -71,6 +72,8 @@ For example:
 
 The `iPerfer` server should shut down gracefully after it handles one connection from a client.
 
+**Note**: Please use setsockopt to allow reuse of the port number, this will make your life easier for testing and will allow you to pass the autograder, which runs the `iPerfer` server with the same port number each time. <- We recognize this isn't ideal, and will be fixed in the future.
+
 ### Client Mode
 
 To operate `iPerfer` in client mode, it should be invoked as follows:
@@ -80,7 +83,7 @@ To operate `iPerfer` in client mode, it should be invoked as follows:
 * `-c` indicates this is the `iPerfer` client which should generate data
 * `server_hostname` is the hostname or IP address of the `iPerfer` server which will consume data
 * `server_port` is the port on which the remote host is waiting to consume data; the port should be in the range 1024 ≤ `server_port` ≤ 65535
-* `time` is the duration in seconds for which data should be generated
+* `time` is the duration in seconds for which data should be generated. We will only test this with an integer value (i.e feel free to use time.h)
 
 For simplicity, you can assume these arguments will appear exactly in the order listed above.
 
@@ -172,7 +175,7 @@ If you have trouble launching the script, a common fix is to first try running `
 
 Hosts (`h1` to `h10`) are represented by squares and switches (`s1` to `s6`) are represented by circles; the names in the diagram match the names of hosts and switches in Mininet. The hosts are assigned IP addresses 10.0.0.1 through 10.0.0.10; the last number in the IP address matches the host number.
 
-**NOTE:** When running ping and `iPerfer` in Mininet, you must use IP addresses, not hostnames.
+**NOTE:** When running ping and `iPerfer` in Mininet, you must use IP addresses, not hostnames. Also, if you are not confident your `iPerfer` is working correctly, feel free to use `iperf` for any throughput measurements noted below. Output using either program will be accepted.
 
 #### Q1: Link Latency and Throughput
 First, you should measure the RTT and bandwidth of each of the five individual links between switches (`L1` - `L5`). You should run ping with 20 packets and store the output of the measurement on each link in a file called `latency_L#.txt`, replacing # with the link number from the topology diagram above. You should run `iPerfer` for 20 seconds and store the output of the measurement on each link in a file called `throughput_L#.txt`, replacing # with the link number from the topology diagram above.
@@ -213,7 +216,7 @@ To submit:
 
 Your assigned repository must contain:
 
-* The source code for `iPerfer`: all source files for `iPerfer` should be in a folder called `iPerfer`; the folder should include a `Makefile` to compile the sources. The autograder expects an `iPerfer` executable to be present after running `make` in this directory.
+* The source code for `iPerfer`: all source files for `iPerfer` should be in a folder called `iPerfer`; the folder should include a `Makefile` to compile the sources. The autograder expects an `iPerfer` executable to be present after running `make` in this directory. The autograder will run `make clean` then `make` (must support both), if either do not work the submission will fail.
 * Your measurement results and answers to the questions from Part 3: all results and a text file called `answers.txt` should be in a folder called `measurements`.
 * Your custom network topology code and its visualization (`<uniqname>_topology.py` and `<uniqname>_topology.png`).
 
@@ -226,7 +229,7 @@ $ tree ./repo-checkout/
 ├── assignment1_topology.py
 ├── iPerfer
 │   ├── ** source files **
-│   ├── Makefile
+│   ├── Makefile <- supports "make clean" and "make"
 │   └── iPerfer <- executable from running make
 ├── joebb_topology.png
 ├── joebb_topology.py
@@ -251,6 +254,16 @@ $ tree ./repo-checkout/
 
 
 When grading your assignment, we will **ONLY** pull from your assigned repository, and only look at commits before the deadline.
+
+<a name="autograder"></a>
+## Autograder
+
+The autograder tests the following aspects of `iPerfer`
+1. Incorrect argument handling
+2. Format of your iPerfer output
+3. Correctness of iPerfer output (both the `Sent` and `Received` values as well as `Rate`).
+
+Because of the guarantees of TCP, both Sent and Received should be the same. The `Rate` is tested by first running `iperf` over a link, then comparing your `iPerfer` output to the result given a reasonable margin of error.
 
 ## Acknowledgements
 This programming assignment is based on Aditya Akella's Assignment 1 from Wisconsin CS 640: Computer Networks.
