@@ -22,10 +22,6 @@ After completing this programming assignment, students should be able to:
 * Write applications that use sockets to transmit and receive data across a network
 * Explain how latency and throughput are impacted by link characteristics and multiplexing
 
-## Clarifications
-
-* For all latency measurements, use the one-way delay (NOT the RTT).
-
 <a name="part1"></a>
 ## Part 1: Write `iPerfer`
 
