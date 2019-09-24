@@ -218,8 +218,8 @@ Your assigned repository must contain:
 
 Example final structure of repository:
 ```
-$ tree ./repo-checkout/
-./repo-checkout/
+$ tree ./p1-joebb/
+./p1-joebb/
 ├── README.md
 ├── assignment1_topology.png
 ├── assignment1_topology.py
