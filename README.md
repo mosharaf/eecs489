@@ -51,8 +51,8 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 09/02/19 | **No Class** | [Introduction](Slides/090419.pptx) | 
 | 09/09/19 | [Overview](Slides/090919.pptx) | [Protocol Layering](Slides/091119.pptx) | 1.1, 1.3, 1.4, 1.5 | A1 Out
 | 09/16/19 | [HTTP and the Web](Slides/091619.pptx) | [DNS and CDN](Slides/091819.pptx) | 2.2, 2.4
-| 09/23/19 | [Video Streaming and Cloud Systems](Slides/092319.pptx) | [Transport Layer](Slides/092519.pptx) | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
-| 09/30/19 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | A2 Out
+| 09/23/19 | [Video Streaming and Cloud Systems](Slides/092319.pptx) | [Transport Layer](Slides/092519.pptx) | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
+| 09/30/19 | [TCP Basics](Slides/093019.pptx) | [Flow and Congestion Control](Slides/100219.pptx) | 3.5, 3.6 | 
 | 10/07/19 | More Congestion Control | Network Layer and IP | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
 | 10/14/19 | **No Class** | Midterm Review | 
 | 10/21/19 | **MIDTERM <br> MONDAY 10/21/19 <br> 6 PM - 8 PM** | IP Routers | 4.2 | A2 Due<br>A3 Out
