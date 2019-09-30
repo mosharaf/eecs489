@@ -64,7 +64,7 @@ After completing this programming assignment, students should be able to:
 <a name="environment"></a>
 
 ## Environment Setup
-[We are providing a VM](https://drive.google.com/open?id=1-2Ph1fv0VGGabL79_iEVuDwQGUpoGfKQ) that has all the components you need to get started on the assignment. While we tried to make the base VM work for all the projects, unfortunately this didn't come to fruition. Starting fresh also ensures a working environment free from accidentally changes that may have been made in the first project.
+[We are providing a VM](https://drive.google.com/open?id=1-2Ph1fv0VGGabL79_iEVuDwQGUpoGfKQ) that has all the components you need to get started on the assignment. While we tried to make the base VM work for all the projects, unfortunately this didn't come to fruition. Starting fresh also ensures a working environment free from accidental changes that may have been made in the first project.
 
 This VM includes mininet, Apache, and all the files we will be streaming in this project. Both the username and password for this VM are `proj2`. To start the Apache server, simply run the python script we provide by doing the following:
 
@@ -278,7 +278,7 @@ To operate `nameserver`, it should be invoked as follows:
 
 *Note: for simplicity, arguments will appear exactly as shown above (for both modes) during testing and grading. Error handling with the arguments is not explicitly tested but is highly recommended. At least printing the correct usage if something went wrong is worthwhile.*
 
-#### nameserver Logging
+### nameserver Logging
 Your DNS server must log its activity in a specific format. If the log specified by the user shares the same name and path, your DNS server overwrites the log. *After each* valid DNS query it services, it should append the following line to the log:
 
 `<client-ip> <query-name> <response-ip>`
@@ -312,14 +312,13 @@ $ tree ./p2-joebb-and-partners/
 ├── nameserver
 │   ├── Makefile <- supports "make clean" and "make"
 │   ├── ** source c or cpp files **
-│   ├── DNSHeader.h
-│   ├── DNSQuestion.h
-│   ├── DNSRecord.h
 │   └── nameserver  <- Binary executable present after running "make"
-└── starter_code
+└── starter_files
     ├── DNSHeader.h
     ├── DNSQuestion.h
     ├── DNSRecord.h
+    ├── sample_geography.txt
+    ├── sample_round_robin.txt
     ├── launch_firefox.py
     └── start_server.py
 ```
