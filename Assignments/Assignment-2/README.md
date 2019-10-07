@@ -101,9 +101,9 @@ You are to implement a simple HTTP proxy, `miProxy`. It accepts connections from
 
 `(assign ephemeral)` is referring to the fact that the kernel will pick the proxy's TCP port when it connects to the web server's port `80`. Nothing more than the proxy calling `connect()` is happening here.
 
-The picture above shows the overall proxy (i.e multiple instances of `miProxy`) connecting to multiple web servers, which is **not** the behavior of one instance of `miProxy`. One instance of `miProxy` will only ever be connected to one web server at a time.
-
 `miProxy` should accept multiple concurrent connections from clients (Firefox web browser) using `select()` and be able to handle the required HTTP 1.1 requests for this assignment (e.g., HTTP `GET`).
+
+The picture above shows `miProxy` connected to multiple web servers, which would be the case if `miProxy` issued a DNS request for each new client connection received (e.g each new connection from an instance of Firefox). This is one approach for utilizing the DNS `nameserver` you will write in part 2. Another approach would be to issue a DNS request **once** when `miProxy` starts up, and direct all client requests to one web server for the entire runtime of `miProxy`. Either approach is acceptable for grading purposes, but the former is preferred because it provides more efficient load balancing. The former approach is also closer to the behavior of an actual load balancing proxy.
 
 You might find the `select()` [demo covered in discussion](https://github.com/mosharaf/eecs489/tree/master/Discussion/select_example) helpful. Slides describing this code located [here](https://drive.google.com/open?id=1npIcsFoVRiq0SUFHQzqiRblqWYKs1ked2kDHIP-qPcg). You are also welcome to use other methods of concurrency (i.e threads), but `select()` is our preferred method for this project.
 
