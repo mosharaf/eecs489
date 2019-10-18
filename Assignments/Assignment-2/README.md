@@ -289,7 +289,7 @@ Your DNS server must log its activity in a specific format. If the log specified
 
 <a name="submission-instr"></a>
 ## Submission Instructions
-Submission to the autograder will be done [here](https://eecs489.eecs.umich.edu/). You will be allotted 1 submission a day (once the autograder is released) plus 3 total bonus submits.
+Submission to the autograder will be done [here](https://eecs489.eecs.umich.edu/). You will have 3 submissions per day (once the autograder is released).
 
 To submit:
 1. `git push` your work to the github repository we provided for the assignment.
