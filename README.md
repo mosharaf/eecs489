@@ -55,7 +55,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 09/30/19 | [TCP Basics](Slides/093019.pptx) | [Flow and Congestion Control](Slides/100219.pptx) | 3.5, 3.6 | A2 Out
 | 10/07/19 | [More Congestion Control](Slides/100719.pptx) | [Network Layer and IP](Slides/100919.pptx) | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
 | 10/14/19 | **No Class** | [Midterm Review](Slides/101619.pptx) | 
-| 10/21/19 | **MIDTERM <br> MONDAY 10/21/19 <br> 6 PM - 8 PM** | IP Routers | 4.2 | A2 Due<br>A3 Out
+| 10/21/19 | **MIDTERM <br> MONDAY 10/21/19 <br> 6 PM - 8 PM** | [IP Routers](Slides/102319.pptx) | 4.2 | A2 Due<br>A3 Out
 | 10/28/19 | Routing Fundamentals | Routing Algorithms | 5.1, 5.2, 5.3 | 
 | 11/04/19 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4
 | 11/11/19 | **No Class** | SDN | 4.4, 5.5 | A3 Due
