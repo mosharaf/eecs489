@@ -287,6 +287,19 @@ Your DNS server must log its activity in a specific format. If the log specified
 * `query-name` The hostname the client is trying to resolve.
 * `response-ip` The IP address you return in response.
 
+### queryDNS utility
+
+ `queryDNS` (in the starter_code directory) sends a DNS query to `nameserver` (just like a `miProxy` does), and outputs the reponse from DNS server. So you can test your `nameserver` using `queryDNS` without `miProxy`.
+
+ The autograder uses queryDNS for the `nameserver` only test cases, so make sure your code is compatible.
+
+ The command line to use `queryDNS` is:
+ ```
+<path to the binary>/queryDNS <IP of nameserver> <port of nameserver>
+ ```
+
+ If everything goes well, you should get responses like `10.0.0.1`, `10.0.0.2` and `10.0.0.3`.
+
 <a name="submission-instr"></a>
 ## Submission Instructions
 Submission to the autograder will be done [here](https://eecs489.eecs.umich.edu/). You will have 3 submissions per day (once the autograder is released).
