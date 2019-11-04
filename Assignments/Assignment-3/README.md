@@ -156,7 +156,6 @@ The command line parameters passed to these new `wSender` and `wReceiver` are th
 * It is up to you how you choose to read from and write to files, but you may find the `std::ifstream.read()` and `std::ofstream.write()` functions particularly helpful.
 * Please closely follow updates on Piazza. All further clarifications will be posted on Piazza via pinned Instructor Notes. We recommend you follow these notes to receive updates in time.
 * You MUST NOT use TCP sockets.
-* You should still transmit all fields of the PacketHeader **in the correct Byte Order**, as you have done in Assignment 2 Part 2.
 * Once we go over it in discussion, links to slides and examples of UDP socket programs will be added here:
 * Another good resource for UDP socket programming is [Beej's Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/html//index.html).
 
