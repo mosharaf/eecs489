@@ -58,7 +58,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 10/21/19 | **MIDTERM <br> MONDAY 10/21/19 <br> 6 PM - 8 PM** | [IP Routers](Slides/102319.pptx) | 4.2 | A2 Due<br>A3 Out
 | 10/28/19 | [Routing Fundamentals](Slides/102819.pptx) | [Routing Algorithms](Slides/103019.pptx) | 5.1, 5.2, 5.3 | 
 | 11/04/19 | [IP Addressing and Inter-AS Routing](Slides/110419.pptx) | [BGP](Slides/110619.pptx) | 4.3.3, 5.4
-| 11/11/19 | **No Class** | SDN | 4.4, 5.5 | A3 Due
+| 11/11/19 | **No Class** | [SDN](Slides/111319.pptx) | 4.4, 5.5 | A3 Due
 | 11/18/19 | Link Layer | Switched LAN | 6.1, 6.3, 6.4 | A4 Out
 | 11/25/19 | Datacenter Networks | **No Class** | 6.6
 | 12/02/19 | Networking in Datacenters | Wireless | 6.6, 7.1, 7.2, 7.3
