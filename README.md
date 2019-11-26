@@ -61,7 +61,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 11/11/19 | **No Class** | [SDN](Slides/111319.pptx) | 4.4, 5.5 | A3 Due
 | 11/18/19 | [Link Layer](Slides/111819.pptx) | [Switched LAN](Slides/112019.pptx) | 6.1, 6.3, 6.4 | A4 Out
 | 11/25/19 | [Datacenter Networks](Slides/112519.pptx) | **No Class** | 6.6
-| 12/02/19 | Networking in Datacenters | Wireless | 6.6, 7.1, 7.2, 7.3
+| 12/02/19 | [Networking in Datacenters](Slides/120219.pptx) | [Wireless](Slides/120419.pptx) | 6.6, 7.1, 7.2, 7.3
 | 12/09/19 | Final Review | **No Class** | | A4 Due
 | 12/16/19 | **FINAL <br> THURSDAY 12/19/19 <br> 1:30 PM - 3:30 PM <br> TBA** | | | 
 
