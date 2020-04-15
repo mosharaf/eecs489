@@ -1,4 +1,4 @@
-# EECS 489: Computer Networks (F’19)
+# EECS 489: Computer Networks (F’20)
 
 ## Assignments and Policies
 
@@ -8,7 +8,7 @@ Each assignment will require a substantial time commitment on your part.
 ### Group Work
 Three of the four assignments in this course will be done in groups of 2/3 students (Assignment 1 is done individually). 
 Groups may be drawn from the entire EECS 489 population; members of a group need not all be in the same lecture or discussion section. 
-[Declare your group's membership](https://docs.google.com/forms/d/e/1FAIpQLSfUiVzbUHzshKAcwih_dUilLTnafqLI7xj6ibmGdCmwR4wTHg/viewform?usp=sf_link) by September 22, 2019. 
+[Declare your group's membership](TBA) by September 20, 2020. 
 After this date, we will form groups from the remaining students. 
 Choose your group members carefully. 
 You should discuss topics such as prior experience, course background, goals for this course, workload and schedule for this semester, and preferred assignment management and work style. 
@@ -36,7 +36,7 @@ A sure way to make your group upset at you is not finishing your work at an agre
 We encourage everyone to read [Coping with hitchhikers and couch potatoes on teams](http://web.eecs.umich.edu/~pmchen/eecs482/hitchhikers.html).
 
 All assignments will be hosted at [github](https://github.com/eecs489). 
-Please sign up for a free github account if you don't already have one, then [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLScOrkw2v-N6AazL8CYUFGzz1o1iSJ6YfFnAO1fVEtxSMYCPqw/viewform?usp=sf_link). 
+Please sign up for a free github account if you don't already have one, then [register your github username with us](TBA). 
 The `eecs489` organization at github will provide a private repository for each group for each assignment. 
 Commits to the repository should reflect the proportion of work performed by each group memer. 
 If you use pair programming, take turns at the keyboard so that the commit log reflects the contributions of both members.

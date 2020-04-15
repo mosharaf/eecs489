@@ -1,22 +1,22 @@
-# EECS 489: Computer Networks (F’19)
+# EECS 489: Computer Networks (F’20)
 
 ## Administrivia
- - Catalog Number: 29083
- - Lectures: 1109 FXB, MW: 4:00 PM – 5:30 PM
+ - Catalog Number: 28220
+ - Lectures: 2505 GGBL, MW: 3:30 PM – 5:00 PM
  - Discussion 1: 2150 DOW, F 9:30 AM – 10:30 AM
- - Discussion 2: 1014 DOW, Th 5:00 PM – 6:00 PM
+ - Discussion 2: 1005 DOW, Th 5:00 PM – 6:00 PM
  - Discussion 3: 1014 DOW, F 12:30 PM – 1:30 PM
 
 ### Team
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 4:00 PM and by appt.
-| Leonard Lin (yklin) | GSI | 4917 BBB, F: 10:30 AM - 12:30 PM |
-| Joseph Buiteweg (joebb) | GSI | 1637 BBB, Tu: 11:00 AM - 1:00 PM |
+| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 3:30 PM and by appt.
+| TBA | GSI |  |
+| TBA | GSI |  |
 
 ### Piazza
-All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2019/eecs489/). 
+All communication regarding this course must be via [Piazza](TBA). 
 This includes questions, discussions, announcements, as well as private messages.
 
 ## Lecture Recordings
@@ -36,9 +36,11 @@ We write code to implement various protocols, to build client-server application
 
 ### Prerequisite
 
-The working prerequisite for this course is EECS 281 (Data Structures and Algorithms) even though officially it is EECS 482 (Operating Systems). 
+The enforced prerequisite for this course is EECS 281 (Data Structures and Algorithms) and EECS 370 (Introduction to Computer Organization) even though officially it is EECS 482 (Operating Systems). 
 The current curriculum of this course does not assume or require any prior knowledge of EECS 482.
 Nonetheless, you must have a good working knowledge of C/C++ and Unix family of operating systems.
+
+If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4UsbjFvT6WP7).
 
 ### Optional Textbook
 
@@ -48,22 +50,22 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
-| 09/02/19 | **No Class** | [Introduction](Slides/090419.pptx) | 
-| 09/09/19 | [Overview](Slides/090919.pptx) | [Protocol Layering](Slides/091119.pptx) | 1.1, 1.3, 1.4, 1.5 | A1 Out
-| 09/16/19 | [HTTP and the Web](Slides/091619.pptx) | [DNS and CDN](Slides/091819.pptx) | 2.2, 2.4
-| 09/23/19 | [Video Streaming and Cloud Systems](Slides/092319.pptx) | [Transport Layer](Slides/092519.pptx) | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due
-| 09/30/19 | [TCP Basics](Slides/093019.pptx) | [Flow and Congestion Control](Slides/100219.pptx) | 3.5, 3.6 | A2 Out
-| 10/07/19 | [More Congestion Control](Slides/100719.pptx) | [Network Layer and IP](Slides/100919.pptx) | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
-| 10/14/19 | **No Class** | [Midterm Review](Slides/101619.pptx) | 
-| 10/21/19 | **MIDTERM <br> MONDAY 10/21/19 <br> 6 PM - 8 PM** | [IP Routers](Slides/102319.pptx) | 4.2 | A2 Due<br>A3 Out
-| 10/28/19 | [Routing Fundamentals](Slides/102819.pptx) | [Routing Algorithms](Slides/103019.pptx) | 5.1, 5.2, 5.3 | 
-| 11/04/19 | [IP Addressing and Inter-AS Routing](Slides/110419.pptx) | [BGP](Slides/110619.pptx) | 4.3.3, 5.4
-| 11/11/19 | **No Class** | [SDN](Slides/111319.pptx) | 4.4, 5.5 | A3 Due
-| 11/18/19 | [Link Layer](Slides/111819.pptx) | [Switched LAN](Slides/112019.pptx) | 6.1, 6.3, 6.4 | A4 Out
-| 11/25/19 | [Datacenter Networks](Slides/112519.pptx) | **No Class** | 6.6
-| 12/02/19 | [Networking in Datacenters](Slides/120219.pptx) | [Wireless](Slides/120419.pptx) | 6.6, 7.1, 7.2, 7.3
-| 12/09/19 | [Final Review](Slides/120919.pptx) | **No Class** | | A4 Due
-| 12/16/19 | **FINAL <br> THURSDAY 12/19/19 <br> 1:30 PM - 3:30 PM <br> FXB 1008 (Last name A to G) <br> FXB 1012 (Last name H to L) <br> FXB 1109 (The rest)** | | | 
+| 08/31/20 | Introduction | Overview | 1.1
+| 09/07/20 | **No Class** | Protocol Layering | 1.3, 1.4, 1.5 | A1 Out
+| 09/14/20 | HTTP and the Web | DNS and CDN | 2.2, 2.4
+| 09/21/20 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
+| 09/28/20 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | 
+| 10/05/20 | More Congestion Control | Network Layer and IP | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
+| 10/12/20 | IP Routers | Midterm Review | 4.2
+| 10/19/20 | **No Class** | **MIDTERM <br> TBA** |  | A2 Due<br>A3 Out
+| 10/26/20 | Routing Fundamentals | Routing Algorithms | 5.1, 5.2, 5.3 | 
+| 11/02/20 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4
+| 11/09/20 | **No Class** | SDN | 4.4, 5.5 | A3 Due<br>A4 Out
+| 11/16/20 | Link Layer | Switched LAN | 6.1, 6.3, 6.4 | 
+| 11/23/20 | Datacenter Networks | **No Class** | 6.6
+| 11/30/20 | Networking in Datacenters | Wireless | 6.6, 7.1, 7.2, 7.3
+| 12/07/20 | Final Review | **No Class** | | A4 Due
+| 12/14/20 | **FINAL <br> FRIDAY 12/18/20 <br> 8AM - 10AM <br> TBA** | | | 
 
 ## Policies
 
@@ -86,7 +88,6 @@ Discussion section meetings will typically involve active participation by discu
 
 ## Grading
 Final grades will be based on the total points earned on the assignments and exams. 
-You must average a passing grade on the exams to receive a passing grade for the class. 
 Factors such as class participation may be used to adjust your final grade, especially if it falls on a borderline. 
 The tentative point breakdown is:
 
