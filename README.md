@@ -2,10 +2,10 @@
 
 ## Administrivia
  - Catalog Number: 28220
- - Lectures: 2505 GGBL, MW: 3:30 PM – 5:00 PM
- - Discussion 1: 2150 DOW, F 9:30 AM – 10:30 AM
- - Discussion 2: 1005 DOW, Th 5:00 PM – 6:00 PM
- - Discussion 3: 1014 DOW, F 12:30 PM – 1:30 PM
+ - Lectures: Live Online, MW: 3:30 PM – 5:00 PM
+ - Discussion 1: Live Online, F 9:30 AM – 10:30 AM
+ - Discussion 2: Live Online, Th 5:00 PM – 6:00 PM
+ - Discussion 3: Live Online, F 12:30 PM – 1:30 PM
 
 ### Team
 
@@ -50,21 +50,21 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
-| 08/31/20 | Introduction | Overview | 1.1
-| 09/07/20 | **No Class** | Protocol Layering | 1.3, 1.4, 1.5 | A1 Out
-| 09/14/20 | HTTP and the Web | DNS and CDN | 2.2, 2.4
-| 09/21/20 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
+| 08/31/20 | Introduction and Overview | Protocol Layering | 1.1, 1.3, 1.4, 1.5
+| 09/07/20 | **No Class** | HTTP and the Web | 2.2 | A1 Out
+| 09/14/20 | DNS and CDN | Video Streaming and Cloud Systems | 2.4, 2.6
+| 09/21/20 | *Review 1* | Transport Layer | 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
 | 09/28/20 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | 
 | 10/05/20 | More Congestion Control | Network Layer and IP | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
-| 10/12/20 | IP Routers | Midterm Review | 4.2
-| 10/19/20 | **No Class** | **MIDTERM <br> TBA** |  | A2 Due<br>A3 Out
-| 10/26/20 | Routing Fundamentals | Routing Algorithms | 5.1, 5.2, 5.3 | 
+| 10/12/20 | IP Routers | *Review 2* | 4.2
+| 10/19/20 | **MIDTERM <br> TBA** | **No Class** |  | A2 Due<br>A3 Out
+| 10/26/20 | Routing Fundamentals | Intra-AS Routing | 5.1, 5.2, 5.3 | 
 | 11/02/20 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4
-| 11/09/20 | **No Class** | SDN | 4.4, 5.5 | A3 Due<br>A4 Out
+| 11/09/20 | Software-Defined Networking | *Review 3* | 4.4, 5.5 | A3 Due<br>A4 Out
 | 11/16/20 | Link Layer | Switched LAN | 6.1, 6.3, 6.4 | 
-| 11/23/20 | Datacenter Networks | **No Class** | 6.6
-| 11/30/20 | Networking in Datacenters | Wireless | 6.6, 7.1, 7.2, 7.3
-| 12/07/20 | Final Review | **No Class** | | A4 Due
+| 11/23/20 | **No Class** | **No Class** | 
+| 11/30/20 | Datacenter Networking | Wireless Networking | 6.6, 7.1, 7.2, 7.3
+| 12/07/20 | *Review 4* | **No Class** | | A4 Due
 | 12/14/20 | **FINAL <br> FRIDAY 12/18/20 <br> 8AM - 10AM <br> TBA** | | | 
 
 ## Policies
