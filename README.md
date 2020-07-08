@@ -65,7 +65,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 11/23/20 | **No Class** | **No Class** | 
 | 11/30/20 | Datacenter Networking | Wireless Networking | 6.6, 7.1, 7.2, 7.3
 | 12/07/20 | *Review 4* | **No Class** | | A4 Due
-| 12/14/20 | **FINAL <br> FRIDAY 12/18/20 <br> 8AM - 10AM <br> TBA** | | | 
+| 12/14/20 | **FINAL <br> Wednesday 12/16/20 <br> 8AM - 10AM** | | | 
 
 ## Policies
 
