@@ -11,12 +11,12 @@
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, W: 2:00 PM - 3:30 PM and by appt.
-| TBA | GSI |  |
-| TBA | GSI |  |
+| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | W: 2:00 PM - 3:30 PM and by appt.
+| Jie You | GSI | TBA
+| Joseph Buiteweg | GSI | TBA
 
 ### Piazza
-All communication regarding this course must be via [Piazza](TBA). 
+All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2020/eecs489). 
 This includes questions, discussions, announcements, as well as private messages.
 
 ## Lecture Recordings
