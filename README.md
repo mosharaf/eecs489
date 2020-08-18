@@ -83,6 +83,12 @@ Outside commitments are not considered a valid reason for missing an exam.
 You are expected to attend lecture regularly and to be at your discussion section weekly. 
 Discussion section meetings will typically involve active participation by discussion, group exercises, or question-and-answer sessions.
 
+
+### Commitment to Equal Opportunity 
+As indicated in the [General Standards of Conduct for Engineering Students](https://bulletin.engin.umich.edu/rules/#generalstandardsofconductforengineeringstudents), we are committed to a policy of equal opportunity. 
+We ask that all students treat each other with respect. 
+Please feel free to contact us with any problems, concerns, or suggestions.
+
 ## Grading
 Final grades will be based on the total points earned on the assignments and exams. 
 Factors such as class participation may be used to adjust your final grade, especially if it falls on a borderline. 
