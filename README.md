@@ -83,11 +83,16 @@ Outside commitments are not considered a valid reason for missing an exam.
 You are expected to attend lecture regularly and to be at your discussion section weekly. 
 Discussion section meetings will typically involve active participation by discussion, group exercises, or question-and-answer sessions.
 
-
 ### Commitment to Equal Opportunity 
 As indicated in the [General Standards of Conduct for Engineering Students](https://bulletin.engin.umich.edu/rules/#generalstandardsofconductforengineeringstudents), we are committed to a policy of equal opportunity. 
 We ask that all students treat each other with respect. 
 Please feel free to contact us with any problems, concerns, or suggestions.
+
+### Lecture Recordings
+
+Course lectures may be audio/video recorded and made available to other students in this course. As part of your participation in this course, you may be recorded. If you do not wish to be recorded, please contact `eecs489-staff` the first week of class to discuss alternative arrangements.
+
+Students may not record or distribute any class activity without written permission from the instructor, except as necessary as part of approved accommodations for students with disabilities. Any approved recordings may only be used for the student’s own private use.
 
 ## Grading
 Final grades will be based on the total points earned on the assignments and exams. 
