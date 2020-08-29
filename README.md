@@ -13,7 +13,7 @@
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | [W: 2:00 PM - 3:15 PM](https://officehours.it.umich.edu/queue/421) and by appt.
 | Jie You | GSI | TBA
-| Joseph Buiteweg | GSI | TBA
+| Joseph Buiteweg | GSI | [W: 12:00 PM - 2:00 PM](https://officehours.it.umich.edu/queue/510)
 
 ### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2020/eecs489). 
