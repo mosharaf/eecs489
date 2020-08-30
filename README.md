@@ -12,7 +12,7 @@
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | [W: 2:00 PM - 3:15 PM](https://officehours.it.umich.edu/queue/421) and by appt.
-| Jie You | GSI | TBA
+| Jie You | GSI | [T: 9:30 AM - 11:30 AM](https://officehours.it.umich.edu/queue/518)
 | Joseph Buiteweg | GSI | [W: 12:00 PM - 2:00 PM](https://officehours.it.umich.edu/queue/510)
 
 ### Piazza
