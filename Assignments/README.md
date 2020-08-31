@@ -5,6 +5,13 @@
 Four assignments will be assigned during the semester. 
 Each assignment will require a substantial time commitment on your part.
 
+### Use of GitHub
+All assignments will be hosted at [GitHub](https://github.com/eecs489). 
+Please sign up for a free github account if you don't already have one, then [register your github username with us](https://forms.gle/JQb6B37oPubnSxAS6). 
+The `eecs489` organization at github will provide a private repository for each group for each assignment. 
+Commits to the repository should reflect the proportion of work performed by each group memer. 
+If you use pair programming, take turns at the keyboard so that the commit log reflects the contributions of both members.
+
 ### Group Work
 Three of the four assignments in this course will be done in groups of 2/3 students (Assignment 1 is done individually). 
 Groups may be drawn from the entire EECS 489 population; members of a group need not all be in the same lecture or discussion section. 
@@ -34,12 +41,6 @@ If there are problems with your group, please see an instructor as soon as possi
 Be open and candid with your group about potential problems early on so your group can plan around those problems and not fall behind. 
 A sure way to make your group upset at you is not finishing your work at an agreed-upon deadline and not informing them about the problems early enough for them to help. 
 We encourage everyone to read [Coping with hitchhikers and couch potatoes on teams](http://web.eecs.umich.edu/~pmchen/eecs482/hitchhikers.html).
-
-All assignments will be hosted at [github](https://github.com/eecs489). 
-Please sign up for a free github account if you don't already have one, then [register your github username with us](TBA). 
-The `eecs489` organization at github will provide a private repository for each group for each assignment. 
-Commits to the repository should reflect the proportion of work performed by each group memer. 
-If you use pair programming, take turns at the keyboard so that the commit log reflects the contributions of both members.
 
 ### Turning in Assignments
 Sometimes unexpected events make it difficult to submit a assignment on time. 
