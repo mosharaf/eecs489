@@ -4,7 +4,7 @@
  - Catalog Number: 28220
  - Lectures: Live Online, MW: 3:30 PM – 5:00 PM
  - Discussion 1: Live Online, F 9:30 AM – 10:30 AM
- - Discussion 2: Live Online, Th 5:00 PM – 6:00 PM
+ - Discussion 2: Live Online, Th 6:00 PM – 7:00 PM
  - Discussion 3: Live Online, F 12:30 PM – 1:30 PM
 
 ### Team
