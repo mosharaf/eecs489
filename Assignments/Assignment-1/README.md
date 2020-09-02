@@ -13,7 +13,7 @@
 * [Submission Instructions](#submission-instr)
 * [Autograder](#autograder)
 
-Before you start doing anything with this project, however, please [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLScOrkw2v-N6AazL8CYUFGzz1o1iSJ6YfFnAO1fVEtxSMYCPqw/viewform?usp=sf_link) if you have not done so already. This is so that we can create a private repository for you to store your code and answers for this project.
+Before you start doing anything with this project, however, please [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLSdiluFabvfbeHLnv9UDJdDS0mReuCtTlj_FaO2LPDf3RUkXpQ/viewform?usp=sf_link) if you have not done so already. This is so that we can create a private repository for you to store your code and answers for this project.
 
 ## Learning Outcomes
 
@@ -27,7 +27,7 @@ After completing this programming assignment, students should be able to:
 
 For the first part of the assignment you will write your own version of `iPerf` to measure network bandwidth. Your tool, called `iPerfer`, will send and receive TCP packets between a pair of hosts using sockets.
 
-**Note**: A good resource and a starting point to learn about socket programming is this [Sockets Tutorial](http://www.cs.rpi.edu/~moorthy/Courses/os98/Pgms/socket.html). You may also refer to [Beej's Guide to Network Programming Using Internet Sockets](http://beej.us/net2/bgnet.html). Discussion sections will also review the basics of socket programming.
+**Note**: A good resource and a starting point to learn about socket programming is this [Sockets Tutorial](http://www.cs.rpi.edu/~moorthy/Courses/os98/Pgms/socket.html). You may also refer to [Beej's Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/html/). Discussion sections will also review the basics of socket programming.
 
 When operating in client mode, `iPerfer` will send TCP packets to a specific host for a specified time window and track how much data was sent during that time frame; it will calculate and display the bandwidth based on how much data was sent in the elapsed time. When operating in server mode, `iPerfer` will receive TCP packets and track how much data was received during the lifetime of a connection; it will calculate and display the bandwidth based on how much data was received and how much time elapsed during the connection.
 
