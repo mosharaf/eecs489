@@ -48,7 +48,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
 | 08/31/20 | [Introduction and Overview](Slides/083120.pptx) | [Protocol Layering](Slides/090220.pptx) | 1.1, 1.3, 1.4, 1.5 | A1 Out
-| 09/07/20 | **No Class** | HTTP and the Web | 2.2 |
+| 09/07/20 | **No Class** | [HTTP and the Web](Slides/090920.pptx) | 2.2 |
 | 09/14/20 | DNS and CDN | Video Streaming and Cloud Systems | 2.4, 2.6
 | 09/21/20 | *Review 1* | Transport Layer | 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
 | 09/28/20 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | 
