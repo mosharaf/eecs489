@@ -134,7 +134,7 @@ To test `iPerfer`, you will learn how to use Mininet to create virtual networks 
 
 It is best advised to run Mininet in a virtual machine (VM). We will be using [VirtualBox](https://www.virtualbox.org/), which is a free and open-source hypervisor. Please download and install the latest version of VirtualBox.
 
-You will be using our VM image ([link here](https://drive.google.com/open?id=1ix33--G7CagnjbDKgRhpPdYsGwNaZvf1)) with Mininet 2.3 pre-installed. Please download and import the VM image into VirtualBox. To transfer files to/from your VM you can use the Shared Folder feature provided in VirtualBox. We will go over this in more detail in discussion.
+You will be using our VM image ([link here](https://umich.box.com/s/8n7fohnacai615mnbscoaqjtqe67tjvo)) with Mininet 2.3 pre-installed. Please download and import the VM image into VirtualBox. To transfer files to/from your VM you can use the Shared Folder feature provided in VirtualBox. We will go over this in more detail in discussion.
 
 You are welcome to try to set up your own testing environment using the methods outlined in options 2 and 3 [here](http://mininet.org/download/#option-2-native-installation-from-source), however we will only officially be supporting the provided VM above.
 
