@@ -94,6 +94,12 @@ Course lectures may be audio/video recorded and made available to other students
 
 Students may not record or distribute any class activity without written permission from the instructor, except as necessary as part of approved accommodations for students with disabilities. Any approved recordings may only be used for the student’s own private use.
 
+### Quizzes
+Each lecture has an associated quiz (available via canvas) that is made available sometime after the lecture and will be available for at least 48 hours. 
+
+Quizzes are not graded for correctness; they are for self-evaluating your understanding of the material. 
+However, completing each quiz will result in 0.1% bonus grade after the total grade has been calculated at the end of the semester (for a maximum of 2% bonus grade over 20 quizzes).
+
 ## Grading
 Final grades will be based on the total points earned on the assignments and exams. 
 Factors such as class participation may be used to adjust your final grade, especially if it falls on a borderline. 
@@ -106,4 +112,7 @@ The tentative point breakdown is:
 | Assignment 3 | 15%        
 | Assignment 4 | 15%        
 | Midterm Exam | 25%        
-| Final Exam   | 25%        
+| Final Exam   | 25%
+| **Total**    |100%
+|      
+| Quiz (Bonus) |  2%  
