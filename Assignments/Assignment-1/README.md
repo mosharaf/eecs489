@@ -203,7 +203,7 @@ Finally, create a visualization of your custom topology (using circles to denote
 
 <a name="submission-instr"></a>
 ## Submission Instructions
-Submission to the autograder will be done [here](https://eecs489.eecs.umich.edu/). It will be released about halway through the assignment.
+Submission to the autograder will be done [here](https://eecs489.eecs.umich.edu/). It will be released about halfway through the assignment.
 
 To submit:
 1. `git push` your work to the github repository we provided for the assignment.
