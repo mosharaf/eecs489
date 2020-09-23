@@ -203,7 +203,7 @@ Finally, create a visualization of your custom topology (using circles to denote
 
 <a name="submission-instr"></a>
 ## Submission Instructions
-Submission to the autograder will be done [here](https://eecs489.eecs.umich.edu/).
+Submission to the autograder will be done [here](https://eecs489.eecs.umich.edu/). It will be released about halway through the assignment.
 
 To submit:
 1. `git push` your work to the github repository we provided for the assignment.
@@ -245,6 +245,7 @@ $ tree ./p1-joebb/
     ├── throughput_L4.txt
     ├── throughput_L5.txt
     ├── throughput_Q2.txt
+    ├── throughput_h3-h8.txt
     └── throughput_h1-h10.txt
 ```
 
