@@ -110,7 +110,7 @@ The picture above shows `miProxy` connected to multiple web servers, which would
 
 You might find the `select()` [demo covered in discussion](https://github.com/mosharaf/eecs489/tree/master/Discussion/select_example) helpful. Slides describing this code located [here](https://github.com/mosharaf/eecs489/blob/f20/Discussion/Discussion3.pdf). You are also welcome to use other methods of concurrency (i.e threads), but `select()` is our preferred method for this project.
 
-*Note: A good resource for socket programming is [Beej's Guide to Network Programming Using Internet Sockets](https://www.beej.us/guide/bgnet/html/single/bgnet.html).*
+*Note: A good resource for socket programming is [Beej's Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/html/).*
 
 ### Throughput Calculation
 
