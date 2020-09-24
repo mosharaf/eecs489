@@ -69,7 +69,7 @@ After completing this programming assignment, students should be able to:
 You may install tools that suit your workflow. **But DO NOT update the software in the VM.** 
 You can find a guide on [how to troubleshoot the VM here](https://eecs388.org/vmguide.html#troubleshooting).
 
-This VM includes mininet, Apache, and all the files we will be streaming in this project. Both the username and password for this VM are `proj2`. To start the Apache server, simply run the python script we provide by doing the following:
+This VM includes mininet, Apache, and all the files we will be streaming in this project. Both the username and password for this VM are `eecs489vm`. To start the Apache server, simply run the python script we provide by doing the following:
 
 `python start_server.py <host_number>`
 
