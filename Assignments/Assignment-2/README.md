@@ -75,6 +75,11 @@ This VM includes mininet, Apache, and all the files we will be streaming in this
 
 Here `<host_number>` is a required command line argument that specifies what host you are running on Mininet. This is important as if you're running on h1 in Mininet (which is given the IP address 10.0.0.1), passing in `1` into the `<host_number>` argument will help ensure that the Apache server instance will be bound to the 10.0.0.1 IP address. The `<host_number>` argument must be between 1 and 8.
 
+The Apache servers would not automatically stop after mininet is closed. You MUST manually stop the server. To stop the Apache server, run:
+
+`sudo killall httpd`
+
+
 Like any HTTP web server (not HTTPS) these instances of Apache will be reachable on TCP port `80`. For simplicity, all of our web traffic for this assignment will be unencrypted and be done over HTTP.
 
 For this project, we will be using an off the shelf browser (in this case, Firefox). To launch Firefox for this project, run the following command:
