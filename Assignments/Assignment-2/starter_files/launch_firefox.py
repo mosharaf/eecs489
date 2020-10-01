@@ -8,4 +8,4 @@ if len(sys.argv) != 2:
 
 profileNum = sys.argv[1]
 devNull = open(os.devnull, 'w')
-subprocess.call(["firefox", "-P", "eecs489profile" + profileNum], stdout=devNull, stderr=devNull)
+subprocess.call(["sudo", "-u", "eecs489vm", "firefox", "-P", "eecs489profile" + profileNum], stdout=devNull, stderr=devNull)
