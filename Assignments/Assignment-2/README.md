@@ -225,7 +225,7 @@ You will write a simple DNS server that implements load balancing in two differe
 
 * `TTL` Set this to 0 in all responses (no caching).
 
-We are also providing encoding and decoding functions to serialize and deserialize your DNS query and records. Be sure to use the functions we provide so that your DNS server can be properly tested by autograder.
+We are also providing encoding and decoding functions to serialize and deserialize your DNS query and response. Be sure to use the functions we provide so that your DNS server can be properly tested by autograder. In our implementation of DNS, the query consists of DNS header and question, and the response consists of DNS header and record.
 
 ### Round-Robin Load Balancer
 One of the ways you will implement `nameserver` is as a simple round-robin based DNS load balancer. It should take as input a list of video server IP addresses on the command line; it responds to each request to resolve the name `video.cse.umich.edu` by returning the next IP address in the list, cycling back to the beginning when the list is exhausted.
