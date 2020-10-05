@@ -119,7 +119,7 @@ You might find the `select()` [demo covered in discussion](https://github.com/mo
 
 ### Throughput Calculation
 
-Your proxy should estimate each stream's throughput once per chunk. Note the start time of each chunk request when your proxy receives a request from the player and save another timestamp when you have finished receiving the chunk from the server. Given the size of the chunk, you can now compute the throughput by dividing chunk size by time window.
+Your proxy measure the the throughput between the server and ifself to determine the bitrate. Your proxy should estimate each stream's throughput once per chunk. Note the start time of each chunk when your proxy started receiving the chunk from the server and save another timestamp when you have finished receiving the chunk from the server. Given the size of the chunk, you can now compute the throughput by dividing chunk size by time window.
 
 Each video is a sequence of chunks. To smooth your throughput estimation, you should use an exponentially-weighted moving average (EWMA). Every time you make a new measurement (as outlined above), update your current throughput estimate as follows:
 
@@ -225,7 +225,7 @@ You will write a simple DNS server that implements load balancing in two differe
 
 * `TTL` Set this to 0 in all responses (no caching).
 
-We are also providing encoding and decoding functions to serialize and deserialize your DNS query and records. Be sure to use the functions we provide so that your DNS server can be properly tested by autograder.
+We are also providing encoding and decoding functions to serialize and deserialize your DNS query and response. Be sure to use the functions we provide so that your DNS server can be properly tested by autograder. In our implementation of DNS, the query consists of DNS header and question, and the response consists of DNS header and record.
 
 ### Round-Robin Load Balancer
 One of the ways you will implement `nameserver` is as a simple round-robin based DNS load balancer. It should take as input a list of video server IP addresses on the command line; it responds to each request to resolve the name `video.cse.umich.edu` by returning the next IP address in the list, cycling back to the beginning when the list is exhausted.
