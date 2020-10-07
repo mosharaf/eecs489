@@ -16,6 +16,8 @@
 
 Video traffic dominates the Internet. In this project, you will explore how video content distribution networks (CDNs) work. In particular, you will implement adaptive bitrate selection, DNS load balancing, and an HTTP proxy server to stream video at high bit rates from the closest server to a given client.
 
+This project is divided into Part 1 and Part 2. We recommend that you work on them simultaneously (both of them can be independently tested), and finally integrate both parts together.
+
 <img src="real-CDN.png" title="Video CDN in the wild" alt="" width="350" height="256"/>
 
 ### Video CDNs in the Real World
@@ -180,7 +182,7 @@ In this mode of operation your proxy should obtain the web server's IP address b
 *Also note: we are using our own implementation of DNS on top of TCP, not UDP, meaning `dns-port` **isn't necessarily** 53 (default DNS UDP port). See part 2 for details*.
 
 ### miProxy Logging
-`miProxy` must create a log of its activity in a very particular format. If the log specified by the user shares the same name and path, `miProxy` overwrites the log. *After each request*, it should append the following line to the log:
+`miProxy` must create a log of its activity in a very particular format. If the log specified by the user shares the same name and path, `miProxy` overwrites the log. *After each chunk-file response from the web server*, it should append the following line to the log:
 
 `<browser-ip> <chunkname> <server-ip> <duration> <tput> <avg-tput> <bitrate>`
 
@@ -199,9 +201,12 @@ To play a video through your proxy, you launch an instance of the Apache server,
 <a name="part2"></a>
 ## Part 2: DNS Load Balancing
 
-To spread the load of serving videos among a group of servers, most CDNs perform some kind of load balancing. A common technique is to configure the CDN's authoritative DNS server to resolve a single domain name to one out of a set of IP addresses belonging to replicated content servers. The DNS server can use various strategies to spread the load, e.g., round-robin, shortest geographic distance, or current server load (which requires servers to periodically report their statuses to the DNS server).
+To spread the load of serving videos among a group of servers, most CDNs perform some kind of load balancing. A common technique is to configure the CDN's authoritative DNS server to resolve a single domain name to one out of a set of IP addresses belonging to replicated content servers. The DNS server can use various strategies to spread the load, e.g., round-robin, shortest geographic distance, or current server load (which requires servers to periodically report their statuses to the DNS server). 
 
-You will write a simple DNS server that implements load balancing in two different ways: round-robin and geographic distance. In order for your proxy to be able to query your DNS server, you must also write an accompanying DNS resolution library. The two pieces should communicate using the DNS classes we provide (`DNSHeader.h`, `DNSQuestion.h`, and `DNSRecord.h`). You can read more about what each of the fields in these classes represents [here](http://www.freesoft.org/CIE/RFC/1035/39.htm). To make your life easier:
+In this part, you will write a simple DNS server that implements load balancing in two different ways: round-robin and geographic distance. 
+
+### Message Format for Our DNS Implemetation
+In order for your proxy to be able to query your DNS server, you must also write an accompanying DNS resolution library. The two pieces should communicate using the DNS classes we provide (`DNSHeader.h`, `DNSQuestion.h`, and `DNSRecord.h`). You can read more about what each of the fields in these classes represents [here](http://www.freesoft.org/CIE/RFC/1035/39.htm). To make your life easier:
 
 * `AA` Set this to 0 in requests, 1 in responses.
 
@@ -226,6 +231,18 @@ You will write a simple DNS server that implements load balancing in two differe
 * `TTL` Set this to 0 in all responses (no caching).
 
 We are also providing encoding and decoding functions to serialize and deserialize your DNS query and response. Be sure to use the functions we provide so that your DNS server can be properly tested by autograder. In our implementation of DNS, the query consists of DNS header and question, and the response consists of DNS header and record.
+
+**There are some slight nuances in the format of our DNS messages**. The main difference between what we do and what the RFC specifies is that the response should contain header + question + record, whereas our response is only header + record. Also, the size of each object (represented as a 4-byte integer) is sent before sending the contents of the object. The overall procedure is outlined below
+
+1. `miProxy` sends integer designating the size of DNS header -> `miProxy` sends DNS header via encode() -> `miProxy` sends integer designating the size of DNS Question -> `miProxy` sends DNS Question via encode()
+
+2. `nameserver` recvs() integer designating size of DNS Header -> `nameserver` recvs() DNS header via decode() -> `nameserver` recvs() integer designating size of DNS Question -> `nameserver` recvs() DNS Question via decode()
+
+3. `nameserver` sends integer designating size of DNS Header -> `nameserver` sends DNS Header via encode() -> `nameserver` sends integer designating size of DNS Record -> `nameserver` sends DNS Record via encode()
+
+4. `miProxy` recvs() integer designating size of DNS Header -> `miProxy` recvs() DNS header via decode() -> `miProxy` recvs() integer designating size of DNS Record -> `miProxy` recvs() DNS Record via decode()
+
+**Remember to use `htonl` and `ntohl` when sending/receiving integers over the network!**
 
 ### Round-Robin Load Balancer
 One of the ways you will implement `nameserver` is as a simple round-robin based DNS load balancer. It should take as input a list of video server IP addresses on the command line; it responds to each request to resolve the name `video.cse.umich.edu` by returning the next IP address in the list, cycling back to the beginning when the list is exhausted.
