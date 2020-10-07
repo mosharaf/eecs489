@@ -182,7 +182,7 @@ In this mode of operation your proxy should obtain the web server's IP address b
 *Also note: we are using our own implementation of DNS on top of TCP, not UDP, meaning `dns-port` **isn't necessarily** 53 (default DNS UDP port). See part 2 for details*.
 
 ### miProxy Logging
-`miProxy` must create a log of its activity in a very particular format. If the log specified by the user shares the same name and path, `miProxy` overwrites the log. *After each request*, it should append the following line to the log:
+`miProxy` must create a log of its activity in a very particular format. If the log specified by the user shares the same name and path, `miProxy` overwrites the log. *After each chunk-file response from the web server*, it should append the following line to the log:
 
 `<browser-ip> <chunkname> <server-ip> <duration> <tput> <avg-tput> <bitrate>`
 
