@@ -36,7 +36,7 @@ To initiate a connection, `wSender` starts with a `START` message along with a r
 
 The ACK `seqNum` values for `START` and `END` messages should both be set to whatever the `seqNum` values are that were sent by `wSender`.
 
-`wSender` will use **0** as the initial sequence number for data packets in that connection. Furthremore, it sends back cumulative `ACK` packets (described in more details below).
+`wSender` will use **0** as the initial sequence number for data packets in that connection. Furthermore, `wReceiver` sends back cumulative `ACK` packets (described in more details below).
 
 ### Packet Size
 An important limitation is the maximum size of your packets. The UDP protocol has an 8 byte header, and the IP protocol underneath it has a header of 20 bytes. Because we will be using Ethernet networks, which have a maximum frame size of 1500 bytes, this leaves 1472 bytes for your entire `packet` structure (including both the header and the chunk of data).
