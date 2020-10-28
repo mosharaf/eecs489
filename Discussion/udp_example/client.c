@@ -9,11 +9,11 @@
 #include <sys/socket.h>
 #include <netdb.h>
 
-#define SERVER "10.0.0.1"
+#define SERVER "localhost"
 #define BUFLEN 512
 #define PORT 8888
 
-void die(char *s)
+void die(const char *s)
 {
     perror(s);
     exit(1);
@@ -22,7 +22,8 @@ void die(char *s)
 int main(void)
 {
     struct sockaddr_in si_other;
-    int s, i, slen=sizeof(si_other);
+    int s; 
+    socklen_t slen = sizeof(si_other);
     char buf[BUFLEN];
     char message[BUFLEN];
     sprintf(message, "Hello World!");

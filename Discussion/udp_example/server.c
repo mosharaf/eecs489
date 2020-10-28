@@ -11,7 +11,7 @@
 #define BUFLEN 512
 #define PORT 8888
 
-void die(char *s)
+void die(const char *s)
 {
     perror(s);
     exit(1);
@@ -21,7 +21,8 @@ int main(void)
 {
     struct sockaddr_in si_me, si_other;
 
-    int s, i, slen = sizeof(si_other) , recv_len;
+    int s, recv_len;
+    socklen_t slen = sizeof(si_other);
     char buf[BUFLEN];
 
     //create a UDP socket
@@ -48,7 +49,7 @@ int main(void)
     //keep listening for data
     while(count<2)
     {
-        printf("Waiting for data...");
+        printf("Waiting for data on port %d ...", PORT);
         fflush(stdout);
 
         //try to receive some data, this is a blocking call
