@@ -168,7 +168,7 @@ To submit:
 2. Go to autograder website specified above. You can specify what branch on your repository you want us to grade.
 3. Press submit. Your results will show up on that page once grading is finished.
 
-You assigned repository must contain:
+Your assigned repository must contain:
 
 * `Makefile`(s) to compile both executables with one single `make` command
 * The source code for `wSender` and `wReceiver` from parts 1 and 2: all source files should be in a folder called `WTP-base`.
