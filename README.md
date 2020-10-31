@@ -56,7 +56,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 10/12/20 | [IP Routers](Slides/101220.pptx) | [*Review 2*](Slides/101420.pptx) | 4.2
 | 10/19/20 | **MIDTERM (90 Min) <br> 3:30PM EDT <br> and <br> 11:30PM EDT** <br> [Sign up](https://forms.gle/deP3Z6fENaLHJLrH9) | **No Class** |  | A2 Due<br>A3 Out
 | 10/26/20 | [Routing Fundamentals](Slides/102620.pptx) | [Intra-AS Routing](Slides/102820.pptx) | 5.1, 5.2, 5.3 | 
-| 11/02/20 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4
+| 11/02/20 | [IP Addressing and Inter-AS Routing](Slides/110220.pptx) | [BGP](Slides/110420.pptx) | 4.3.3, 5.4
 | 11/09/20 | Software-Defined Networking | *Review 3* | 4.4, 5.5 | A3 Due<br>A4 Out
 | 11/16/20 | Link Layer | Switched LAN | 6.1, 6.3, 6.4 | 
 | 11/23/20 | **No Class** | **No Class** | 
