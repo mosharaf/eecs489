@@ -58,7 +58,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 10/26/20 | [Routing Fundamentals](Slides/102620.pptx) | [Intra-AS Routing](Slides/102820.pptx) | 5.1, 5.2, 5.3 | 
 | 11/02/20 | [IP Addressing and Inter-AS Routing](Slides/110220.pptx) | [BGP](Slides/110420.pptx) | 4.3.3, 5.4
 | 11/09/20 | [Software-Defined Networking](Slides/110920.pptx) | [*Review 3*](Slides/111120.pptx) | 4.4, 5.5 | A3 Due<br>A4 Out
-| 11/16/20 | Link Layer | Switched LAN | 6.1, 6.3, 6.4 | 
+| 11/16/20 | [Link Layer](Slides/111620.pptx) | [Switched LAN](Slides/111820.pptx) | 6.1, 6.3, 6.4 | 
 | 11/23/20 | **No Class** | **No Class** | 
 | 11/30/20 | Datacenter Networking | Wireless Networking | 6.6, 7.1, 7.2, 7.3
 | 12/07/20 | *Review 4* | **No Class** | | A4 Due
