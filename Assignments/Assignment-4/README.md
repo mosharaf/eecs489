@@ -41,7 +41,7 @@ After completing this programming assignment, students should be able to:
 ## Getting Started
 
 ### Virtual Machine
-Your assignment will run in a local virtual machine. You can obtain the VM from [here](https://drive.google.com/file/d/1w3p6hvMEske9uO9DsM4vfcrf4CyCMGQd/view). The password is the same as the username for this VM.
+Your assignment will run in a local virtual machine. You can obtain the VM from [here](https://drive.google.com/file/d/1w3p6hvMEske9uO9DsM4vfcrf4CyCMGQd/view). The password is the same as the username for this VM. A version compatible with VMWare Fusion can be downloaded [here](https://umich.box.com/s/zinvigje3v43e4agtmbgzt7ami1cyonm)
 
 This VM is different from the ones used for the first three assignments, it contains extra configuration files necessary to complete the project.
 
