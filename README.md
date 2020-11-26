@@ -60,7 +60,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 11/09/20 | [Software-Defined Networking](Slides/110920.pptx) | [*Review 3*](Slides/111120.pptx) | 4.4, 5.5 | A3 Due<br>A4 Out
 | 11/16/20 | [Link Layer](Slides/111620.pptx) | [Switched LAN](Slides/111820.pptx) | 6.1, 6.3, 6.4 | 
 | 11/23/20 | **No Class** | **No Class** | 
-| 11/30/20 | Datacenter Networking | Wireless Networking | 6.6, 7.1, 7.2, 7.3
+| 11/30/20 | [Wireless Networking](Slides/113020.pptx) | [Datacenter Networking](Slides/120220.pptx) | 6.6, 7.1, 7.2, 7.3
 | 12/07/20 | *Review 4* | **No Class** | | A4 Due
 | 12/14/20 | **FINAL <br> Wednesday 12/16/20 <br> 8AM - 10AM** | | | 
 
