@@ -1,4 +1,4 @@
-# EECS 489: Computer Networks (F’20)
+# EECS 489: Computer Networks (F’21)
 
 ## Assignments and Policies
 
@@ -7,7 +7,7 @@ Each assignment will require a substantial time commitment on your part.
 
 ### Use of GitHub
 All assignments will be hosted at [GitHub](https://github.com/eecs489). 
-Please sign up for a free github account if you don't already have one, then [register your github username with us](https://forms.gle/JQb6B37oPubnSxAS6). 
+Please sign up for a free github account if you don't already have one, then [register your github username with us](https://forms.gle/weoA6ViCCe35ELRy5). 
 The `eecs489` organization at github will provide a private repository for each group for each assignment. 
 Commits to the repository should reflect the proportion of work performed by each group memer. 
 If you use pair programming, take turns at the keyboard so that the commit log reflects the contributions of both members.
@@ -15,7 +15,7 @@ If you use pair programming, take turns at the keyboard so that the commit log r
 ### Group Work
 Three of the four assignments in this course will be done in groups of 2/3 students (Assignment 1 is done individually). 
 Groups may be drawn from the entire EECS 489 population; members of a group need not all be in the same lecture or discussion section. 
-[Declare your group's membership](https://forms.gle/m7oCJp9AM6mREAtr6) by September 20, 2020. 
+[Declare your group's membership](https://forms.gle/JkLDWhnW65wmjDna9) by September 19, 2021. 
 After this date, we will form groups from the remaining students. 
 Choose your group members carefully. 
 You should discuss topics such as prior experience, course background, goals for this course, workload and schedule for this semester, and preferred assignment management and work style. 
@@ -40,7 +40,7 @@ Managing group dynamics and using each group member's time and talents effective
 If there are problems with your group, please see an instructor as soon as possible. 
 Be open and candid with your group about potential problems early on so your group can plan around those problems and not fall behind. 
 A sure way to make your group upset at you is not finishing your work at an agreed-upon deadline and not informing them about the problems early enough for them to help. 
-We encourage everyone to read [Coping with hitchhikers and couch potatoes on teams](http://web.eecs.umich.edu/~pmchen/eecs482/hitchhikers.html).
+We encourage everyone to read [Coping with hitchhikers and couch potatoes on teams](https://web.eecs.umich.edu/~harshavm/eecs482/hitchhikers.html).
 
 ### Turning in Assignments
 Sometimes unexpected events make it difficult to submit a assignment on time. 
