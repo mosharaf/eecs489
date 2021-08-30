@@ -3,7 +3,7 @@
 ## Administrivia
  - Catalog Number: 26207 (In-person) & 38527 (Remote)
  - Lectures: 2505 GBL (Recorded), MW: 3:00 PM – 4:30 PM
- - Discussion 1: 2150 DOW, F 9:30 AM – 10:30 AM
+ - Discussion 1: Live Online, F 9:30 AM – 10:30 AM
  - Discussion 2: 1005 DOW, Th 5:00 PM – 6:00 PM
  - Discussion 3: 1014 DOW, F 12:30 PM – 1:30 PM
 
@@ -12,8 +12,8 @@
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | [W: 2:00 PM - 2:50 PM](https://officehours.it.umich.edu/queue/421) and by appt.
-| Yinwei Dai | GSI | TBA
-| Jiaxing Yang | GSI | TBA
+| Yinwei Dai | GSI | [F: 1:00 PM - 3:00 PM](https://officehours.it.umich.edu/queue/907)
+| Jiaxing Yang | GSI | [T: 10:00 AM - 12:00 PM](https://officehours.it.umich.edu/queue/907)
 
 ### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2021/eecs489). 
