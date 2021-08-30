@@ -47,22 +47,22 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
-| 08/30/20 | [Introduction and Overview](Slides/083021.pptx) | **No Class** | 1.1, 1.3, 1.4 | A1 Out
-| 09/06/20 | **No Class** | Protocol Layering | 1.5
-| 09/13/20 | HTTP and the Web | DNS and CDN | 2.2, 2.4
-| 09/20/20 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
-| 09/27/20 | TCP Basics | Flow and Congestion Control | 3.5, 3.6
-| 10/04/20 | More Congestion Control | Network Layer and IP | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
-| 10/11/20 | IP Routers | *Midterm Review* | 4.2
-| 10/18/20 | **No Class** | **MIDTERM (90 Min; Online) <br> TBD <br>** |  | A2 Due<br>A3 Out
-| 10/25/20 | Routing Fundamentals | Intra-AS Routing | 5.1, 5.2, 5.3
-| 11/01/20 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4
-| 11/08/20 | Software-Defined Networking | **No Class** | 4.4, 5.5 | A3 Due<br>A4 Out
-| 11/15/20 | Link Layer | Switched LAN | 6.1, 6.3, 6.4
-| 11/22/20 | **No Class** | **No Class**
-| 11/29/20 | Wireless Networking | Datacenter Networking | 6.6, 7.1, 7.2, 7.3
-| 12/06/20 | *Final Review* | **No Class** | | A4 Due
-| 12/20/20 | **FINAL (90 Min; Online) <br> 8AM**
+| 08/30/21 | [Introduction and Overview](Slides/083021.pptx) | **No Class** | 1.1, 1.3, 1.4 | A1 Out
+| 09/06/21 | **No Class** | Protocol Layering | 1.5
+| 09/13/21 | HTTP and the Web | DNS and CDN | 2.2, 2.4
+| 09/20/21 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
+| 09/27/21 | TCP Basics | Flow and Congestion Control | 3.5, 3.6
+| 10/04/21 | More Congestion Control | Network Layer and IP | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
+| 10/11/21 | IP Routers | *Midterm Review* | 4.2
+| 10/18/21 | **No Class** | **MIDTERM (90 Min; Online) <br> TBD <br>** |  | A2 Due<br>A3 Out
+| 10/25/21 | Routing Fundamentals | Intra-AS Routing | 5.1, 5.2, 5.3
+| 11/01/21 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4
+| 11/08/21 | Software-Defined Networking | **No Class** | 4.4, 5.5 | A3 Due<br>A4 Out
+| 11/15/21 | Link Layer | Switched LAN | 6.1, 6.3, 6.4
+| 11/22/21 | **No Class** | **No Class**
+| 11/29/21 | Wireless Networking | Datacenter Networking | 6.6, 7.1, 7.2, 7.3
+| 12/06/21 | *Final Review* | **No Class** | | A4 Due
+| 12/20/21 | **FINAL (90 Min; Online) <br> 8AM**
 
 ## Policies
 
