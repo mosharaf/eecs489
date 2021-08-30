@@ -12,7 +12,7 @@
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | [W: 2:00 PM - 2:50 PM](https://officehours.it.umich.edu/queue/421) and by appt.
-| Yinwei Dai | GSI | TBA
+| Yinwei Dai | GSI | [F: 1:00 PM - 3:00 PM](https://officehours.it.umich.edu/queue/907)
 | Jiaxing Yang | GSI | TBA
 
 ### Piazza
