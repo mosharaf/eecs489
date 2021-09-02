@@ -87,6 +87,7 @@ void EchoServer::Start() {
         break;
       } else if (num_recvd == -1) {
         perror("bad recv");
+        break;
       }
       cout << "[MSG_SIZE=" << num_recvd <<"BYTES]" << buffer << endl;
     }
