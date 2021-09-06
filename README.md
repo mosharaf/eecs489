@@ -13,7 +13,7 @@
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | [W: 2:00 PM - 2:50 PM](https://officehours.it.umich.edu/queue/421) and by appt.
 | Yinwei Dai | GSI | [F: 10:00 AM - 12:00 PM](https://officehours.it.umich.edu/queue/907)
-| Jiaxing Yang | GSI | [T: 10:00 AM - 12:00 PM](https://officehours.it.umich.edu/queue/907)
+| Jiaxing Yang | GSI | [T: 10:00 AM - 12:00 PM](https://officehours.it.umich.edu/queue/910)
 
 ### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/fall2021/eecs489). 
