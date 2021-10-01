@@ -52,7 +52,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 09/13/21 | [HTTP and the Web](Slides/091321.pptx) | [DNS and CDN](Slides/091521.pptx) | 2.2, 2.4
 | 09/20/21 | [Video Streaming and Cloud Systems](Slides/092021.pptx) | [Transport Layer](Slides/092221.pptx) | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
 | 09/27/21 | [TCP Basics](Slides/092721.pptx) | [Flow and Congestion Control](Slides/092921.pptx) | 3.5, 3.6
-| 10/04/21 | More Congestion Control | Network Layer and IP | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
+| 10/04/21 | [More Congestion Control](Slides/100421.pptx) | [Network Layer and IP](Slides/100621.pptx) | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
 | 10/11/21 | IP Routers | *Midterm Review* | 4.2
 | 10/18/21 | **No Class** | **MIDTERM (90 Min; Online) <br> 3 PM EDT <br> and <br> 11 PM EDT** |  | A2 Due<br>A3 Out
 | 10/25/21 | Routing Fundamentals | Intra-AS Routing | 5.1, 5.2, 5.3
