@@ -1,6 +1,6 @@
 # Assignment 2: Video Streaming via CDN
 
-### Due: October 22nd, 2021 at 11:59 PM
+### Due: October 24th, 2021 at 11:59 PM
 
 ## Table of contents
 * [Overview](#overview)
