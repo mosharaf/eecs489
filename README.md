@@ -55,8 +55,8 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 10/04/21 | [More Congestion Control](Slides/100421.pptx) | [Network Layer and IP](Slides/100621.pptx) | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
 | 10/11/21 | [IP Routers](Slides/101121.pptx) | [*Midterm Review*](Slides/101321.pptx) | 4.2
 | 10/18/21 | **No Class** | **MIDTERM (90 Min; Online) <br> 3 PM EDT <br> and <br> 11 PM EDT** |  | A2 Due<br>A3 Out
-| 10/25/21 | Routing Fundamentals | Intra-AS Routing | 5.1, 5.2, 5.3
-| 11/01/21 | **No Class** | **No Class** | 
+| 10/25/21 | **No Class** | **No Class** | 
+| 11/01/21 | Routing Fundamentals | Intra-AS Routing | 5.1, 5.2, 5.3
 | 11/08/21 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4 | A3 Due<br>A4 Out
 | 11/15/21 | Software-Defined Networking | Link Layer | 4.4, 5.5, 6.1, 6.3
 | 11/22/21 | Switched LAN | **No Class** | 6.4
