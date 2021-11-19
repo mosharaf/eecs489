@@ -41,7 +41,7 @@ After completing this programming assignment, students should be able to:
 ## Getting Started
 
 ### Virtual Machine
-Your assignment will run in a virtual machine. The password is the same as the username for this VM. A version compatible with VMWare can be downloaded [here](https://umich.box.com/s/zinvigje3v43e4agtmbgzt7ami1cyonm)
+Your assignment will run in a virtual machine. The password is the same as the username for this VM. A version compatible with VMWare can be downloaded [here](https://www.dropbox.com/s/xe5381oxqh3u29v/eecs489p4-vmware.ova?dl=0).
 
 This VM is different from the ones used for the first three assignments, it contains extra configuration files necessary to complete the project.
 
