@@ -62,7 +62,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 11/22/21 | [Switched LAN](Slides/112221.pptx) | **No Class** | 6.4
 | 11/29/21 | [Wireless Networking](Slides/112921.pptx) | [Datacenter Networking](Slides/120121.pptx) | 6.6, 7.1, 7.2, 7.3
 | 12/06/21 | *Final Review* | **No Class** | | A4 Due
-| 12/20/21 | **FINAL (90 Min; Online) <br> 8AM**
+| 12/20/21 | **FINAL (90 Min; Online) <br> 8 AM EDT <br> and <br> 8 PM EDT**
 
 ## Policies
 
