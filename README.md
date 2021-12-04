@@ -61,7 +61,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 11/15/21 | [Software-Defined Networking](Slides/111521.pptx) | [Link Layer](Slides/111721.pptx) | 4.4, 5.5, 6.1, 6.3 | A3 Due<br>A4 Out
 | 11/22/21 | [Switched LAN](Slides/112221.pptx) | **No Class** | 6.4
 | 11/29/21 | [Wireless Networking](Slides/112921.pptx) | [Datacenter Networking](Slides/120121.pptx) | 6.6, 7.1, 7.2, 7.3
-| 12/06/21 | *Final Review* | **No Class** | | A4 Due
+| 12/06/21 | [*Final Review*](Slides/120621.pptx) | **No Class** | | A4 Due
 | 12/20/21 | **FINAL (90 Min; Online) <br> 8 AM EDT <br> and <br> 8 PM EDT**
 
 ## Policies
