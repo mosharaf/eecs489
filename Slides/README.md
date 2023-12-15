@@ -1,4 +1,4 @@
-# EECS 489: Computer Networks (F’21)
+# EECS 489: Computer Networks (W’24)
 
 ## Slides
 Powerpoint slides are **kept up-to-date** with any retrospective fixes. 
