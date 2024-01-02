@@ -11,7 +11,7 @@
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | TBA
+| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, M 2:00 PM - 3:00 PM
 | Zachary Goldston | GSI | TBA
 | Yong Seung Lee   | GSI | TBA
 | Alex Zhang       | IA  | TBA
