@@ -14,7 +14,7 @@
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, M 2:00 PM - 3:00 PM
 | Zachary Goldston | GSI | TBA
 | Yong Seung Lee   | GSI | TBA
-| Alex Zhang       | IA  | TBA
+| Alex Zhang       | IA  | BBB Atrium, T Th 2:00 PM - 3:00 PM
 
 ### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/winter2024/eecs489). 
