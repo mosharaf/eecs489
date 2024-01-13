@@ -13,7 +13,7 @@
 * [Submission Instructions](#submission-instr)
 * [Autograder](#autograder)
 
-Before you start doing anything with this project, however, please [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLSfj66MuRu4Vqsrmax8Hytzb__zkK2Ei3tUzkD3VZSqg7iJMmQ/viewform?usp=sf_link) if you have not done so yet. This is so that we can create a private repository for you to store your code and answers for this project.
+Before you start doing anything with this project, however, please [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLSfj66MuRu4Vqsrmax8Hytzb__zkK2Ei3tUzkD3VZSqg7iJMmQ/viewform?usp=sf_link) before 6:00 PM on Thursday, Jan. 18th. This is so that we can create a private repository for you to store your code and answers for this project.
 
 ## Learning Outcomes
 
@@ -34,6 +34,19 @@ It is best advised to run Mininet in a virtual machine (VM) or on your own Linux
 You will be using our VM image ([link here](https://drive.google.com/file/d/1G_VOCKQlMsEfzo0xkAtwNJtWNEKA3Wfr/view?usp=sharing)) with Mininet 2.3 pre-installed. Please download and import the VM image into VirtualBox. To transfer files to/from your VM you can use the Shared Folder feature provided in VirtualBox. We will go over this in more detail in discussion.
 
 You are welcome to try to set up your own testing environment using the methods outlined in options 2 and 3 [here](http://mininet.org/download/#option-2-native-installation-from-source), however we will only officially be supporting the provided VM above.
+
+
+> ***Hints:*** Here is a [video tutorial](https://youtube.com/watch?v=apx88YDqgO4&si=fqbbjTgg2jv6jP24) on how to install UTM and import image for Mac M1/M2 chip.
+
+
+> Here are some possible trouble shooting methods for using shared folder. 
+> 1.  Click on the “Device” tab, then select “Insert Guest Additions CD image”
+>     Also in the “Device” tab, add the target host folder to “Shared folders”.
+>     Restart the VM.
+>     After that you may observe an external disk mounted on the guest os (named sf_{your shared folder name} in my case). 
+> 2. https://askubuntu.com/questions/1181438/virtualbox-6-0-14-shared-folder-doesnt-appear-in-media
+> 3. https://gist.github.com/estorgio/1d679f962e8209f8a9232f7593683265
+> 4. https://www.youtube.com/watch?v=N4C5CeYfntE.
 
 ### Mininet Walkthrough
 
@@ -56,8 +69,6 @@ In this portion of the assignment, you will write your own version of `iPerf` to
 > **NOTE:** You may refer to [Beej's Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/html/) for socket programming. Discussion sections will also review the some of the basics.
 
 When operating in client mode, `iPerfer` will send TCP packets to a specific host for a specified time window and track how much data was sent during that time frame; it will calculate and display the bandwidth based on how much data was sent in the elapsed time. When operating in server mode, `iPerfer` will receive TCP packets and track how much data was received during the lifetime of a connection; it will calculate and display the bandwidth based on how much data was received and how much time elapsed during the connection.
-
-> **NOTE:** When measuring time, we highly recommend using `std::chrono::high_resolution_clock` for checking and computing passed time. From here, you can cast the time into milliseconds for more accurate time keeping.
 
 ### Server Mode
 
@@ -141,7 +152,7 @@ For example:
 
 You should assume 1 kilobyte (KB) = 1000 bytes (B) and 1 megabyte (MB) = 1000 KB. As always, 1 byte (B) = 8 bits (b).
 
-> **NOTE:** When calculating the rate, **do not** use the `time` argument, rather measure the time elapsed from when the client first starts sending data to when it receives its acknowledgement message. Additionally, note that the throughput is in Kilobytes (KB) whereas the rate is in Megabits per second. (Mbps) Make sure your units are accurate to avoid losing points on the autograder.
+> **NOTE:** When calculating the rate, **do not** use the `time` argument, rather measure the time elapsed from when the client first starts sending data to when it receives its acknowledgement message.
 
 ### Testing
 
@@ -160,7 +171,7 @@ For the third part of the assignment you will use the tool you wrote (`iPerfer`)
 
 Read the `ping` man page to learn how to use it.
 
-A python script to run Mininet with the topology described below is provided [here](https://github.com/mosharaf/eecs489/tree/f21/Assignments/Assignment-1/starter_code) along with other files that you will find useful in completing this assignment.
+A python script to run Mininet with the topology described below is provided [here](https://github.com/eecs489staff/a1-sockets-mininet/tree/main/starter_code) along with other files that you will find useful in completing this assignment.
 
 To run Mininet with the provided topology, run the Python script `assignment1_topology.py` using sudo:
 
@@ -197,8 +208,6 @@ Do not worry too much about starting the clients at the exact same time. So long
 Lastly, assume `h1` wants to communicate with `h10` at the same time `h3` wants to communicate with `h8`. What is the expected latency and throughput for each pair? Put your prediction in your `answers.txt` file under question 4.
 
 Use `ping` and `iPerfer` to conduct measurements, storing the output in files called `latency_h1-h10.txt`, `latency_h3-h8.txt`, `throughput_h1-h10.txt`, and `throughput_h3-h8.txt`. Put the average RTT and measured throughput in your `answers.txt` file and explain the results. If your prediction was wrong, explain why.
-
-> **NOTE:** For the latency portions of `answers.txt`, make sure you are calculating the RTT for them. (The tools should report the RTT, as well)
 
 <a name="part4"></a>
 ## Part 4: Create a Custom Topology
