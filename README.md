@@ -12,7 +12,7 @@
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, M 2:00 PM - 3:00 PM
-| Zachary Goldston | GSI | TBA
+| Zachary Goldston | GSI | BBB Atrium, M W 10:00 AM - 11:30 AM
 | Yong Seung Lee   | GSI | BBB Atrium, M W 11:45 AM - 1:15 PM
 | Alex Zhang       | IA  | BBB Atrium, T Th 2:00 PM - 3:00 PM
 
