@@ -50,7 +50,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
 | 01/08/24 | **No Class** | [Introduction and Overview](Slides/011024.pdf) | 1.1, 1.3, 1.4 | A1 Out
-| 01/15/24 | **No Class** | Protocol Layering | 1.5
+| 01/15/24 | **No Class** | [Protocol Layering](Slides/011724.pdf) | 1.5
 | 01/22/24 | HTTP and the Web | DNS and CDN | 2.2, 2.4
 | 01/29/24 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
 | 02/05/24 | TCP Basics | Flow and Congestion Control | 3.5, 3.6
