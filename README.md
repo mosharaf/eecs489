@@ -18,6 +18,10 @@
 
 Office Hour link: https://eecsoh.eecs.umich.edu/ 
 
+OS Reference:
+- Linux, Windows/WSL: Zach, Alex
+- M2 Mac: Yong
+
 ### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/winter2024/eecs489). 
 This includes questions, discussions, announcements, as well as private messages.
