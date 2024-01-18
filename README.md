@@ -6,6 +6,7 @@
  - Discussion 1: 3150 DOW, F 9:30 AM – 10:30 AM
  - Discussion 2: 2147 GGBL, Th 4:30 PM – 5:30 PM
  - Discussion 3: 1311 EECS, F 12:30 PM – 1:30 PM
+ - [Recordings](https://leccap.engin.umich.edu/leccap/site/t19zbvxfs68ocd60lc4)
 
 ### Team
 
