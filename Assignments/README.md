@@ -15,7 +15,7 @@ If you use pair programming, take turns at the keyboard so that the commit log r
 ### Group Work
 Three of the four assignments in this course will be done in groups of 2/3 students (Assignment 1 is done individually). 
 Groups may be drawn from the entire EECS 489 population; members of a group need not all be in the same lecture or discussion section. 
-[Declare your group's membership](TBA) by January 22, 2024. 
+[Declare your group's membership](https://docs.google.com/forms/d/e/1FAIpQLSfnVI9BlnTZL07BtIb4BGhQm5V4rvQbgXAsGgsYH2TfJroHNg/viewform?usp=sf_link) by January 27, 2024. 
 After this date, we will form groups from the remaining students. 
 
 Choose your group members carefully. 
