@@ -7,7 +7,7 @@ Each assignment will require a substantial time commitment on your part.
 
 ### Use of GitHub
 All assignments will be hosted at [GitHub](https://github.com/eecs489). 
-Please sign up for a free github account if you don't already have one, then [register your github username with us](TBA). 
+Please sign up for a free github account if you don't already have one, then [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLSfj66MuRu4Vqsrmax8Hytzb__zkK2Ei3tUzkD3VZSqg7iJMmQ/viewform?usp=sf_link). 
 The `eecs489` organization at github will provide a private repository for each group for each assignment. 
 Commits to the repository should reflect the proportion of work performed by each group memer. 
 If you use pair programming, take turns at the keyboard so that the commit log reflects the contributions of both members.
