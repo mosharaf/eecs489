@@ -14,7 +14,7 @@
 | :---------------- | :--- | :----------- |
 | [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, M 2:00 PM - 3:00 PM
 | Zachary Goldston | GSI | BBB Atrium, T TH 10:30 AM - 12:00 PM
-| Yong Seung Lee   | GSI | BBB Atrium, M W 11:45 AM - 1:15 PM
+| Yong Seung Lee   | GSI | BBB Atrium, M W 12:00 PM - 1:30 PM
 | Alex Zhang       | IA  | BBB Atrium, T Th 2:00 PM - 3:00 PM
 
 Office Hour link: https://eecsoh.eecs.umich.edu/ 
