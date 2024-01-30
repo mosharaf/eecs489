@@ -72,6 +72,55 @@ You will use [our provided VM](https://drive.google.com/file/d/1n67hWzSzCHomQMFw
 
 **We encourage you to use VMware instead of Virtual Box for this and ALL following projects, which is more compatible with different OS and is free with personal license.** For Windows and Linux users, we recommend [VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html). For Mac users, we recommend [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal).
 
+**The firefox browser uses flash to play the video. However, flash has been disabled after 2020. So, you will need to change the system’s date to the past to enable flash.** When you want to test your miProxy with browser and actually see the video, you should do the following on the guest os:
+```
+# finishing compiling your software
+
+# turn off the auto time sync
+sudo timedatectl set-ntp false
+
+# change the system time to when flash is usable
+sudo date -s "01/01/2020"
+
+# testing ...
+
+# change the system time to now
+sudo date -s "the current time"
+
+# turn on the auto time sync
+sudo timedatectl set-net true`
+```
+
+**You can follow these steps to create a shared folder.**
+
+1. Go to “Virtual Machine Settings” and enable the shared folder feature.
+2. Add a shared folder.
+3. The shared folder should appear under /mnt/hgfs Note: if you cannot find the shared folder in the guest os, run the following command in the terminal of the guest:
+```
+# list the shared folders
+vmware-hgfsclient
+# mount all shared folders under /mnt/hgfs
+sudo vmhgfs-fuse .host:/ /mnt/hgfs -o subtype=vmhgfs-fuse,allow_other
+```
+
+**You can follow these steps to setup the internet.**
+
+Make sure your network adapter is in “NAT: Used to share the host’s IP address”.\
+In the terminal of the guest, run:
+```
+ip link
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: ens33: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 00:0c:29:a5:cd:b6 brd ff:ff:ff:ff:ff:ff
+
+# Your interface might not be ens33, you should use the name given above
+
+sudo ip link set ens33 up
+
+sudo dhclient ens33 -v
+```
+
 You may install tools that suit your workflow. However, **DO NOT update the software in the VM.** 
 You can find a guide on [how to troubleshoot the VM here](https://eecs388.org/vmguide.html#troubleshooting).
 
