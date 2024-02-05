@@ -88,7 +88,7 @@ sudo date -s "01/01/2020"
 sudo date -s "the current time"
 
 # turn on the auto time sync
-sudo timedatectl set-net true`
+sudo timedatectl set-ntp true
 ```
 
 **You can follow these steps to create a shared folder.**
