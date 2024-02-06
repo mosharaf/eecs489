@@ -28,7 +28,7 @@ The figure above depicts a high level view of what this system looks like in the
 Once the client has the IP address for one of the content servers, it begins requesting chunks of the video the user requested. The video is encoded at multiple bitrates. As the client player receives video data, it calculates the throughput of the transfer and it requests the highest bitrate the connection can support.
 
 ### Video CDN in this Assignment
-Implementing an entire CDN is difficult; instead, you'll focus on a simplified version. First, your entire system will run on one host and rely on mininet to run several processes with arbitrary IP addresses on one machine. Mininet will also allow you to assign arbitrary link characteristics (bandwidth and latency) to each pair of “end hosts” (processes).
+Implementing an entire CDN is difficult. Instead, you'll focus on a simplified version. First, your entire system will run on one host and rely on mininet to run several processes with arbitrary IP addresses on one machine. Mininet will also allow you to assign arbitrary link characteristics (bandwidth and latency) to each pair of “end hosts” (processes).
 
 <img src="our-CDN.png" title="Video CDN in assignment 2" alt="" width="330" height="111"/>
 
@@ -57,11 +57,11 @@ After completing this programming assignment, students should be able to:
 <a name="clarifications"></a>
 ## Clarifications
 
-* For the proxy you implement in part 1, you will need to parse some HTTP traffic. To make your life easier for this project, you **do not** need to be concerned about parsing all the information in these HTTP messages. There are only two things that you need to care about searching for: `\r\n\r\n` and `Content-Length`. The former is used to denote the end of an HTTP header, and the latter is used to signify the size of the HTTP body in bytes.
+* For the proxy you implement in Part 1, you will need to parse some HTTP traffic. To make your life easier for this project, you **do not** need to be concerned about parsing all the information in these HTTP messages. There are only two things that you need to care about searching for: `\r\n\r\n` and `Content-Length`. The former is used to denote the end of an HTTP header, and the latter is used to signify the size of the HTTP body in bytes.
 
-* The proxy should be able to support multiple browsers playing videos simultaneously. This means you should test with multiple browsers all connecting to the same proxy. In addition you should also test with multiple proxies each serve some number of browser(s), in order to make sure that each proxy instance does not interfere with others. 
+* The proxy should be able to support multiple browsers playing videos simultaneously. This means you should test with multiple browsers all connecting to the same proxy. In addition you should also test with multiple proxies, each serving some number of browser(s). This is to ensure each proxy instance does not interfere with others. 
 
-* While testing the proxy you implement in part 1, you may notice that one browser may sometimes open multiple connections to your proxy server. Your proxy should still continue to function as expected in this case. In order to account for these multiple connections, you may use the browser IP address to uniquely identify each connection. This implies that while testing your proxy server, each browser will have a unique IP address. (For example, only one browser will have an IP address of 10.0.0.2)
+* While testing the proxy you implement in Part 1, you may notice that one browser may sometimes open multiple connections to your proxy server. Your proxy should still continue to function as expected in this case. In order to account for these multiple connections, you may use the browser IP address to uniquely identify each connection. This implies that while testing your proxy server, each browser will have a unique IP address. (For example, only one browser will have an IP address of 10.0.0.2)
 
 * Throughput should be measured on each fragment. For example, throughput should be calculated separately for both Seg1-Frag1 and Seg1-Frag2.
 
@@ -72,7 +72,7 @@ You will use [our provided VM](https://drive.google.com/file/d/1n67hWzSzCHomQMFw
 
 **We encourage you to use VMware instead of Virtual Box for this and ALL following projects, which is more compatible with different OS and is free with personal license.** For Windows and Linux users, we recommend [VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html). For Mac users(Not M1/M2 chip), we recommend [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal). For M1/M2 users, we recommend using UTM from A1. 
 
-**The firefox browser uses flash to play the video. However, flash has been disabled after 2020. So, you will need to change the system’s date to the past to enable flash.** When you want to test your miProxy with browser and actually see the video, you should do the following on the guest os:
+**The Firefox browser uses Adobe Flash to play the video. However, Flash has been disabled after 2020. So, you will need to change the system’s date to the past to enable Flash.** When you want to test your miProxy with browser and actually see the video, you should do the following on the guest OS:
 ```
 # finishing compiling your software
 
@@ -136,15 +136,15 @@ The Apache servers would not automatically stop after mininet is closed. You MUS
 
 Like any HTTP web server (not HTTPS) these instances of Apache will be reachable on TCP port `80`. For simplicity, all of our web traffic for this assignment will be unencrypted and be done over HTTP.
 
-For this project, we will be using an off the shelf browser (in this case, Firefox). To launch Firefox for this project, run the following command:
+For this project, we will be using an off-the-shelf browser (in this case, Firefox). To launch Firefox for this project, run the following command:
 
 `python launch_firefox.py <profile_num>`
 
 Here `<profile_num>` is a required command line argument that specifies the instance of Firefox you are launching. We support launching profiles 1-8, however, should you feel the need to test more thoroughly, you can launch it with a different number and simply create a new profile as needed. To ensure a separate connection for each instance of Firefox, we recommend that you launch Firefox with a different profile number (otherwise you might notice that different Firefox instances will sometimes share a connection with your proxy server).
 
-Also make sure you don't modify the Firefox profiles we set up as well as the configuration files inside the current Firefox build directory.
+Make sure you don't modify the Firefox profiles we set up, as well as the configuration files inside the current Firefox build directory.
 
-To summarize: You will launch the web server, the Firefox browser, the proxy server, and the DNS server all inside Mininet. You should test your code inside Mininet from day 1.
+To summarize: You will launch the web server, the Firefox browser, the proxy server, and the DNS server all **inside Mininet**. You should test your code inside Mininet from day 1.
 
 We're leaving it up to you to write your own Mininet topology script for testing the package as a whole. A simple Starfish topology (all hosts connected to one switch in the middle) should suffice for testing. 
 
@@ -153,11 +153,11 @@ We're leaving it up to you to write your own Mininet topology script for testing
 <a name="part1"></a>
 ## Part 1: Bitrate Adaptation in HTTP Proxy
 
-Many video players monitor how quickly they receive data from the server and use this throughput value to request better or lower quality encodings of the video, aiming to stream the highest quality encoding that the connection can handle. Instead of modifying an existing video client to perform bitrate adaptation, you will implement this functionality in an HTTP proxy through which your browser will direct requests.
+Many video players monitor how quickly they receive data from the server and use this throughput value to request better or lower quality encodings of the video. Video players aim to stream the highest quality encoding that the connection can handle. Instead of modifying an existing video client to perform bitrate adaptation, you will implement this functionality in an HTTP proxy through which your browser will direct requests.
 
 You are to implement a simple HTTP proxy, `miProxy`. It accepts connections from web browsers, modifies video chunk requests as described below, resolves the web server's DNS name, opens a connection with the resulting IP address, and forwards the modified request to the server. Any data (the video chunks) returned by the server should be forwarded, *unmodified*, to the browser.
 
-`miProxy` should listen for browser connections on `INADDR_ANY` on the port specified on the command line. It should then connect to a web server either specified on the command line or issue a DNS query to find out the IP address of the server to contact (this is covered in part 2).
+`miProxy` should listen for browser connections on `INADDR_ANY` on the port specified on the command line. It should then connect to a web server either specified on the command line or issue a DNS query to find out the IP address of the server to contact (this is covered in Part 2).
 
 <img src="proxy-overview.png" title="Video CDN in the wild" alt="" width="534" height="171"/>
 
@@ -165,7 +165,7 @@ You are to implement a simple HTTP proxy, `miProxy`. It accepts connections from
 
 `miProxy` should accept multiple concurrent connections from clients (Firefox web browsers) using `select()` and be able to handle the required HTTP 1.1 requests for this assignment (e.g., HTTP `GET`).
 
-The picture above shows `miProxy` connected to multiple web servers, which would be the case if `miProxy` issued a DNS request for each new client connection received (e.g each new connection from an instance of Firefox). This is one approach for utilizing the DNS `nameserver` you will write in part 2. Another approach would be to issue a DNS request **once** when `miProxy` starts up, and direct all client requests to one web server for the entire runtime of `miProxy`. Either approach is acceptable for grading purposes, but the former is preferred because it provides more efficient load balancing, and it is closer to the behavior of an actual load balancing proxy.
+The picture above shows `miProxy` connected to multiple web servers, which would be the case if `miProxy` issued a DNS request for each new client connection received (e.g each new connection from an instance of Firefox). This is one approach for utilizing the DNS `nameserver` you will write in Part 2. Another approach would be to issue a DNS request **once** when `miProxy` starts up, and direct all client requests to one web server for the entire runtime of `miProxy`. Either approach is acceptable for grading purposes, but the former is preferred because it provides more efficient load balancing, and it is closer to the behavior of an actual load balancing proxy.
 
 We will cover the basic usage of `select()` in the discussion.
 
@@ -206,7 +206,7 @@ To operate `miProxy`, it should be invoked in one of two ways
 
 **Method 1** - No DNS `nameserver` functionality, hard coded web server IP:
 
-This mode of operation will be for testing your proxy without a working DNS server from part 2.
+This mode of operation will be for testing your proxy without a working DNS server from Part 2.
 
 `./miProxy --nodns <listen-port> <www-ip> <alpha> <log>`
 
@@ -321,7 +321,7 @@ NUM_LINKS: <number of links in the network>
 (repeats NUM_LINKS - 1 times)
 ```
 
-<img src="link-cost.PNG" title="Video CDN in the wild" alt="" width="400" height="155"/>
+<img src="link-cost.png" title="Video CDN in the wild" alt="" width="400" height="155"/>
 
 As an example, the network shown above will have the following text file, `sample_geography.txt`:
 ```
