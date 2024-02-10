@@ -61,7 +61,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 01/22/24 | [HTTP and the Web](Slides/012224.pdf) | [DNS and CDN](Slides/012424.pdf) | 2.2, 2.4
 | 01/29/24 | [Video Streaming and Cloud Systems](Slides/012924.pdf) | [Transport Layer](Slides/013124.pdf) | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
 | 02/05/24 | [TCP Basics](Slides/020524.pdf) | [Flow and Congestion Control](Slides/020724.pdf) | 3.5, 3.6
-| 02/12/24 | More Congestion Control | Network Layer and IP | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
+| 02/12/24 | [More Congestion Control](Slides/021224.pdf) | [Network Layer and IP](Slides/021424.pdf) | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
 | 02/19/24 | IP Routers | **No Class** | 4.2 | A2 Due
 | 02/26/24 | **No Class** | **No Class**
 | 03/04/24 | *Midterm Review* | **MIDTERM (90 Min; Online) <br> Regular time/location** | | A3 Out
