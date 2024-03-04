@@ -1,6 +1,6 @@
 # Assignment 3: Reliable Transport
 
-### Due: March 29, 2024 at 11:59 PM EDT
+### Due: March 27, 2024 at 11:59 PM EDT
 
 ## Table of contents
 * [Overview](#overview)
