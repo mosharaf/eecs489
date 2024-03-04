@@ -1,6 +1,6 @@
 # Assignment 2: Video Streaming via CDN
 
-### Due: February 23rd, 2024 at 11:59 PM EST
+### Due: February 23, 2024 at 11:59 PM EST
 
 ## Table of contents
 * [Overview](#overview)

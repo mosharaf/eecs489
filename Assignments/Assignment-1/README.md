@@ -1,6 +1,6 @@
 # Assignment 1: Sockets, Mininet, & Performance
 
-### Due: Jan 29, 2024, 11:59 PM EST
+### Due: January 29, 2024 at 11:59 PM EST
 
 ## Overview
 
