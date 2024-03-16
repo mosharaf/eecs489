@@ -66,7 +66,7 @@ If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4
 | 02/26/24 | **No Class** | **No Class**
 | 03/04/24 | [*Midterm Review*](Slides/030424.pdf) | **MIDTERM (90 Min; Online) <br> Regular time/location** | | A3 Out
 | 03/11/24 | [Routing Fundamentals](Slides/031124.pdf) | [Intra-AS Routing](Slides/031324.pdf) | 5.1, 5.2, 5.3
-| 03/18/24 | IP Addressing and Inter-AS Routing | BGP | 4.3.3, 5.4
+| 03/18/24 | [IP Addressing and Inter-AS Routing](Slides/031824.pdf) | [BGP](Slides/032024.pdf) | 4.3.3, 5.4
 | 03/25/24 | Software-Defined Networking | Link Layer | 4.4, 5.5, 6.1, 6.3 | A3 Due<br>A4 Out
 | 04/01/24 | Switched LAN | Wireless Networking | 6.4, 7.1, 7.2, 7.3
 | 04/08/24 | Datacenter Networking | **No Class** |  6.6
