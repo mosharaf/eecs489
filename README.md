@@ -1,31 +1,28 @@
-# EECS 489: Computer Networks (W’24)
+# EECS 489: Computer Networks (W’25)
 
 ## Administrivia
- - Catalog Number: 30517
+ - Catalog Number: 28919
  - Lectures: 1013 DOW (Recorded), MW: 10:30 AM – 12:00 PM
  - Discussion 1: 3150 DOW, F 9:30 AM – 10:30 AM
  - Discussion 2: 2147 GGBL, Th 4:30 PM – 5:30 PM
  - Discussion 3: 1311 EECS, F 12:30 PM – 1:30 PM
- - [Recordings](https://leccap.engin.umich.edu/leccap/site/t19zbvxfs68ocd60lc4)
+ - [Recordings](TBA)
 
 ### Team
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, M 2:00 PM - 3:00 PM
-| Zachary Goldston | GSI | BBB Atrium, T TH 10:30 AM - 12:00 PM
-| Yong Seung Lee   | GSI | BBB Atrium, M W 12:00 PM - 1:30 PM
-| Alex Zhang       | IA  | BBB Atrium, T Th 2:00 PM - 3:00 PM
+| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, Th 2:45 PM - 3:45 PM
+| Efe Akinci | GSI | TBA
+| Alexander De La Iglesia | GSI | TBA
+| Aditya Singhvi | GSI  | TBA
 
 Office Hour link: https://eecsoh.eecs.umich.edu/ 
 
-OS Reference:
-- Linux, Windows/WSL: Zach, Alex
-- M2 Mac: Yong
-
-### Piazza
+<!--### Piazza
 All communication regarding this course must be via [Piazza](https://piazza.com/umich/winter2024/eecs489). 
 This includes questions, discussions, announcements, as well as private messages.
+-->
 
 ## Course Description
 EECS 489 takes a top-down approach to explore how networks operate and how network applications are written. 
@@ -33,7 +30,7 @@ We study how popular distributed systems such as video streaming, content distri
 We explore how these applications transfer data between their components and end users over the Internet using *transport layer* protocols such as TCP and UDP.
 We go deeper to understand what keeps the transport layer running (hint: the *network layer* routes packets for them); specifically, we look at how packets are routed and how routers work.
 Finally, we dive one more layer down to understand how the *link layer* transfer packets using Ethernet.
-In addition to cutting through the layers and covering the basics, we learn about the state-of-the-art topics in networking such as datacenter networks, software-defined networking (SDN), and programmable networks. 
+In addition to cutting through the layers and covering the basics, we learn about the state-of-the-art topics in networking such as datacenter networks, wireless networks, software-defined networking (SDN), and programmable networks. 
 
 From a practical point of view, we learn what sockets are and how to use them. 
 And we write code. 
@@ -46,32 +43,30 @@ The enforced prerequisite for this course is EECS 281 (Data Structures and Algor
 This course does not assume or require any prior knowledge of EECS 482.
 Nonetheless, you must have a good working knowledge of C/C++ and Unix family of operating systems.
 
-If needed, you can get an override by signing up [here](https://forms.gle/vaW6x4UsbjFvT6WP7).
-
 ### Optional Textbook
 
-- Kurose and Ross, Computer Networking: A Top-Down Approach, 7th. or Earlier Editions, Pearson, 2016. ISBN 978-0133594140.
+- Kurose and Ross, Computer Networking: A Top-Down Approach, 7th. or Earlier Editions, Pearson, 2020. ISBN 978-0136681557.
 
 ## Tentative Schedule
 
 | Week of  | Monday | Wednesday | Optional Readings | Assignments
 |:---------|:------:|:---------:|:------------------|:----------:
-| 01/08/24 | **No Class** | [Introduction and Overview](Slides/011024.pdf) | 1.1, 1.3, 1.4 | A1 Out
-| 01/15/24 | **No Class** | [Protocol Layering](Slides/011724.pdf) | 1.5
-| 01/22/24 | [HTTP and the Web](Slides/012224.pdf) | [DNS and CDN](Slides/012424.pdf) | 2.2, 2.4
-| 01/29/24 | [Video Streaming and Cloud Systems](Slides/012924.pdf) | [Transport Layer](Slides/013124.pdf) | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
-| 02/05/24 | [TCP Basics](Slides/020524.pdf) | [Flow and Congestion Control](Slides/020724.pdf) | 3.5, 3.6
-| 02/12/24 | [More Congestion Control](Slides/021224.pdf) | [Network Layer and IP](Slides/021424.pdf) | 3.7, 4.1, 4.3.1, 4.3.2, 4.3.5
-| 02/19/24 | [IP Routers](Slides/021924.pdf) | **No Class** | 4.2 | A2 Due
-| 02/26/24 | **No Class** | **No Class**
-| 03/04/24 | [*Midterm Review*](Slides/030424.pdf) | **MIDTERM (90 Min; Online) <br> Regular time/location** | | A3 Out
-| 03/11/24 | [Routing Fundamentals](Slides/031124.pdf) | [Intra-AS Routing](Slides/031324.pdf) | 5.1, 5.2, 5.3
-| 03/18/24 | [IP Addressing and Inter-AS Routing](Slides/031824.pdf) | [BGP](Slides/032024.pdf) | 4.3.3, 5.4
-| 03/25/24 | [Software-Defined Networking](Slides/032524.pdf) | [Link Layer](Slides/032724.pdf) | 4.4, 5.5, 6.1, 6.3 | A3 Due<br>A4 Out
-| 04/01/24 | [Switched LAN](Slides/040124.pdf) | [Wireless Networking](Slides/040324.pdf) | 6.4, 7.1, 7.2, 7.3
-| 04/08/24 | [Datacenter Networking](Slides/040824.pdf) | **No Class** |  6.6
-| 04/15/24 | [*Final Review*](Slides/041524.pdf) | **No Class**
-| 04/22/24 | **No Class** | **FINAL (90 Min; Online) <br> Tuesday 4/30/2024 <br> 1:30 PM - 3:30 PM** | | A4 Due
+| 01/06/24 | **No Class** | Introduction and Overview | 1.1, 1.3, 1.4 | A1 Out
+| 01/13/24 | Protocol Layering | HTTP and the Web | 1.5, 2.2
+| 01/20/24 | **No Class** | DNS and CDN | 2.4
+| 01/27/24 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
+| 02/03/24 | TCP Basics | Flow and Congestion Control | 3.5, 3.6
+| 02/10/24 | More Congestion Control | **No Class** | 3.7
+| 02/17/24 | Network Layer and IP | **No Class** | 4.1, 4.3.1, 4.3.2, 4.3.5 | A2 Due
+| 02/24/24 | *Midterm Review* | **MIDTERM (TBA)** | | A3 Out
+| 03/03/24 | **No Class** | **No Class**
+| 03/10/24 | IP Routers | Routing Fundamentals | 4.2, 5.1
+| 03/17/24 | Intra-AS Routing | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3	
+| 03/24/24 | BGP | Software-Defined Networking | 4.4, 5.4, 5.5 | A3 Due<br>A4 Out
+| 03/31/24 | **No Class** | Link Layer | 6.1, 6.3, 
+| 04/07/24 | Switched LAN | Wireless Networking | 6.4, 6.4.2, 7.1, 7.2, 7.3
+| 04/14/24 | Datacenter Networking | *Final Review* | 6.6
+| 04/21/24 | **No Class** | **FINAL (TBA)** | | A4 Due
 
 ## Policies
 
@@ -81,7 +76,7 @@ Visit [this page](Assignments) for detailed policies on assignments (including l
 
 ### Exams
 There will be two exams during the semester: a midterm exam and the final exam. 
-Both exams will be **online**.
+<!--Both exams will be **online**.-->
 You are expected to take both exams at the scheduled times. 
 
 If you miss an exam for reasons other than a documented medical or personal emergency, you will receive a zero for that exam. 

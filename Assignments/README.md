@@ -1,4 +1,4 @@
-# EECS 489: Computer Networks (W’24)
+# EECS 489: Computer Networks (W’25)
 
 ## Assignments and Policies
 
@@ -7,7 +7,7 @@ Each assignment will require a substantial time commitment on your part.
 
 ### Use of GitHub
 All assignments will be hosted at [GitHub](https://github.com/eecs489). 
-Please sign up for a free github account if you don't already have one, then [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLSfj66MuRu4Vqsrmax8Hytzb__zkK2Ei3tUzkD3VZSqg7iJMmQ/viewform?usp=sf_link). 
+Please sign up for a free github account if you don't already have one, then [register your github username with us](TBA). 
 The `eecs489` organization at github will provide a private repository for each group for each assignment. 
 Commits to the repository should reflect the proportion of work performed by each group memer. 
 If you use pair programming, take turns at the keyboard so that the commit log reflects the contributions of both members.
@@ -15,7 +15,7 @@ If you use pair programming, take turns at the keyboard so that the commit log r
 ### Group Work
 Three of the four assignments in this course will be done in groups of 2/3 students (Assignment 1 is done individually). 
 Groups may be drawn from the entire EECS 489 population; members of a group need not all be in the same lecture or discussion section. 
-[Declare your group's membership](https://docs.google.com/forms/d/e/1FAIpQLSfnVI9BlnTZL07BtIb4BGhQm5V4rvQbgXAsGgsYH2TfJroHNg/viewform?usp=sf_link) by January 27, 2024. 
+[Declare your group's membership](TBA) by January 25, 2025. 
 After this date, we will form groups from the remaining students. 
 
 Choose your group members carefully. 
