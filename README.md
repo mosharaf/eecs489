@@ -45,28 +45,29 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 
 ### Optional Textbook
 
-- Kurose and Ross, Computer Networking: A Top-Down Approach, 7th. or Earlier Editions, Pearson, 2020. ISBN 978-0136681557.
+- Kurose and Ross, Computer Networking: A Top-Down Approach, 7th. or Earlier Editions, Pearson, 2016. ISBN 978-0133594140.
+- Peterson and Davie, [Computer Networks: A Systems Approach](https://book.systemsapproach.org/)
 
 ## Tentative Schedule
 
-| Week of  | Monday | Wednesday | Optional Readings | Assignments
-|:---------|:------:|:---------:|:------------------|:----------:
-| 01/06/24 | **No Class** | Introduction and Overview | 1.1, 1.3, 1.4 | A1 Out
-| 01/13/24 | Protocol Layering | HTTP and the Web | 1.5, 2.2
-| 01/20/24 | **No Class** | DNS and CDN | 2.4
-| 01/27/24 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1, 3.2, 3.3, 3.4 | A1 Due<br>A2 Out
-| 02/03/24 | TCP Basics | Flow and Congestion Control | 3.5, 3.6
-| 02/10/24 | More Congestion Control | **No Class** | 3.7
-| 02/17/24 | Network Layer and IP | **No Class** | 4.1, 4.3.1, 4.3.2, 4.3.5 | A2 Due
-| 02/24/24 | *Midterm Review* | **MIDTERM (TBA)** | | A3 Out
+| Week of  | Monday | Wednesday | K & R | P & D | Assignments
+|:---------|:------:|:---------:|:---------|:---------|:----------:
+| 01/06/24 | **No Class** | Introduction and Overview | 1.1, 1.3, 1.4 | 1.1, 1.2, 1.5 | A1 Out
+| 01/13/24 | Protocol Layering | HTTP and the Web | 1.5, 2.2 | 1.3, 9.1.2
+| 01/20/24 | **No Class** | DNS and CDN | 2.4 | 9.3.1
+| 01/27/24 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1-3.4 | 9.4.3, 5.1 | A1 Due<br>A2 Out
+| 02/03/24 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | 5.2, 6
+| 02/10/24 | More Congestion Control | **No Class** | 3.7 | 6.3
+| 02/17/24 | Network Layer and IP | *Midterm Review* | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | A2 Due
+| 02/24/24 | **MIDTERM (TBA)** | **No Class** | | | A3 Out
 | 03/03/24 | **No Class** | **No Class**
-| 03/10/24 | IP Routers | Routing Fundamentals | 4.2, 5.1
-| 03/17/24 | Intra-AS Routing | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3	
-| 03/24/24 | BGP | Software-Defined Networking | 4.4, 5.4, 5.5 | A3 Due<br>A4 Out
-| 03/31/24 | **No Class** | Link Layer | 6.1, 6.3, 
-| 04/07/24 | Switched LAN | Wireless Networking | 6.4, 6.4.2, 7.1, 7.2, 7.3
-| 04/14/24 | Datacenter Networking | *Final Review* | 6.6
-| 04/21/24 | **No Class** | **FINAL (TBA)** | | A4 Due
+| 03/10/24 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 3.5.2, 3.4
+| 03/17/24 | Intra-AS Routing | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3 | 3.4, 3.3
+| 03/24/24 | BGP | Software-Defined Networking | 4.4, 5.4, 5.5 | 4.1, 3.5.3 | A3 Due<br>A4 Out
+| 03/31/24 | **No Class** | Link Layer | 6.1, 6.3 | 2.6
+| 04/07/24 | Switched LAN | Wireless Networking | 6.4, 6.4.2, 7.1-7.3 | 3.2, 2.7
+| 04/14/24 | Datacenter Networking | *Final Review* | 6.6 | 6.4
+| 04/21/24 | **No Class** | **FINAL (TBA)** | | | A4 Due
 
 ## Policies
 
