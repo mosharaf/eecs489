@@ -19,10 +19,9 @@
 
 Office Hour link: https://eecsoh.eecs.umich.edu/ 
 
-<!--### Piazza
-All communication regarding this course must be via [Piazza](https://piazza.com/umich/winter2024/eecs489). 
+### Ed
+All communication regarding this course must be via [Ed](https://edstem.org/us/join/jwtp2b). 
 This includes questions, discussions, announcements, as well as private messages.
--->
 
 ## Course Description
 EECS 489 takes a top-down approach to explore how networks operate and how network applications are written. 
