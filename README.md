@@ -8,9 +8,7 @@
  - Discussion 003 (Recorded): 1311 EECS, F 12:30 PM – 1:30 PM
  - [Recordings](https://umich.instructure.com/courses/730716/external_tools/1262)
 
-Feel free to attend any discussion section. In general, the same instructor will teach all three discussions in a given week. 
-
-You can add the course Google Calendar [here](), which will be updated with all lectures, discussions, and office hours. 
+You can add the course Google Calendar [here](https://calendar.google.com/calendar/u/0?cid=Y19iMDk0ZGE2ZjE5YmU1NDAyZTk3Y2EwY2I2MDE2Y2RjOWJhZWIyYWRlZjRkZTRjMjc3MDRmZDJjN2E3NTc4M2VjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20), which will be updated with all lectures, discussions, and office hours. 
 
 ### Team
 
@@ -23,7 +21,7 @@ You can add the course Google Calendar [here](), which will be updated with all 
 
 Office hours will use a queue if demand is high. You can sign up on the queue [here](https://eecsoh.efeakinci.com/queues/eecs-489-bbb-office-hours). 
 
-In addition to the listed office hours here, GSIs will add more office hours as project deadlines near. These office hours can be found on the [course Google Calendar](). 
+In addition to the listed office hours here, GSIs will add more office hours as project deadlines near. These office hours can be found on the [course Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19iMDk0ZGE2ZjE5YmU1NDAyZTk3Y2EwY2I2MDE2Y2RjOWJhZWIyYWRlZjRkZTRjMjc3MDRmZDJjN2E3NTc4M2VjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20). 
 
 ### Ed
 All communication regarding this course must be via [Ed](https://edstem.org/us/join/jwtp2b). 
