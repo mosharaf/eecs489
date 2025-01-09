@@ -2,74 +2,45 @@
 
 ## Assignments and Policies
 
-Four assignments will be assigned during the semester. 
-Each assignment will require a substantial time commitment on your part.
+Four projects will be assigned during the semester. Each project will require a substantial time commitment on your part. 
+| Project | Released | Due | Solo/Group | Link |
+| :--------- | :------- | :-- | :--------- | :--- | 
+| 1 | Jan 13 | Jan 29 | Solo | TBA
+| 2 | Jan 29 | Feb 21 | Group | TBA
+| 3 | Feb 26 | Mar 26 | Group | TBA
+| 4 | Mar 26 | Apr 22 | Group | TBA
+
+The Autograder for a particular assignmnent will be released several days after the assignment itself; this is to encourage you to write your own test cases. 
 
 ### Use of GitHub
-All assignments will be hosted at [GitHub](https://github.com/eecs489). 
-Please sign up for a free github account if you don't already have one, then [register your github username with us](https://docs.google.com/forms/d/e/1FAIpQLScQvBxBZLBWF62ceIYpIt3lOxTRsGN5Pseo7hNpZnv-L9BDmw/viewform?usp=dialog). 
-The `eecs489` organization at github will provide a private repository for each group for each assignment. 
-Commits to the repository should reflect the proportion of work performed by each group memer. 
-If you use pair programming, take turns at the keyboard so that the commit log reflects the contributions of both members.
+We will expect everyone to create a **private** GitHub repository for each project, shared with your team members and the [eecs489wn25 GitHub account](https://github.com/489wn25). Please note that creating a public GitHub repository and posting your code there will be a violation of the Honor Code. 
+
+Please sign up for a free github account if you don't already have one, then [register your GitHub username with us](https://docs.google.com/forms/d/e/1FAIpQLScQvBxBZLBWF62ceIYpIt3lOxTRsGN5Pseo7hNpZnv-L9BDmw/viewform?usp=dialog). When you submit assignments, you will submit a link to your GitHub repository; we will clone it and use the `main` branch to run your code. 
 
 ### Group Work
-Three of the four assignments in this course will be done in groups of 2/3 students (Assignment 1 is done individually). 
-Groups may be drawn from the entire EECS 489 population; members of a group need not all be in the same lecture or discussion section. 
-[Declare your group's membership](TBA) by January 25, 2025. 
-After this date, we will form groups from the remaining students. 
+Project 1 will be done individually, while Projects 2-4 can be done in groups of up to 3 students. Although we allow individual submissions for Assignments 2-4, we highly encourage you to work in groups. Groups may be drawn from the entire EECS 489 population; members of a group need not all be in the same discussion section. 
 
-Choose your group members carefully. 
-You should discuss topics such as prior experience, course background, goals for this course, workload and schedule for this semester, and preferred assignment management and work style. 
-Make sure you can find several blocks of time during the week to meet to discuss or carry out the assignment. 
-Students who have worked on any EECS 489 assignment in a past semester should talk with an instructor before joining a group.
+Choose your group members carefully. You should discuss topics such as prior experience, course background, goals for this course, workload and schedule for this semester, and preferred assignment management and work style. Make sure you can find several blocks of time during the week to meet to discuss or carry out the assignment. Students who have worked on any EECS 489 assignment in a past semester should talk with an instructor before joining a group. You may switch groups between projects. 
 
-Students are expected to work diligently in their group for the benefit of the entire group. 
-All group members should be familiar with all aspects of each assignment, irrespective of their role on the assignment. 
-We expect all group members to contribute their fair share, and we expect to assign the same assignment grade to all members of a group. 
-To help ensure this, group members will evaluate the contributions of other group members after each assignment. 
-Members who contribute less than their share may receive a lower grade on the assignment; non-contributing members will receive a zero. 
-In case of disputes regarding contribution, an instructor may examine the commit log or interview group members.
+All group members should be familiar with all aspects of each assignment, irrespective of their role on the assignment. We expect all group members to contribute their fair share, and we expect to assign the same assignment grade to all members of a group. In case of major conflicts within your group, please reach out to the course staff. In such cases, we may interview group members and examine the commit history on your GitHub repository to evaluate group dynamics. 
 
-Students may be fired from a group by the majority vote of the remaining members. 
-The procedure for this is as follows: 
-(1) documented "gentle warning" of risk of firing in e-mail, with cc to all group members and to `eecs489-staff`, with cause and specific work required to remain in group; 
-(2) allow at least 72 hours for compliance; 
-(3) if the problems persist, e-mail statement of firing to the group and to `eecs489-staff`. 
-Fired group members may join another group; students who cannot find a group must complete the remaining assignments by themselves.
-
-Managing group dynamics and using each group member's time and talents effectively can be difficult. 
-If there are problems with your group, please see an instructor as soon as possible. 
-Be open and candid with your group about potential problems early on so your group can plan around those problems and not fall behind. 
-A sure way to make your group upset at you is not finishing your work at an agreed-upon deadline and not informing them about the problems early enough for them to help. 
 We encourage everyone to read [Coping with hitchhikers and couch potatoes on teams](https://web.eecs.umich.edu/~harshavm/eecs482/hitchhikers.html).
 
-### Turning in Assignments
-Sometimes unexpected events make it difficult to submit a assignment on time. 
-For this reason, each individiual will have **1 late day for Assignment 1 that will expire if not used**; each group will have **a total of 3 late days throughout the semester across assignments 2 to 4**. 
-*You must send an email to eecs489-staff@umich.edu if you plan on using a late day before using it.*
+### Late Days
+We understand that unexpected circumstances may occaisonally prevent you from finishing projects on time. For this reason, each individiual will have **a total of 3 late days throughout the semester across assignments 2 to 4**. Note that Assignment 1 does not have late days. 
 
-These late days should only be used to deal with unexpected problems such as illness. 
-They should not be used simply to start later on a assignment or because you are having difficulty completing the assignment. 
-*Once late days are used up, submissions received after the due date will not count (even if they are just one second late).* 
-Use late days judiciously. 
-Weekend days are counted in the same way as weekdays (e.g., if the assignment deadline is Friday and you turn it in Sunday, that's two days late).
+These late days should only be used to deal with unexpected problems such as illness. They should not be used simply to start later on a assignment or because you are having difficulty completing the assignment. Once late days are used up, submissions received after the due date will not count (even if they are just one second late). Weekend days are counted in the same way as weekdays (e.g., if the assignment deadline is Friday and you turn it in Sunday, that's two days late). Late days interact in complex ways with groups; a summary of the policy is described [here](https://eecs-autograder.github.io/autograder.io/topics/bonus_submissions_and_late_days.html#edge-cases). 
 
-To request an extension beyond the free late days, you must discuss your situation with an instructor **before** the deadline and provide written documentation. 
-Extensions will typically not be granted, even for computer problems, illness, family emergencies, etc.. 
-In most cases, with cooperation and good faith on your part, your group will be able and expected to make up the deficit without needing an extension. 
-You can avoid most problems by starting the assignments early and keeping backup files. 
-If a family/personal emergency causes you to miss a significant number of days, please see an instructor to decide the best course of action. 
-If you are having trouble understanding the material or starting a assignment, please come to office hours for help right away.
+To request an extension beyond the free late days, you must discuss your situation with an instructor **before** the deadline and provide written documentation.  If a family/personal emergency causes you to miss a significant number of days, please see an instructor to decide the best course of action. If you are having trouble understanding the material or starting a assignment, please come to office hours for help right away.
 
 Contact an instructor at the beginning of the semester if you have a disability that might interfere with your ability to participate in class, submit assignments, or take exams.
 
 ### Honor Code
-All assignments in this course are to be done by your own group and in accordance with the College of Engineering [Honor Code](https://ecas.engin.umich.edu/honor-council/honor-code/). 
-Violation will result in a zero on the assignment in question and initiation of the formal procedures of the Engineering Honor Council.
+All assignments in this course are to be done by your own group and in accordance with the College of Engineering [Honor Code](https://ecas.engin.umich.edu/honor-council/honor-code/). Violation will result in a zero on the assignment in question and initiation of the formal procedures of the Engineering Honor Council.
 
 At the same time, we encourage students to help each other learn the course material. 
 As in most courses, there is a boundary separating these two situations. 
-You may give or receive help on concepts covered in lecture or discussion and on the specifics of C syntax. 
+You may give or receive help on concepts covered in lecture or discussion and on the specifics of C/C++ syntax or a particular library. 
 You may consult with other students to help you understand the assignment specification (i.e., the problem definition). 
 However, you may not collaborate in any way when constructing your solution; the solution to the assignment must be generated by your group working alone. 
 Any misrepresentation of another person's work as your own is unacceptable and is a violation of the honor code. 
