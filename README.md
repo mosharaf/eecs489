@@ -55,8 +55,8 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 
 | Week of  | Monday | Wednesday | K & R | P & D | Discussion | Assignments |
 |:---------|:------:|:---------:|:------|:------|:----------:|:-----------:|
-| 01/06/24 | **No Class** | [Introduction and Overview](Slides/010825.pdf) | 1.1, 1.3, 1.4 | 1.1, 1.2, 1.5 | No Discussion | A1 Out
-| 01/13/24 | Protocol Layering | HTTP and the Web | 1.5, 2.2 | 1.3, 9.1.2 | Sockets, A1 Intro
+| 01/06/24 | **No Class** | [Introduction and Overview](Slides/010825.pdf) | 1.1, 1.3, 1.4 | 1.1, 1.2, 1.5 | No Discussion
+| 01/13/24 | Protocol Layering | HTTP and the Web | 1.5, 2.2 | 1.3, 9.1.2 | Sockets, A1 Intro | A1 Out
 | 01/20/24 | **No Class** | DNS and CDN | 2.4 | 9.3.1 | Performance Metrics, HTTP, Byte Order
 | 01/27/24 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1-3.4 | 9.4.3, 5.1 | A1 Recap, A2 Overview, DNS | A1 Due<br>A2 Out
 | 02/03/24 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | 5.2, 6 | Video Streaming, Reliable Transport
