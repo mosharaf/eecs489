@@ -14,7 +14,7 @@ You can add the course Google Calendar [here](https://calendar.google.com/calend
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, Th 2:45 PM - 3:45 PM
+| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, Th 3 PM - 4 PM
 | Efe Akinci (efea) | GSI | BBB Learning Center Table 1, Mon 3 PM - 5 PM
 | Alexander De La Iglesia (alexdela) | GSI | BBB Atrium, Mon 12 PM - 1 PM <br> BBB Learning Center Table 1, Wed 12 PM - 1 PM 
 | Aditya Singhvi (singhvi) | GSI | BBB Learning Center Table 1, Tues 10AM - 12PM
