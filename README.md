@@ -62,7 +62,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 02/03/24 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | 5.2, 6 | Video Streaming, Reliable Transport
 | 02/10/24 | More Congestion Control | **No Class** | 3.7 | 6.3 | TCP, IP
 | 02/17/24 | Network Layer and IP | *Midterm Review* | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | FA24 Midterm Exam Review | A2 Due
-| 02/24/24 | **MIDTERM (TBA)** | **No Class** | | | No Discussion | A3 Out
+| 02/24/24 | **MIDTERM (Feb 24, 7-9PM, STAMPS)** | **No Class** | | | No Discussion | A3 Out
 | 03/03/24 | **No Class** | **No Class** | | | No Discussion
 | 03/10/24 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 3.5.2, 3.4 | A2 Recap, A3 Overview, Routing Data Plane
 | 03/17/24 | Intra-AS Routing | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3 | 3.4, 3.3 | Intra-AS Routing, Poisioned Reverse, General Programming Advice
