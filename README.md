@@ -2,11 +2,10 @@
 
 ## Administrivia
  - Catalog Number: 28919
- - Lectures (Recorded): 1013 DOW, MW: 10:30 AM – 12:00 PM
+ - Lectures ([Recorded](https://umich.instructure.com/courses/730716/external_tools/1262)): 1013 DOW, MW: 10:30 AM – 12:00 PM
  - Discussion 002: 2147 GGBL, Th 4:30 PM – 5:30 PM
  - Discussion 001: 3150 DOW, F 9:30 AM – 10:30 AM
- - Discussion 003 (Recorded): 1311 EECS, F 12:30 PM – 1:30 PM
- - [Recordings](https://umich.instructure.com/courses/730716/external_tools/1262)
+ - Discussion 003 ([Recorded](https://umich.instructure.com/courses/730716/external_tools/69085)): 1311 EECS, F 12:30 PM – 1:30 PM
 
 You can add the course Google Calendar [here](https://calendar.google.com/calendar/u/0?cid=Y19iMDk0ZGE2ZjE5YmU1NDAyZTk3Y2EwY2I2MDE2Y2RjOWJhZWIyYWRlZjRkZTRjMjc3MDRmZDJjN2E3NTc4M2VjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20), which will be updated with all lectures, discussions, and office hours. 
 
