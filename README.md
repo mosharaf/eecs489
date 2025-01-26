@@ -57,7 +57,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 01/06/24 | **No Class** | [Introduction and Overview](Slides/010825.pdf) | 1.1, 1.3, 1.4 | 1.1, 1.2, 1.5 | No Discussion
 | 01/13/24 | [Protocol Layering](Slides/011325.pdf) | [HTTP and the Web](Slides/011525.pdf) | 1.5, 2.2 | 1.3, 9.1.2 | Sockets, A1 Intro | A1 Out
 | 01/20/24 | **No Class** | [DNS and CDN](Slides/012225.pdf) | 2.4 | 9.3.1 | Performance Metrics, HTTP, Byte Order
-| 01/27/24 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1-3.4 | 9.4.3, 5.1 | A1 Recap, A2 Overview, DNS | A1 Due<br>A2 Out
+| 01/27/24 | [Video Streaming and Cloud Systems](Slides/012725.pdf) | [Transport Layer](Slides/012925.pdf) | 2.6, 3.1-3.4 | 9.4.3, 5.1 | A1 Recap, A2 Overview, DNS | A1 Due<br>A2 Out
 | 02/03/24 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | 5.2, 6 | Video Streaming, Reliable Transport
 | 02/10/24 | More Congestion Control | **No Class** | 3.7 | 6.3 | TCP, IP
 | 02/17/24 | Network Layer and IP | *Midterm Review* | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | FA24 Midterm Exam Review | **MIDTERM (Feb 21, 7-9 PM)**
