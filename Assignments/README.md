@@ -5,7 +5,7 @@
 Four projects will be assigned during the semester. Each project will require a substantial time commitment on your part. 
 | Project | Released | Due | Solo/Group | Link |
 | :--------- | :------- | :-- | :--------- | :--- | 
-| 1 | Jan 13 | Jan 29 | Solo | TBA
+| 1 | Jan 13 | Jan 29 | Solo | https://github.com/eecs489staff/a1-sockets-mininet
 | 2 | Jan 29 | Feb 21 | Group | TBA
 | 3 | Feb 26 | Mar 26 | Group | TBA
 | 4 | Mar 26 | Apr 22 | Group | TBA
@@ -13,6 +13,8 @@ Four projects will be assigned during the semester. Each project will require a 
 The Autograder for a particular assignmnent will be released several days after the assignment itself; this is to encourage you to write your own test cases. 
 
 ### Use of GitHub
+**EDIT: For Project 1, we will not require any GitHub interfacing. Please see the Project 1 spec for submission instructions.** 
+
 We will expect everyone to create a **private** GitHub repository for each project, shared with your team members and the [eecs489wn25 GitHub account](https://github.com/489wn25). Please note that creating a public GitHub repository and posting your code there will be a violation of the Honor Code. 
 
 Please sign up for a free github account if you don't already have one, then [register your GitHub username with us](https://docs.google.com/forms/d/e/1FAIpQLScQvBxBZLBWF62ceIYpIt3lOxTRsGN5Pseo7hNpZnv-L9BDmw/viewform?usp=dialog). When you submit assignments, you will submit a link to your GitHub repository; we will clone it and use the `main` branch to run your code. 

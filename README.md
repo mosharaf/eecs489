@@ -2,11 +2,10 @@
 
 ## Administrivia
  - Catalog Number: 28919
- - Lectures (Recorded): 1013 DOW, MW: 10:30 AM – 12:00 PM
+ - Lectures ([Recorded](https://umich.instructure.com/courses/730716/external_tools/1262)): 1013 DOW, MW: 10:30 AM – 12:00 PM
  - Discussion 002: 2147 GGBL, Th 4:30 PM – 5:30 PM
  - Discussion 001: 3150 DOW, F 9:30 AM – 10:30 AM
- - Discussion 003 (Recorded): 1311 EECS, F 12:30 PM – 1:30 PM
- - [Recordings](https://umich.instructure.com/courses/730716/external_tools/1262)
+ - Discussion 003 ([Recorded](https://umich.instructure.com/courses/730716/external_tools/69085)): 1311 EECS, F 12:30 PM – 1:30 PM
 
 You can add the course Google Calendar [here](https://calendar.google.com/calendar/u/0?cid=Y19iMDk0ZGE2ZjE5YmU1NDAyZTk3Y2EwY2I2MDE2Y2RjOWJhZWIyYWRlZjRkZTRjMjc3MDRmZDJjN2E3NTc4M2VjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20), which will be updated with all lectures, discussions, and office hours. 
 
@@ -14,7 +13,7 @@ You can add the course Google Calendar [here](https://calendar.google.com/calend
 
 | Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, Th 2:45 PM - 3:45 PM
+| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB, Th 3 PM - 4 PM
 | Efe Akinci (efea) | GSI | BBB Learning Center Table 1, Mon 3 PM - 5 PM
 | Alexander De La Iglesia (alexdela) | GSI | BBB Atrium, Mon 12 PM - 1 PM <br> BBB Learning Center Table 1, Wed 12 PM - 1 PM 
 | Aditya Singhvi (singhvi) | GSI | BBB Learning Center Table 1, Tues 10AM - 12PM
@@ -55,14 +54,14 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 
 | Week of  | Monday | Wednesday | K & R | P & D | Discussion | Assignments |
 |:---------|:------:|:---------:|:------|:------|:----------:|:-----------:|
-| 01/06/24 | **No Class** | [Introduction and Overview](Slides/010825.pdf) | 1.1, 1.3, 1.4 | 1.1, 1.2, 1.5 | No Discussion | A1 Out
-| 01/13/24 | Protocol Layering | HTTP and the Web | 1.5, 2.2 | 1.3, 9.1.2 | Sockets, A1 Intro
-| 01/20/24 | **No Class** | DNS and CDN | 2.4 | 9.3.1 | Performance Metrics, HTTP, Byte Order
-| 01/27/24 | Video Streaming and Cloud Systems | Transport Layer | 2.6, 3.1-3.4 | 9.4.3, 5.1 | A1 Recap, A2 Overview, DNS | A1 Due<br>A2 Out
+| 01/06/24 | **No Class** | [Introduction and Overview](Slides/010825.pdf) | 1.1, 1.3, 1.4 | 1.1, 1.2, 1.5 | No Discussion
+| 01/13/24 | [Protocol Layering](Slides/011325.pdf) | [HTTP and the Web](Slides/011525.pdf) | 1.5, 2.2 | 1.3, 9.1.2 | Sockets, A1 Intro | A1 Out
+| 01/20/24 | **No Class** | [DNS and CDN](Slides/012225.pdf) | 2.4 | 9.3.1 | Performance Metrics, HTTP, Byte Order
+| 01/27/24 | [Video Streaming and Cloud Systems](Slides/012725.pdf) | [Transport Layer](Slides/012925.pdf) | 2.6, 3.1-3.4 | 9.4.3, 5.1 | A1 Recap, A2 Overview, DNS | A1 Due<br>A2 Out
 | 02/03/24 | TCP Basics | Flow and Congestion Control | 3.5, 3.6 | 5.2, 6 | Video Streaming, Reliable Transport
 | 02/10/24 | More Congestion Control | **No Class** | 3.7 | 6.3 | TCP, IP
-| 02/17/24 | Network Layer and IP | *Midterm Review* | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | FA24 Midterm Exam Review | A2 Due
-| 02/24/24 | **MIDTERM (TBA)** | **No Class** | | | No Discussion | A3 Out
+| 02/17/24 | Network Layer and IP | *Midterm Review* | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | FA24 Midterm Exam Review | **MIDTERM (Feb 21, 7-9 PM)**
+| 02/24/24 | **No Class** | **No Class** | | | No Discussion | A2 Due<br>A3 Out
 | 03/03/24 | **No Class** | **No Class** | | | No Discussion
 | 03/10/24 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 3.5.2, 3.4 | A2 Recap, A3 Overview, Routing Data Plane
 | 03/17/24 | Intra-AS Routing | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3 | 3.4, 3.3 | Intra-AS Routing, Poisioned Reverse, General Programming Advice
@@ -70,7 +69,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 03/31/24 | **No Class** | Link Layer | 6.1, 6.3 | 2.6 | Wireshark Tutorial, Modern C++
 | 04/07/24 | Switched LAN | Wireless Networking | 6.4, 6.4.2, 7.1-7.3 | 3.2, 2.7 | Link Layer
 | 04/14/24 | Datacenter Networking | *Final Review* | 6.6 | 6.4 | FA24 Final Exam Review
-| 04/21/24 | **No Class** | **FINAL (TBA)** | | | No Discussion | A4 Due
+| 04/21/24 | **No Class** | **No Class** | | | No Discussion | A4 Due<br>**FINAL (Apr 29, 1:30 - 3:30 PM)**
 
 ## Policies
 
