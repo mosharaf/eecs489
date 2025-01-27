@@ -11,17 +11,18 @@
 
 #include "network_utils.h"
 
-/* 
-* A client that sends a given message to the server every MESSAGE_INTERVAL_S seconds.
-* You can run the client by running the standard CMake build process:
-*   $ mkdir build
-*   $ cd build
-*   $ cmake ..
-*   $ make
-* And then running the client with the following command:
-*   $ ./client --m "Hello from Client A"
-* You can also specify the hostname and port; please see the help message for more details.
-*/
+/*
+ * A client that sends a given message to the server every MESSAGE_INTERVAL_S
+ * seconds. You can run the client by running the standard CMake build process:
+ *   $ mkdir build
+ *   $ cd build
+ *   $ cmake ..
+ *   $ make
+ * And then running the client with the following command:
+ *   $ ./client --m "Hello from Client A"
+ * You can also specify the hostname and port; please see the help message for
+ * more details.
+ */
 
 const unsigned int MESSAGE_INTERVAL_S = 2;
 

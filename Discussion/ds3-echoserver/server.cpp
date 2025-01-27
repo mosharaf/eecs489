@@ -1,5 +1,4 @@
 #include <arpa/inet.h> //close
-#include <array>       // std::array
 #include <cstdio>
 #include <cstdlib>
 #include <errno.h>
@@ -27,6 +26,9 @@
  * And then running the client with the following command:
  *   $ ./server
  * You can also specify the port; please see the help message for more details.
+ *
+ * Please consult documentation for select() here:
+ *      https://man7.org/linux/man-pages/man2/select.2.html
  */
 
 int create_server_listen_socket(int port) {
@@ -88,9 +90,8 @@ void serve(int listen_sockfd) {
         // If we're here, that means there is activity on one of the sockets!
         // select() will block until the timeout passes or activity occurs
 
-        // (3) Check for activity on the listen socket
-        // Activity on the listen socket means a new client is trying to
-        // connect!
+        // (3) Check for activity on the listen socket -- this indicates that
+        // a new client is trying to connect!
         if (FD_ISSET(listen_sockfd, &readfds)) {
             sockaddr_in addr{};
             socklen_t addrlen = sizeof(addr);
