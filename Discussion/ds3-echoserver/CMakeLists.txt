@@ -16,8 +16,8 @@ if (NOT cxxopts_FOUND)
     FetchContent_MakeAvailable(cxxopts)
 endif()
 
-add_executable(server server.cpp network_utils.cpp) 
+add_executable(echoserver echoserver.cpp network_utils.cpp) 
 add_executable(client client.cpp network_utils.cpp) 
 
-target_link_libraries(server cxxopts::cxxopts)
+target_link_libraries(echoserver cxxopts::cxxopts)
 target_link_libraries(client cxxopts::cxxopts)
