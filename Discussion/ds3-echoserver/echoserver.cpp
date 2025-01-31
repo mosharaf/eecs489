@@ -135,7 +135,7 @@ void serve(int listen_sockfd) {
                 } else {
                     // Echo the message back to the client
                     ++num_messages;
-                    send(client_sockfd, buffer, size, 0);
+                    send_data(client_sockfd, std::string_view(buffer, size));
                     printf("Echoed message {%s} back to client with sockfd "
                            "%d (Message Count: %d)\n",
                            std::string(buffer, size).c_str(), client_sockfd,
