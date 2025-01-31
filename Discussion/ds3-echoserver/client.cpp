@@ -7,6 +7,7 @@
 #include <unistd.h>     // close()
 
 #include <cxxopts.hpp>
+#include <format>
 #include <iostream>
 
 #include "network_utils.h"
