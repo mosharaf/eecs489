@@ -6,7 +6,7 @@ Four projects will be assigned during the semester. Each project will require a 
 | Project | Released | Due | Solo/Group | Link |
 | :--------- | :------- | :-- | :--------- | :--- | 
 | 1 | Jan 13 | Jan 29 | Solo | https://github.com/eecs489staff/a1-sockets-mininet
-| 2 | Jan 31 | Feb 28 | Group | TBA
+| 2 | Feb 2 | Feb 28 | Group | TBA
 | 3 | Feb 26 | Mar 26 | Group | TBA
 | 4 | Mar 26 | Apr 22 | Group | TBA
 
