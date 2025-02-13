@@ -60,7 +60,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 01/27/24 | [Video Streaming and Cloud Systems](Slides/012725.pdf) | [Transport Layer](Slides/012925.pdf) | 2.6, 3.1-3.4 | 9.4.3, 5.1 | A1 Recap, A2 Overview, DNS | A1 Due
 | 02/03/24 | [TCP Basics](Slides/020325.pdf) | [Flow and Congestion Control](Slides/020525.pdf) | 3.5, 3.6 | 5.2, 6 | Video Streaming, Reliable Transport | A2 Out
 | 02/10/24 | [More Congestion Control](Slides/021025.pdf) | **No Class** | 3.7 | 6.3 | TCP, IP
-| 02/17/24 | Network Layer and IP | *Midterm Review* | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | FA24 Midterm Exam Review | **MIDTERM (Feb 21, 7-9 PM)**
+| 02/17/24 | [Network Layer and IP](Slides/021725.pdf) | *Midterm Review* | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | FA24 Midterm Exam Review | **MIDTERM (Feb 21, 7-9 PM)**
 | 02/24/24 | **No Class** | **No Class** | | | No Discussion | A2 Due<br>A3 Out
 | 03/03/24 | **No Class** | **No Class** | | | No Discussion
 | 03/10/24 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 3.5.2, 3.4 | A2 Recap, A3 Overview, Routing Data Plane
