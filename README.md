@@ -61,12 +61,12 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 02/03/24 | [TCP Basics](Slides/020325.pdf) | [Flow and Congestion Control](Slides/020525.pdf) | 3.5, 3.6 | 5.2, 6 | Video Streaming, Reliable Transport | A2 Out
 | 02/10/24 | [More Congestion Control](Slides/021025.pdf) | **No Class** | 3.7 | 6.3 | TCP, IP
 | 02/17/24 | [Network Layer and IP](Slides/021725.pdf) | [*Midterm Review*](Slides/021925.pdf) | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | FA24 Midterm Exam Review | **MIDTERM (Feb 21, 7-9 PM)**
-| 02/24/24 | **No Class** | **No Class** | | | No Discussion | A2 Due<br>A3 Out
+| 02/24/24 | **No Class** | **No Class** | | | No Discussion | A2 Due
 | 03/03/24 | **No Class** | **No Class** | | | No Discussion
-| 03/10/24 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 3.5.2, 3.4 | A2 Recap, A3 Overview, Routing Data Plane
+| 03/10/24 | IP Routers | Routing Fundamentals | 4.2, 5.1 | 3.5.2, 3.4 | A3 Overview, Routing Data Plane | A3 Out
 | 03/17/24 | Intra-AS Routing | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3 | 3.4, 3.3 | Intra-AS Routing, Poisioned Reverse, General Programming Advice
-| 03/24/24 | BGP | Software-Defined Networking | 4.4, 5.4, 5.5 | 4.1, 3.5.3 | A4 Overview, ARP, A4 Exercises | A3 Due<br>A4 Out
-| 03/31/24 | **No Class** | Link Layer | 6.1, 6.3 | 2.6 | Wireshark Tutorial, Modern C++
+| 03/24/24 | BGP | Software-Defined Networking | 4.4, 5.4, 5.5 | 4.1, 3.5.3 | A4 Overview, ARP, A4 Exercises
+| 03/31/24 | **No Class** | Link Layer | 6.1, 6.3 | 2.6 | Wireshark Tutorial, Modern C++ | A3 Due<br>A4 Out
 | 04/07/24 | Switched LAN | Wireless Networking | 6.4, 6.4.2, 7.1-7.3 | 3.2, 2.7 | Link Layer
 | 04/14/24 | Datacenter Networking | *Final Review* | 6.6 | 6.4 | FA24 Final Exam Review
 | 04/21/24 | **No Class** | **No Class** | | | No Discussion | A4 Due<br>**FINAL (Apr 29, 1:30 - 3:30 PM)**
