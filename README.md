@@ -63,7 +63,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 02/17/24 | [Network Layer and IP](Slides/021725.pdf) | [*Midterm Review*](Slides/021925.pdf) | 4.1, 4.3.1, 4.3.2, 4.3.5 | 3.3 | FA24 Midterm Exam Review | **MIDTERM (Feb 21, 7-9 PM)**
 | 02/24/24 | **No Class** | **No Class** | | | No Discussion | A2 Due
 | 03/03/24 | **No Class** | **No Class** | | | No Discussion
-| 03/10/24 | [IP Routers](Slides/031025.pdf) | Routing Fundamentals | 4.2, 5.1 | 3.5.2, 3.4 | A3 Overview, Routing Data Plane | A3 Out
+| 03/10/24 | [IP Routers](Slides/031025.pdf) | [Routing Fundamentals](Slides/031225.pdf) | 4.2, 5.1 | 3.5.2, 3.4 | A3 Overview, Routing Data Plane | A3 Out
 | 03/17/24 | Intra-AS Routing | IP Addressing and Inter-AS Routing | 4.3.3, 5.2, 5.3 | 3.4, 3.3 | Intra-AS Routing, Poisioned Reverse, General Programming Advice
 | 03/24/24 | BGP | Software-Defined Networking | 4.4, 5.4, 5.5 | 4.1, 3.5.3 | A4 Overview, ARP, A4 Exercises
 | 03/31/24 | **No Class** | Link Layer | 6.1, 6.3 | 2.6 | Wireshark Tutorial, Modern C++ | A3 Due<br>A4 Out
