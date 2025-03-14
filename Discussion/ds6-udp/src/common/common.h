@@ -42,6 +42,6 @@ std::expected<int, std::string> create_udp_receiver(int port);
  * @param ip The IP address to send the packet to
  * @param port The port to send the packet to
  * @param packet The packet to send
- * @return An expected value containing an error string if the packet fails to send, or void if it sends successfully
+ * @return An expected value containing an error string if the packet fails to send, or the number of bytes sent if it sends successfully
  */
-std::expected<int, std::string> send_udp_packet(const std::string& ip, int port, const std::vector<std::byte>& packet);
+std::expected<ssize_t, std::string> send_udp_packet(const std::string& ip, int port, const std::vector<std::byte>& packet);
