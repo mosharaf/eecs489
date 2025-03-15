@@ -69,5 +69,5 @@ After building the project, you can run the tests to verify your implementation:
 
 ```bash
 # From the build directory
-./test/GameServerTest
+./bin/GameServerTest
 ```
