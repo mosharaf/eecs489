@@ -1,6 +1,12 @@
 #include "common.h"
 
 #include <vector>
+#include <stdexcept>
+#include <cstring>
+#include <arpa/inet.h>
+#include <sys/socket.h>
+#include <unistd.h>
+#include <cerrno>
 
 UDPClient::UDPClient(std::string listen_ip, int listen_port) : listen_ip(listen_ip), listen_port(listen_port) {}
 

@@ -6,6 +6,10 @@
 #include <atomic>
 #include <expected>
 #include <string>
+#include <vector>
+#include <expected>
+#include <spdlog/spdlog.h>
+
 /**
  * Macro to reduce boilerplate code for error handling
  * Instead of writing:
