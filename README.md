@@ -65,7 +65,7 @@ Nonetheless, you must have a good working knowledge of C/C++ and Unix family of 
 | 03/03/24 | **No Class** | **No Class** | | | No Discussion
 | 03/10/24 | [IP Routers](Slides/031025.pdf) | [Routing Fundamentals](Slides/031225.pdf) | 4.2, 5.1 | 3.5.2, 3.4 | A3 Overview, Routing Data Plane | A3 Out
 | 03/17/24 | [Intra-AS Routing](Slides/031725.pdf) | [IP Addressing and Inter-AS Routing](Slides/031925.pdf) | 4.3.3, 5.2, 5.3 | 3.4, 3.3 | Intra-AS Routing, Poisioned Reverse, General Programming Advice
-| 03/24/24 | BGP | Software-Defined Networking | 4.4, 5.4, 5.5 | 4.1, 3.5.3 | A4 Overview, ARP, A4 Exercises
+| 03/24/24 | [BGP](Slides/032425.pdf) | [Software-Defined Networking](Slides/032625.pdf) | 4.4, 5.4, 5.5 | 4.1, 3.5.3 | A4 Overview, ARP, A4 Exercises
 | 03/31/24 | **No Class** | Link Layer | 6.1, 6.3 | 2.6 | Wireshark Tutorial, Modern C++ | A3 Due<br>A4 Out
 | 04/07/24 | Switched LAN | Wireless Networking | 6.4, 6.4.2, 7.1-7.3 | 3.2, 2.7 | Link Layer
 | 04/14/24 | Datacenter Networking | *Final Review* | 6.6 | 6.4 | FA24 Final Exam Review
