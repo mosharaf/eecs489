@@ -8,7 +8,7 @@ Four projects will be assigned during the semester. Each project will require a 
 | 1 | Jan 13 | Jan 29 | Solo | https://github.com/eecs489staff/a1-sockets-mininet
 | 2 | Feb 2 | Feb 28 | Group | https://github.com/eecs489staff/a2-videostreaming-via-cdn
 | 3 | Mar 10 | Mar 31 | Group | https://github.com/eecs489staff/a3-reliable-transport
-| 4 | Mar 31 | Apr 22 | Group | TBA
+| 4 | Mar 31 | Apr 22 | Group | https://github.com/eecs489staff/a4-static-router
 
 The Autograder for a particular assignmnent will be released several days after the assignment itself; this is to encourage you to write your own test cases. 
 
