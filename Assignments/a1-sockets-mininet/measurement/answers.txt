@@ -1,0 +1,23 @@
+2)    Predicted throughput: _ Mbps
+      Predicted RTT: _ ms
+      Actual throughput: _ Mbps
+      Actual RTT: _ ms
+      Explanation of results: 
+
+3.1)  Predicted throughput: (_ Mbps, _ Mbps)
+      Predicted RTT: (_ ms, _ ms)
+      Actual throughput: (_ Mbps, _ Mbps)
+      Actual RTT: (_ ms, _ ms)
+      Explanation of results: 
+
+3.2)  Predicted throughput: (_ Mbps, _ Mbps, _ Mbps)
+      Predicted RTT: (_ ms, _ ms, _ ms)
+      Actual throughput: (_ Mbps, _ Mbps, _ Mbps)
+      Actual RTT: (_ ms, _ ms, _ ms)
+      Explanation of results: 
+
+4)    Predicted throughput: (h1-h10: _ Mbps, h3-h8: _ Mbps)
+      Predicted RTT: (h1-h10: _ ms, h3-h8: _ ms) 
+      Actual throughput: (h1-h10: _ Mbps, h3-h8: _ Mbps)
+      Actual RTT: (h1-h10: _ ms, h3-h8: _ ms)
+      Explanation of results: 

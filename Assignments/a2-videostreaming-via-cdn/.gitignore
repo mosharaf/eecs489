@@ -1,0 +1,6 @@
+videoserver/static/videos/michigan-hype-video/
+videoserver/static/videos/tears-of-steel/
+build/
+__pycache__
+.venv
+.DS_Store

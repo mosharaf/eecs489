@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ name }}</title>
+    <!-- Load the DASH.js library from a CDN -->
+<!--     <script src="http://cdn.dashjs.org/latest/dash.all.min.js"></script>  -->
+    <!-- Fallback to local copy if CDN fails -->
+    <script>
+        if (typeof dashjs === 'undefined') {
+            document.write('<script src="/js/dash.all.min.js"><\/script>');
+        }
+    </script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <h1>Now Playing: {{ name }}</h1>
+
+    <!-- Video element to play the DASH stream -->
+     <div class="container">
+        <video id="videoPlayer" controls width="640">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="back-button">
+            <a href="/">Go back</a>
+        </div>
+    </div>
+
+    <script>
+        // Function to generate a unique identifier
+        function generateUUID() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                const r = crypto.getRandomValues(new Uint8Array(1))[0] & 15; // Generate a random nibble (4 bits)
+                const v = c === 'x' ? r : (r & 0x3) | 0x8; // Ensure 'y' position complies with RFC 4122
+                return v.toString(16);
+            });
+        }
+
+        var player = dashjs.MediaPlayer().create();
+        var uuid = generateUUID();
+        var manifestUrl = `/videos/{{ slug }}/vid.mpd`;
+
+        player.extend("RequestModifier", function () {
+            return {
+                modifyRequestHeader: function (xhr) {
+                    xhr.setRequestHeader('X-489-UUID', uuid);
+                    return xhr;
+                }
+            };
+        });
+
+        player.on(dashjs.MediaPlayer.events.FRAGMENT_LOADING_COMPLETED, function (e) {
+            const url = new URL(e.request.url);
+            if (url.pathname.split('.').pop() !== 'm4s' || url.pathname.includes("audio")) {
+                return;
+            }
+            
+            fetch('/on-fragment-received', {
+                method: 'POST',
+                headers: {
+                    "X-489-UUID": uuid,
+                    "X-Fragment-Size": e.response.byteLength,
+                    "X-Timestamp-Start": e.request.requestStartDate.getTime(),
+                    "X-Timestamp-End": e.request.requestEndDate.getTime(),
+                    "Content-Length": 0,
+                },
+            }).catch(error => {
+                console.error(error);
+            });
+        });
+
+        // Set the source for the video player (DASH manifest file)
+        player.initialize(document.querySelector("#videoPlayer"), manifestUrl, true);
+    </script>
+</body>
+
+</html>

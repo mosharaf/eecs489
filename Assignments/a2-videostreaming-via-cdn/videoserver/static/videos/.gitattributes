@@ -1,0 +1,2 @@
+michigan-hype-video.tar.gz filter=lfs diff=lfs merge=lfs -text
+tears-of-steel.tar.gz filter=lfs diff=lfs merge=lfs -text

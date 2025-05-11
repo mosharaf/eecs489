@@ -1,0 +1,98 @@
+/* Import a clean, modern font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container to center and constrain content */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+/* Links */
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1d6fa5;
+  text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Styling for video page */
+.video-wrapper {
+  margin: 20px auto;
+  max-width: 800px;
+  background: #000;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  .container {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 1.75em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
