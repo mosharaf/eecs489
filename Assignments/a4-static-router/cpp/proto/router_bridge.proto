@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package router_bridge;
+
+message ProtocolMessage {
+  oneof message {
+    InterfaceUpdate interface_update = 1;
+    RouterPacket router_packet = 2;
+  }
+}
+
+message InterfaceUpdate {
+  repeated Interface interfaces = 1;
+}
+
+message Interface {
+  string name = 1;
+  uint32 ip = 2;
+  bytes mac = 3;
+}
+
+message RouterPacket {
+  string interface = 1;
+  bytes data = 2;
+}

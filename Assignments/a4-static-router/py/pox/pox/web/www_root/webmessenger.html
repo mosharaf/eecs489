@@ -1,0 +1,40 @@
+<html>
+
+ <head>
+
+  <title>POX WebMessenger Demo</title>
+
+  <script src="webmessenger.js"></script>
+
+  <script>
+   var conn = null;
+   var log_channel = null;
+
+   function helloLog ()
+   {
+     log_channel = conn.get_channel("log_" + (Math.random()));
+     log_channel.on_rx = function (msg)
+     {
+       msg = JSON.stringify(msg);
+       document.getElementById('output').innerHTML += "<br />" + msg;
+     };
+     if (console) console.log("Turning logging on...");
+   }
+
+   function communicate ()
+   {
+     conn = new WebMessenger();
+     conn.autorestart = true;
+     conn.connect();
+   }
+  </script>
+
+ </head>
+
+ <body onLoad="communicate();">
+   <a onClick="helloLog();">Click me to turn on log</a><br />
+   Here's what POX says:
+   <div id="output"></div>
+ </body>
+
+</html>

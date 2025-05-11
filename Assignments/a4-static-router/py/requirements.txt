@@ -1,0 +1,14 @@
+attrs==24.2.0
+Automat==24.8.1
+constantly==23.10.4
+hyperlink==21.0.0
+idna==3.10
+incremental==24.7.2
+loguru==0.7.2
+mininet==2.3.0.dev6
+protobuf
+setuptools==75.3.0
+Twisted==24.10.0
+typing_extensions==4.12.2
+websockets==13.1
+zope.interface==7.1.1
