@@ -19,11 +19,6 @@
 // External network helper functions (make sure these are defined in your project)
 #include "network_utils.h"
 
-// Default port defined somewhere in your project (or define it here)
-#ifndef DEFAULT_SERVER_PORT
-#define DEFAULT_SERVER_PORT 8080
-#endif
-
 #ifndef MAX_CLIENTS
 #define MAX_CLIENTS 10
 #endif
